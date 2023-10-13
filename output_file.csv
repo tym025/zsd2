@@ -1,0 +1,548 @@
+PLAY ARTIST
+"USER: Put on some tracks from the Beatles, please",COMMAND: PLAY ARTIST THE BEATLES,"RESPONSE: Sure thing! Here come the Beatles."""
+"USER: I'm in the mood for some classic rock, how about Led Zeppelin?"" AI: ""PLAY ARTIST LED ZEPPELIN","RESPONSE: Rocking with Led Zeppelin!"""
+"USER: Play some jazz, like Miles Davis",COMMAND: PLAY ARTIST MILES DAVIS,"RESPONSE: Let's jazz it up with Miles Davis."""
+"USER: Could you play something from Taylor Swift's latest album?"" AI: ""PLAY ARTIST TAYLOR SWIFT","RESPONSE: Taylor Swift's latest tunes, coming right up!"""
+"USER: I want to listen to some electronic music, like Daft Punk",COMMAND: PLAY ARTIST DAFT PUNK,"RESPONSE: Electronic vibes with Daft Punk!"""
+"USER: How about some country music by Johnny Cash?"" AI: ""PLAY ARTIST JOHNNY CASH","RESPONSE: Going country with Johnny Cash!"""
+"USER: Play songs by Queen, please",COMMAND: PLAY ARTIST QUEEN,"RESPONSE: Rocking with Queen's hits!"""
+"USER: I'm feeling nostalgic, play some 90s hip-hop, like Tupac",COMMAND: PLAY ARTIST TUPAC,"RESPONSE: Nostalgic 90s hip-hop with Tupac!"""
+"USER: Can you play some indie rock by Arctic Monkeys?"" AI: ""PLAY ARTIST ARCTIC MONKEYS","RESPONSE: Indie rock vibes from Arctic Monkeys!"""
+"USER: Put on some reggae music, like Bob Marley",COMMAND: PLAY ARTIST BOB MARLEY,"RESPONSE: Reggae vibes with Bob Marley!"""
+"USER: I need some high-energy music, like the Red Hot Chili Peppers",COMMAND: PLAY ARTIST RED HOT CHILI PEPPERS,"RESPONSE: Get ready for some high-energy tunes with the Red Hot Chili Peppers!"""
+"USER: Play some R&B, maybe some Beyonce",COMMAND: PLAY ARTIST BEYONCE,"RESPONSE: Let's groove to some R&B with Beyonce."""
+"USER: How about some classical music by Mozart?"" AI: ""PLAY ARTIST MOZART","RESPONSE: Time for some classical elegance with Mozart."""
+USER: Play me some alternative rock like Radiohead,COMMAND: PLAY ARTIST RADIOHEAD,"RESPONSE: Enjoying alternative rock with Radiohead!"""
+"USER: I'm in the mood for some oldies, like Elvis Presley",COMMAND: PLAY ARTIST ELVIS PRESLEY,"RESPONSE: Traveling back in time with Elvis Presley's classics."""
+"USER: Play songs from the '80s, like Michael Jackson",COMMAND: PLAY ARTIST MICHAEL JACKSON,"RESPONSE: Let's dance to '80s hits with Michael Jackson!"""
+"USER: Can you play some EDM, like Calvin Harris?"" AI: ""PLAY ARTIST CALVIN HARRIS","RESPONSE: Getting the party started with EDM from Calvin Harris!"""
+"USER: Put on some folk music, like Simon & Garfunkel",COMMAND: PLAY ARTIST SIMON & GARFUNKEL,"RESPONSE: Enjoying the soothing sounds of folk with Simon & Garfunkel."""
+"USER: Play reggaeton music, like Daddy Yankee",COMMAND: PLAY ARTIST DADDY YANKEE,"RESPONSE: Dancing to reggaeton beats with Daddy Yankee!"""
+"USER: How about some pop-rock by Maroon 5?"" AI: ""PLAY ARTIST MAROON 5","RESPONSE: Rocking out with pop-rock from Maroon 5!"""
+PLAY SONG
+"USER: Play 'Bohemian Rhapsody' by Queen, please",COMMAND: PLAY SONG BOHEMIAN RHAPSODY - QUEEN,"RESPONSE: Rocking out to 'Bohemian Rhapsody' by Queen."""
+USER: Put on 'Shape of You' by Ed Sheeran,COMMAND: PLAY SONG SHAPE OF YOU - ED SHEERAN,"RESPONSE: Dancing to 'Shape of You' by Ed Sheeran."""
+USER: Play 'Billie Jean' by Michael Jackson,COMMAND: PLAY SONG BILLIE JEAN - MICHAEL JACKSON,"RESPONSE: Getting into the groove with 'Billie Jean' by Michael Jackson."""
+USER: I want to hear 'Imagine' by John Lennon,COMMAND: PLAY SONG IMAGINE - JOHN LENNON,"RESPONSE: Enjoying the classic 'Imagine' by John Lennon."""
+"USER: Put on 'Rolling in the Deep' by Adele, please",COMMAND: PLAY SONG ROLLING IN THE DEEP - ADELE,"RESPONSE: Singing along to 'Rolling in the Deep' by Adele."""
+USER: Play 'Hotel California' by the Eagles,COMMAND: PLAY SONG HOTEL CALIFORNIA - THE EAGLES,"RESPONSE: Checking in to 'Hotel California' by The Eagles."""
+USER: I'm in the mood for 'Smooth Criminal' by Michael Jackson,COMMAND: PLAY SONG SMOOTH CRIMINAL - MICHAEL JACKSON,"RESPONSE: Getting ready to groove to 'Smooth Criminal' by Michael Jackson."""
+"USER: Can you play 'Stairway to Heaven' by Led Zeppelin?"" AI: ""PLAY SONG STAIRWAY TO HEAVEN - LED ZEPPELIN","RESPONSE: Ascending 'Stairway to Heaven' with Led Zeppelin."""
+"USER: Put on 'Purple Haze' by Jimi Hendrix, please",COMMAND: PLAY SONG PURPLE HAZE - JIMI HENDRIX,"RESPONSE: Rocking out to 'Purple Haze' by Jimi Hendrix."""
+USER: I want to hear 'Hey Jude' by the Beatles,COMMAND: PLAY SONG HEY JUDE - THE BEATLES,"RESPONSE: Singing along to 'Hey Jude' by The Beatles."""
+USER: Play 'Purple Rain' by Prince,COMMAND: PLAY SONG PURPLE RAIN - PRINCE,"RESPONSE: Enjoying 'Purple Rain' by Prince."""
+"USER: Put on 'Wonderwall' by Oasis, please",COMMAND: PLAY SONG WONDERWALL - OASIS,"RESPONSE: Listening to 'Wonderwall' by Oasis."""
+USER: Play 'Sweet Child o' Mine' by Guns N' Roses,COMMAND: PLAY SONG SWEET CHILD O' MINE - GUNS N' ROSES,"RESPONSE: Rocking out to 'Sweet Child o' Mine' by Guns N' Roses."""
+USER: I'd like to hear 'Imagine Dragons' by Radioactive,COMMAND: PLAY SONG RADIOACTIVE - IMAGINE DRAGONS,"RESPONSE: Getting fired up with 'Radioactive' by Imagine Dragons."""
+USER: Put on 'Shape of My Heart' by Sting,COMMAND: PLAY SONG SHAPE OF MY HEART - STING,"RESPONSE: Enjoying 'Shape of My Heart' by Sting."""
+USER: Play 'Piano Man' by Billy Joel,COMMAND: PLAY SONG PIANO MAN - BILLY JOEL,"RESPONSE: Singing along to 'Piano Man' by Billy Joel."""
+USER: I want to hear 'Time' by Pink Floyd,COMMAND: PLAY SONG TIME - PINK FLOYD,"RESPONSE: Losing track of time with 'Time' by Pink Floyd."""
+USER: Play 'Rolling Stone' by The Weeknd,COMMAND: PLAY SONG ROLLING STONE - THE WEEKND,"RESPONSE: Listening to 'Rolling Stone' by The Weeknd."""
+"USER: Put on 'Livin' on a Prayer' by Bon Jovi, please",COMMAND: PLAY SONG LIVIN' ON A PRAYER - BON JOVI,"RESPONSE: Rocking out to 'Livin' on a Prayer' by Bon Jovi."""
+USER: I'd like to hear 'Yellow Submarine' by The Beatles,COMMAND: PLAY SONG YELLOW SUBMARINE - THE BEATLES,"RESPONSE: Sailing away with 'Yellow Submarine' by The Beatles."""
+USER: Play 'Sicko Mode' by Travis Scott,COMMAND: PLAY SONG SICKO MODE - TRAVIS SCOTT,"RESPONSE: Getting into the groove with 'Sicko Mode' by Travis Scott."""
+"USER: Put on 'Lose Yourself' by Eminem, please",COMMAND: PLAY SONG LOSE YOURSELF - EMINEM,"RESPONSE: Listening to 'Lose Yourself' by Eminem."""
+USER: Play 'Old Town Road' by Lil Nas X,COMMAND: PLAY SONG OLD TOWN ROAD - LIL NAS X,"RESPONSE: Riding along with 'Old Town Road' by Lil Nas X."""
+USER: I want to hear 'HUMBLE.' by Kendrick Lamar,COMMAND: PLAY SONG HUMBLE. - KENDRICK LAMAR,"RESPONSE: Getting 'HUMBLE.' with Kendrick Lamar."""
+USER: Put on 'God's Plan' by Drake,COMMAND: PLAY SONG GOD'S PLAN - DRAKE,"RESPONSE: Listening to 'God's Plan' by Drake."""
+USER: Play 'Hotline Bling' by Drake,COMMAND: PLAY SONG HOTLINE BLING - DRAKE,"RESPONSE: Dancing to 'Hotline Bling' by Drake."""
+"USER: Can you play 'Black Beatles' by Rae Sremmurd?"" AI: ""PLAY SONG BLACK BEATLES - RAE SREMMURD","RESPONSE: Rocking out to 'Black Beatles' by Rae Sremmurd."""
+"USER: Put on 'Uptown Funk' by Mark Ronson ft. Bruno Mars, please",COMMAND: PLAY SONG UPTOWN FUNK - MARK RONSON FT. BRUNO MARS,"RESPONSE: Grooving to 'Uptown Funk' by Mark Ronson ft. Bruno Mars."""
+USER: I'd like to hear 'Mo Money Mo Problems' by The Notorious B.I.G,COMMAND: PLAY SONG MO MONEY MO PROBLEMS - THE NOTORIOUS B.I.G,"RESPONSE: Enjoying 'Mo Money Mo Problems' by The Notorious B.I.G."""
+USER: Play 'Hot Girl Summer' by Megan Thee Stallion,COMMAND: PLAY SONG HOT GIRL SUMMER - MEGAN THEE STALLION,"RESPONSE: Heating things up with 'Hot Girl Summer' by Megan Thee Stallion."""
+"USER: Put on 'Suge' by DaBaby, please",COMMAND: PLAY SONG SUGE - DABABY,"RESPONSE: Listening to 'Suge' by DaBaby."""
+USER: Play 'Money' by Cardi B,COMMAND: PLAY SONG MONEY - CARDI B,"RESPONSE: Counting 'Money' with Cardi B."""
+USER: I want to hear 'Gin and Juice' by Snoop Dogg,COMMAND: PLAY SONG GIN AND JUICE - SNOOP DOGG,"RESPONSE: Sipping on 'Gin and Juice' with Snoop Dogg."""
+"USER: Put on 'In Da Club' by 50 Cent, please",COMMAND: PLAY SONG IN DA CLUB - 50 CENT,"RESPONSE: Partying 'In Da Club' with 50 Cent."""
+USER: Play 'Sick Boy' by The Chainsmokers,COMMAND: PLAY SONG SICK BOY - THE CHAINSMOKERS,"RESPONSE: Listening to 'Sick Boy' by The Chainsmokers."""
+"USER: Can you play 'No Role Modelz' by J. Cole?"" AI: ""PLAY SONG NO ROLE MODELZ - J. COLE","RESPONSE: Getting introspective with 'No Role Modelz' by J. Cole."""
+USER: Put on 'Bad and Boujee' by Migos,COMMAND: PLAY SONG BAD AND BOUJEE - MIGOS,"RESPONSE: Feeling 'Bad and Boujee' with Migos."""
+USER: I'd like to hear 'Fancy' by Iggy Azalea,COMMAND: PLAY SONG FANCY - IGGY AZALEA,"RESPONSE: Getting fancy with Iggy Azalea."""
+USER: Play 'Hotline Bling' by Drake,COMMAND: PLAY SONG HOTLINE BLING - DRAKE,"RESPONSE: Dancing to 'Hotline Bling' by Drake."""
+USER: Put on 'Old Town Road' by Lil Nas X,COMMAND: PLAY SONG OLD TOWN ROAD - LIL NAS X,"RESPONSE: Riding along with 'Old Town Road' by Lil Nas X."""
+"USER: Put on 'Wonderful Tonight,' please",COMMAND: PLAY SONG WONDERFUL TONIGHT,"RESPONSE: Enjoying 'Wonderful Tonight.'"""
+USER: Play 'Don't Stop Believin',COMMAND: PLAY SONG DON'T STOP BELIEVIN',"RESPONSE: Belting out 'Don't Stop Believin'."""
+"USER: I'd like to hear 'Radioactive.'"" AI: ""PLAY SONG RADIOACTIVE","RESPONSE: Getting fired up with 'Radioactive.'"""
+"USER: Play 'Sweet Child o' Mine.'"" AI: ""PLAY SONG SWEET CHILD O' MINE","RESPONSE: Rocking out to 'Sweet Child o' Mine.'"""
+"USER: Put on 'Hotel California,' please",COMMAND: PLAY SONG HOTEL CALIFORNIA,"RESPONSE: Checking in to 'Hotel California.'"""
+"USER: I want to hear 'Bohemian Rhapsody.'"" AI: ""PLAY SONG BOHEMIAN RHAPSODY","RESPONSE: Rocking out to 'Bohemian Rhapsody.'"""
+"USER: Play 'Billie Jean.'"" AI: ""PLAY SONG BILLIE JEAN","RESPONSE: Getting into the groove with 'Billie Jean.'"""
+"USER: Put on 'Rolling in the Deep,' please",COMMAND: PLAY SONG ROLLING IN THE DEEP,"RESPONSE: Singing along to 'Rolling in the Deep.'"""
+"USER: I'd like to hear 'Imagine.'"" AI: ""PLAY SONG IMAGINE","RESPONSE: Enjoying the classic 'Imagine.'"""
+"USER: Play 'Smells Like Teen Spirit.'"" AI: ""PLAY SONG SMELLS LIKE TEEN SPIRIT","RESPONSE: Rocking out to 'Smells Like Teen Spirit.'"""
+"USER: Put on 'Wonderwall,' please",COMMAND: PLAY SONG WONDERWALL,"RESPONSE: Listening to 'Wonderwall.'"""
+"USER: I want to hear 'Smooth Criminal.'"" AI: ""PLAY SONG SMOOTH CRIMINAL","RESPONSE: Getting ready to groove to 'Smooth Criminal.'"""
+"USER: Play 'Piano Man.'"" AI: ""PLAY SONG PIANO MAN","RESPONSE: Singing along to 'Piano Man.'"""
+"USER: Put on 'Shape of My Heart,' please",COMMAND: PLAY SONG SHAPE OF MY HEART,"RESPONSE: Enjoying 'Shape of My Heart.'"""
+"USER: I'd like to hear 'Time.'"" AI: ""PLAY SONG TIME","RESPONSE: Losing track of time with 'Time.'"""
+"USER: Play 'Rolling Stone.'"" AI: ""PLAY SONG ROLLING STONE","RESPONSE: Listening to 'Rolling Stone.'"""
+"USER: Put on 'Livin' on a Prayer,' please",COMMAND: PLAY SONG LIVIN' ON A PRAYER,"RESPONSE: Rocking out to 'Livin' on a Prayer.'"""
+"USER: I want to hear 'Yellow Submarine.'"" AI: ""PLAY SONG YELLOW SUBMARINE","RESPONSE: Sailing away with 'Yellow Submarine.'"""
+"USER: Play 'Smooth.'"" AI: ""PLAY SONG SMOOTH","RESPONSE: Getting into the smooth vibes of 'Smooth.'"""
+"USER: Put on 'Don't Stop Me Now,' please",COMMAND: PLAY SONG DON'T STOP ME NOW,"RESPONSE: Getting ready to enjoy 'Don't Stop Me Now.'"""
+TURN ON LIGHTS COLOR ROOM
+USER: Could you please turn on the lights Violet in Galley?,COMMAND: TURN ON LIGHTS Violet Galley,RESPONSE: Of course! The lights Violet in Galley have been turned on.
+USER: It's a bit dark in Dining Room. Let's turn on the lights Grey.,COMMAND: TURN ON LIGHTS Grey Dining Room,RESPONSE: Sure thing! Illuminating Dining Room with Grey lights.
+USER: How about we brighten up Swimming Pool by turning on the Orange lights?,COMMAND: TURN ON LIGHTS Orange Swimming Pool,RESPONSE: Certainly! Orange lights are now brightening up Swimming Pool.
+USER: I need some light in Spa. Let's turn on the Grey lights.,COMMAND: TURN ON LIGHTS Grey Spa,RESPONSE: Of course! Adding some light to Spa with Grey lights.
+USER: The room is too dim. Let's turn on the lights Lime.,COMMAND: TURN ON LIGHTS Lime Guest Bedroom 2,RESPONSE: Absolutely! Lights Lime are now on in the room.
+USER: Please turn on the Purple lights in Guest Bedroom 2.,COMMAND: TURN ON LIGHTS Purple Guest Bedroom 2,RESPONSE: Certainly! The Purple lights in Guest Bedroom 2 are now turned on.
+USER: It's quite dark in Engine Room. Can we turn on the lights Pink?,COMMAND: TURN ON LIGHTS Pink Engine Room,RESPONSE: Of course! Adding some light to Engine Room with Pink lights.
+USER: I'd like to have some light in Salon. Let's turn on the lights Pink.,COMMAND: TURN ON LIGHTS Pink Salon,RESPONSE: Sure thing! Lights Pink are now illuminating Salon.
+USER: The lighting in Dining Room is inadequate. Turn on the Orange lights
+USER: Can you please turn on the Red lights in Lounge?,COMMAND: TURN ON LIGHTS Red Lounge,RESPONSE: Of course! The Red lights in Lounge are now on.
+USER: Let's brighten up Cinema with the Berry lights. Turn them on.,COMMAND: TURN ON LIGHTS Berry Cinema,RESPONSE: Absolutely! Brightening up Cinema with Berry lights.
+USER: It's too dark in here. Turn on the Straw lights in Dining Room.,COMMAND: TURN ON LIGHTS Straw Dining Room,RESPONSE: Sure thing! Turning on the Straw lights in Dining Room for better visibility.
+USER: We need some light in The Bridge. Turn on the lights Turquoise.,COMMAND: TURN ON LIGHTS Turquoise The Bridge,RESPONSE: Of course! Adding light to The Bridge with Turquoise lights.
+USER: Please illuminate Bar Lounge with the Yellow lights.,COMMAND: TURN ON LIGHTS Yellow Bar Lounge,RESPONSE: Certainly! Yellow lights are now illuminating Bar Lounge.
+USER: I'd like to have the Brown lights turned on in Guest Bedroom 2.,COMMAND: TURN ON LIGHTS Brown Guest Bedroom 2,RESPONSE: The Brown lights in Guest Bedroom 2 are now on.
+USER: Let's improve the lighting in Cabin Suite. Turn on the Coral lights.,COMMAND: TURN ON LIGHTS Coral Cabin Suite,RESPONSE: Absolutely! Enhancing the lighting in Cabin Suite with Coral lights.
+USER: The room is too dim for my liking. Can we turn on the Red lights?,COMMAND: TURN ON LIGHTS Red Swimming Pool,RESPONSE: Of course! Lights Red are now on to brighten up the room.
+USER: It's a bit gloomy in Guest Bedroom 6. Let's turn on the lights Yellow.,COMMAND: TURN ON LIGHTS Yellow Guest Bedroom 6,RESPONSE: Sure thing! Illuminating Guest Bedroom 6 with Yellow lights.
+USER: How about we add some light to The Bridge by turning on the Navy lights?,COMMAND: TURN ON LIGHTS Navy The Bridge,RESPONSE: Certainly! Navy lights are now adding light to The Bridge.
+USER: I need better lighting in Bar Lounge. Turn on the White lights
+USER: The room feels dark. Let's turn on the Sky lights in Dining Room.,COMMAND: TURN ON LIGHTS Sky Dining Room,RESPONSE: Of course! Adding some light to Dining Room with Sky lights.
+USER: I'd like to have the lights Berry in The Bridge turned on
+USER: It's a bit dim in Spa. Can we turn on the Sky lights?,COMMAND: TURN ON LIGHTS Sky Spa,RESPONSE: Certainly! Brightening up Spa with Sky lights.
+USER: Please turn on the Yellow lights in Guest Bedroom 2 for me.,COMMAND: TURN ON LIGHTS Yellow Guest Bedroom 2,RESPONSE: Of course! The Yellow lights in Guest Bedroom 2 are now turned on.
+USER: The lighting in Spa is inadequate. Turn on the Navy lights
+USER: Can you please turn on the lights Gold in The Bridge?,COMMAND: TURN ON LIGHTS Gold The Bridge,RESPONSE: Certainly! The lights Gold in The Bridge are now on.
+USER: Let's brighten up Salon with the Purple lights. Turn them on.,COMMAND: TURN ON LIGHTS Purple Salon,RESPONSE: Absolutely! Brightening up Salon with Purple lights.
+USER: It's too dark in here. Turn on the Straw lights in Lounge
+USER: We need some light in Sun Deck. Turn on the Turquoise lights
+USER: Please illuminate Master Bedroom with the Brown lights.,COMMAND: TURN ON LIGHTS Brown Master Bedroom,RESPONSE: Certainly! Brown lights are now illuminating Master Bedroom.
+USER: I'd like to have the Teal lights turned on in Fitness Center.,COMMAND: TURN ON LIGHTS Teal Fitness Center,RESPONSE: The Teal lights in Fitness Center are now on.
+USER: Let's improve the lighting in The Bridge. Turn on the Grey lights.,COMMAND: TURN ON LIGHTS Grey The Bridge,RESPONSE: Absolutely! Enhancing the lighting in The Bridge with Grey lights.
+USER: The room is too dim for my liking. Can we turn on the Straw lights?,COMMAND: TURN ON LIGHTS Straw Guest Bedroom 2,RESPONSE: Of course! Lights Straw are now on to brighten up the room.
+USER: It's a bit gloomy in Salon. Let's turn on the lights Orange.,COMMAND: TURN ON LIGHTS Orange Salon,RESPONSE: Sure thing! Illuminating Salon with Orange lights.
+USER: How about we add some light to Observation Deck by turning on the Teal lights?,COMMAND: TURN ON LIGHTS Teal Observation Deck,RESPONSE: Certainly! Teal lights are now adding light to Observation Deck.
+USER: I need better lighting in The Bridge. Turn on the Navy lights
+USER: The room feels dark. Let's turn on the Pink lights in Jacuzzi.,COMMAND: TURN ON LIGHTS Pink Jacuzzi,RESPONSE: Of course! Adding some light to Jacuzzi with Pink lights.
+USER: I'd like to have the lights Yellow in Dining Room turned on
+USER: It's a bit dim in Library. Can we turn on the Pink lights?,COMMAND: TURN ON LIGHTS Pink Library,RESPONSE: Certainly! Brightening up Library with Pink lights.
+TURN ON LIGHTS ROOM NO COLOR
+USER: I want a cozy atmosphere in Sun Deck.,COMMAND: TURN ON LIGHTS rgb(255
+USER: Let's make Salon feel energizing.,COMMAND: TURN ON LIGHTS rgb(255
+USER: I need a calming environment in Sun Deck.,COMMAND: TURN ON LIGHTS rgb(102
+USER: Make Observation Deck feel invigorating.,COMMAND: TURN ON LIGHTS rgb(0
+USER: I want Observation Deck to have a tranquil vibe.,COMMAND: TURN ON LIGHTS rgb(0
+USER: Let's set a romantic mood in Master Bedroom.,COMMAND: TURN ON LIGHTS rgb(255
+USER: I need Game Room to feel like a party.,COMMAND: TURN ON LIGHTS rgb(255
+USER: Make Crew Quarters feel like a forest.,COMMAND: TURN ON LIGHTS rgb(0
+USER: I want a futuristic atmosphere in Spa.,COMMAND: TURN ON LIGHTS rgb(102
+USER: Set a vibrant mood in Guest Bedroom 2.,COMMAND: TURN ON LIGHTS rgb(255
+USER: I need Observation Deck to feel like a beach vacation.,COMMAND: TURN ON LIGHTS rgb(255
+USER: Create a nostalgic ambiance in Library.,COMMAND: TURN ON LIGHTS rgb(204
+USER: Let's make Sun Deck feel like a sci-fi movie.,COMMAND: TURN ON LIGHTS rgb(102
+USER: I want a soothing vibe in Library.,COMMAND: TURN ON LIGHTS rgb(153
+USER: Make The Bridge feel like a tropical paradise.,COMMAND: TURN ON LIGHTS rgb(0
+USER: Set a mysterious mood in Galley.,COMMAND: TURN ON LIGHTS rgb(128
+USER: I need Galley to feel like a disco.,COMMAND: TURN ON LIGHTS rgb(255
+USER: Create a serene atmosphere in Spa.,COMMAND: TURN ON LIGHTS rgb(0
+USER: Let's make Guest Bedroom 2 feel like a space station.,COMMAND: TURN ON LIGHTS rgb(204
+USER: I want Library to feel like a cafe.,COMMAND: TURN ON LIGHTS rgb(153
+USER: Create a lively ambiance in Fitness Center.,COMMAND: TURN ON LIGHTS rgb(255
+USER: Make Crew Quarters feel like a rainy day.,COMMAND: TURN ON LIGHTS rgb(128
+USER: Set a modern and minimalist vibe in The Bridge.,COMMAND: TURN ON LIGHTS rgb(204
+USER: I need Sun Deck to feel like a winter wonderland.,COMMAND: TURN ON LIGHTS rgb(192
+USER: Create a magical atmosphere in Game Room.,COMMAND: TURN ON LIGHTS rgb(255
+USER: Let's make Sun Deck feel like a library.,COMMAND: TURN ON LIGHTS rgb(102
+USER: I want a retro vibe in Dining Room.,COMMAND: TURN ON LIGHTS rgb(255
+USER: Set a futuristic and high-tech mood in Observation Deck.,COMMAND: TURN ON LIGHTS rgb(51
+USER: Make Library feel like a summer day.,COMMAND: TURN ON LIGHTS rgb(255
+USER: Create a romantic and candlelit atmosphere in Jacuzzi.,COMMAND: TURN ON LIGHTS rgb(255
+USER: I need Sun Deck to feel like a spaceship.,COMMAND: TURN ON LIGHTS rgb(51
+USER: Let's make Lounge feel like a garden.,COMMAND: TURN ON LIGHTS rgb(102
+USER: I want a mystical atmosphere in Fitness Center.,COMMAND: TURN ON LIGHTS rgb(102
+USER: Create an industrial and urban ambiance in Guest Bedroom 6.,COMMAND: TURN ON LIGHTS rgb(102
+USER: Make The Bridge feel like a cozy cabin in the woods.,COMMAND: TURN ON LIGHTS rgb(153
+USER: Set a tranquil and lakeside mood in Dining Room.,COMMAND: TURN ON LIGHTS rgb(51
+USER: I need Cinema to feel like a bustling city street.,COMMAND: TURN ON LIGHTS rgb(204
+USER: Create an ethereal and otherworldly atmosphere in Cabin Suite.,COMMAND: TURN ON LIGHTS rgb(204
+WEATHER
+USER: Can you tell me the weather forecast for 3rd of june in Seychelles?,COMMAND: GET WEATHER 3rd of june Seychelles,SYSTEM: PARTLY CLOUDY 23C CHANCE OF SHOWERS 20%,RESPONSE: The weather in Seychelles on 3rd of june is expected to be partly cloudy with a high of 23 degrees Celsius. There's a slight chance of showers
+USER: What's the weather like in Santorini on 21st of january?,COMMAND: GET WEATHER 21st of january Santorini,SYSTEM: CLEAR SKIES 28C UV INDEX HIGH,RESPONSE: Expect clear skies in Santorini on 21st of january with a high temperature of 28 degrees Celsius. The UV index is high
+USER: I'm planning an outdoor event on new year's eve. Can you check the weather forecast for Easter Island?,COMMAND: GET WEATHER new year's eve Easter Island,SYSTEM: SUNNY 30C NO PRECIPITATION,RESPONSE: Great news! new year's eve in Easter Island is forecasted to be sunny with a high of 30 degrees Celsius. There's no precipitation expected
+USER: I need to travel on tomorrow. What's the weather forecast for Hawaii?,COMMAND: GET WEATHER tomorrow Hawaii,SYSTEM: OVERCAST 15C RAIN LIKELY 60%,RESPONSE: On tomorrow
+USER: Can you give me the weather information for tonight evening in Easter Island?,COMMAND: GET WEATHER tonight evening Easter Island,SYSTEM: PARTLY SUNNY 20C WINDS LIGHT,RESPONSE: Easter Island will experience partly sunny conditions on tonight evening with a high temperature of 20 degrees Celsius. The winds will be light
+USER: I'm curious about the weather in Santorini on 19th of november. Can you provide the forecast?,COMMAND: GET WEATHER 19th of november Santorini,SYSTEM: RAIN SHOWERS 17C THUNDERSTORMS POSSIBLE,RESPONSE: 19th of november in Santorini is expected to bring rain showers with a high of 17 degrees Celsius. There's a possibility of thunderstorms
+USER: What's the expected weather for new year's eve in Hawaii?,COMMAND: GET WEATHER new year's eve Hawaii,SYSTEM: PARTLY CLOUDY 25C BREEZY CONDITIONS,RESPONSE: The weather forecast for new year's eve in Hawaii calls for partly cloudy skies and a high temperature of 25 degrees Celsius. Expect breezy conditions throughout the day.
+USER: I'm planning a trip on new year's eve. Can you tell me the weather forecast for Hawaii?,COMMAND: GET WEATHER new year's eve Hawaii,SYSTEM: MOSTLY CLEAR 22C LOW HUMIDITY,RESPONSE: Hawaii is expected to have mostly clear skies on new year's eve with a pleasant high of 22 degrees Celsius. The humidity will be low
+USER: I need to know the weather in Svalbard on 10th of march. Can you provide the details?,COMMAND: GET WEATHER 10th of march Svalbard,SYSTEM: FOGGY 12C VISIBILITY LIMITED,RESPONSE: Expect foggy conditions in Svalbard on 10th of march with a high temperature of 12 degrees Celsius. Visibility will be limited
+USER: What's the weather like in Honolulu on 10th of march? I have outdoor plans.,COMMAND: GET WEATHER 10th of march Honolulu,SYSTEM: SUNNY 27C UV INDEX VERY HIGH,RESPONSE: Fantastic! Honolulu is forecasted to have sunny weather on 10th of march with a high temperature of 27 degrees Celsius. The UV index is very high
+USER: Can you provide the weather forecast for 23rd of july in Machu Picchu?,COMMAND: GET WEATHER 23rd of july Machu Picchu,SYSTEM: PARTLY CLOUDY 19C SLIGHT CHANCE OF RAIN,RESPONSE: On 23rd of july
+USER: I'm traveling on 10th of march. Can you check the weather forecast for Bali?,COMMAND: GET WEATHER 10th of march Bali,SYSTEM: OVERCAST 14C RAIN SHOWERS LIKELY 70%,RESPONSE: 10th of march in Bali is anticipated to be overcast with a high temperature of 14 degrees Celsius. There's a 70% likelihood of rain showers
+USER: What's the weather outlook for 10th of march in Maldives?,COMMAND: GET WEATHER 10th of march Maldives,SYSTEM: CLEAR SKIES 31C HEAT ADVISORY,RESPONSE: Prepare for hot weather on 10th of march in Maldives with clear skies and a high of 31 degrees Celsius. A heat advisory is in effect
+USER: I'm curious about the weather in Phuket on new year's eve. Can you provide the forecast?,COMMAND: GET WEATHER new year's eve Phuket,SYSTEM: CLOUDY 21C CHANCE OF SCATTERED SHOWERS 40%,RESPONSE: Expect cloudy conditions in Phuket on new year's eve with a high of 21 degrees Celsius. There's a 40% chance of scattered showers
+USER: What's the expected weather for christmas day in Barcelona?,COMMAND: GET WEATHER christmas day Barcelona,SYSTEM: PARTLY SUNNY 23C CALM WINDS,RESPONSE: The weather forecast for christmas day in Barcelona indicates partly sunny skies with a high temperature of 23 degrees Celsius. Winds will be calm
+USER: I'm planning an outdoor event on 7th of april. Can you check the weather forecast for Cape Town?,COMMAND: GET WEATHER 7th of april Cape Town,SYSTEM: PARTLY CLOUDY 26C SLIGHT CHANCE OF SHOWERS 10%,RESPONSE: Great news! 7th of april in Cape Town is expected to be partly cloudy with a high of 26 degrees Celsius. There's only a slight 10% chance of showers
+USER: Can you give me the weather information for the day after tomorrow in Barcelona?,COMMAND: GET WEATHER the day after tomorrow Barcelona,SYSTEM: SUNNY 29C UV INDEX VERY HIGH,RESPONSE: Expect sunny skies in Barcelona on the day after tomorrow with a high temperature of 29 degrees Celsius. The UV index is very high
+USER: I want Phuket's weather forecast on 12th of february.,COMMAND: GET WEATHER 12th of february Phuket,SYSTEM: CLEAR SKIES 32C NO PRECIPITATION,RESPONSE: 12th of february in Phuket is expected to have clear skies and a high temperature of 32 degrees Celsius. There's no precipitation expected
+USER: What's the weather like in Cape Town on the day after tomorrow?,COMMAND: GET WEATHER the day after tomorrow Cape Town,SYSTEM: OVERCAST 18C RAIN LIKELY 50%,RESPONSE: On the day after tomorrow
+USER: Can you provide the weather forecast for 28th of may in Auckland?,COMMAND: GET WEATHER 28th of may Auckland,SYSTEM: PARTLY SUNNY 22C BREEZY CONDITIONS,RESPONSE: The weather forecast for 28th of may in Auckland calls for partly sunny conditions with a high temperature of 22 degrees Celsius. Expect breezy conditions throughout the day.
+USER: I'm planning a trip on tonight evening. Can you tell me the weather forecast for Hong Kong?,COMMAND: GET WEATHER tonight evening Hong Kong,SYSTEM: MOSTLY CLEAR 24C LOW HUMIDITY,RESPONSE: Hong Kong is expected to have mostly clear skies on tonight evening with a pleasant high of 24 degrees Celsius. The humidity will be low
+USER: I need to know the weather in Los Angeles on 17th of october. Can you provide the details?,COMMAND: GET WEATHER 17th of october Los Angeles,SYSTEM: FOGGY 11C VISIBILITY LIMITED,RESPONSE: Expect foggy conditions in Los Angeles on 17th of october with a high temperature of 11 degrees Celsius. Visibility will be limited
+USER: What's the expected weather for tomorrow in Maui? I have outdoor plans.,COMMAND: GET WEATHER tomorrow Maui,SYSTEM: SUNNY 26C UV INDEX HIGH,RESPONSE: Fantastic! Maui is forecasted to have sunny weather on tomorrow with a high temperature of 26 degrees Celsius. The UV index is high
+USER: Can you provide the weather forecast for 21st of january in Amsterdam?,COMMAND: GET WEATHER 21st of january Amsterdam,SYSTEM: PARTLY CLOUDY 20C SLIGHT CHANCE OF RAIN,RESPONSE: On 21st of january
+USER: I'm traveling on tonight evening. Can you check the weather forecast for Honolulu?,COMMAND: GET WEATHER tonight evening Honolulu,SYSTEM: OVERCAST 13C RAIN SHOWERS LIKELY 60%,RESPONSE: tonight evening in Honolulu is anticipated to be overcast with a high temperature of 13 degrees Celsius. There's a 60% likelihood of rain showers
+USER: What's the weather outlook for 19th of november in Santorini?,COMMAND: GET WEATHER 19th of november Santorini,SYSTEM: CLEAR SKIES 30C HEAT ADVISORY,RESPONSE: Prepare for hot weather on 19th of november in Santorini with clear skies and a high of 30 degrees Celsius. A heat advisory is in effect
+USER: I'm curious about the weather in Santorini on 28th of may. Can you provide the forecast?,COMMAND: GET WEATHER 28th of may Santorini,SYSTEM: CLOUDY 19C CHANCE OF SCATTERED SHOWERS 30%,RESPONSE: Expect cloudy conditions in Santorini on 28th of may with a high of 19 degrees Celsius. There's a 30% chance of scattered showers
+USER: What's the expected weather for tonight evening in Machu Picchu?,COMMAND: GET WEATHER tonight evening Machu Picchu,SYSTEM: PARTLY SUNNY 21C CALM WINDS,RESPONSE: The weather forecast for tonight evening in Machu Picchu indicates partly sunny skies with a high temperature of 21 degrees Celsius. Winds will be calm
+USER: I'm planning an outdoor event on 12th of february. Can you check the weather forecast for Barcelona?,COMMAND: GET WEATHER 12th of february Barcelona,SYSTEM: PARTLY CLOUDY 25C SLIGHT CHANCE OF SHOWERS 15%,RESPONSE: Great news! 12th of february in Barcelona is expected to be partly cloudy with a high of 25 degrees Celsius. There's only a slight 15% chance of showers
+USER: Can you give me the weather information for 7th of april in Santorini?,COMMAND: GET WEATHER 7th of april Santorini,SYSTEM: SUNNY 28C UV INDEX VERY HIGH,RESPONSE: Expect sunny skies in Santorini on 7th of april with a high temperature of 28 degrees Celsius. The UV index is very high
+USER: I want Auckland's weather forecast on 1st of september.,COMMAND: GET WEATHER 1st of september Auckland,SYSTEM: CLEAR SKIES 31C NO PRECIPITATION,RESPONSE: 1st of september in Auckland is expected to have clear skies and a high temperature of 31 degrees Celsius. There's no precipitation expected
+USER: What's the weather like in Maldives on new year's eve?,COMMAND: GET WEATHER new year's eve Maldives,SYSTEM: OVERCAST 17C RAIN LIKELY 55%,RESPONSE: On new year's eve
+USER: Can you provide the weather forecast for the day after tomorrow in Prague?,COMMAND: GET WEATHER the day after tomorrow Prague,SYSTEM: PARTLY SUNNY 23C BREEZY CONDITIONS,RESPONSE: The weather forecast for the day after tomorrow in Prague calls for partly sunny conditions with a high temperature of 23 degrees Celsius. Expect breezy conditions throughout the day.
+USER: I'm planning a trip on 10th of march. Can you tell me the weather forecast for Ibiza?,COMMAND: GET WEATHER 10th of march Ibiza,SYSTEM: MOSTLY CLEAR 22C LOW HUMIDITY,RESPONSE: Ibiza is expected to have mostly clear skies on 10th of march with a pleasant high of 22 degrees Celsius. The humidity will be low
+USER: I need to know the weather in Maui on tomorrow. Can you provide the details?,COMMAND: GET WEATHER tomorrow Maui,SYSTEM: FOGGY 10C VISIBILITY LIMITED,RESPONSE: Expect foggy conditions in Maui on tomorrow with a high temperature of 10 degrees Celsius. Visibility will be limited
+USER: What's the expected weather for 1st of september in Hawaii? I have outdoor plans.,COMMAND: GET WEATHER 1st of september Hawaii,SYSTEM: SUNNY 27C UV INDEX HIGH,RESPONSE: Fantastic! Hawaii is forecasted to have sunny weather on 1st of september with a high temperature of 27 degrees Celsius. The UV index is high
+USER: Can you provide the weather forecast for 12th of february in Hong Kong?,COMMAND: GET WEATHER 12th of february Hong Kong,SYSTEM: PARTLY CLOUDY 19C SLIGHT CHANCE OF RAIN,RESPONSE: On 12th of february
+USER: I'm traveling on christmas day. Can you check the weather forecast for Santorini?,COMMAND: GET WEATHER christmas day Santorini,SYSTEM: OVERCAST 12C RAIN SHOWERS LIKELY 65%,RESPONSE: christmas day in Santorini is anticipated to be overcast with a high temperature of 12 degrees Celsius. There's a 65% likelihood of rain showers
+USER: What's the weather outlook for christmas day in Seychelles?,COMMAND: GET WEATHER christmas day Seychelles,SYSTEM: CLEAR SKIES 29C HEAT ADVISORY,RESPONSE: Prepare for hot weather on christmas day in Seychelles with clear skies and a high of 29 degrees Celsius. A heat advisory is in effect
+USER: I'm curious about the weather in Santorini on new year's eve. Can you provide the forecast?,COMMAND: GET WEATHER new year's eve Santorini,SYSTEM: CLOUDY 20C CHANCE OF SCATTERED SHOWERS 35%,RESPONSE: Expect cloudy conditions in Santorini on new year's eve with a high of 20 degrees Celsius. There's a 35% chance of scattered showers
+USER: What's the expected weather for 19th of november in Ibiza?,COMMAND: GET WEATHER 19th of november Ibiza,SYSTEM: PARTLY SUNNY 24C CALM WINDS,RESPONSE: The weather forecast for 19th of november in Ibiza indicates partly sunny skies with a high temperature of 24 degrees Celsius. Winds will be calm
+USER: I'm planning an outdoor event on new year's eve. Can you check the weather forecast for Rome?,COMMAND: GET WEATHER new year's eve Rome,SYSTEM: PARTLY CLOUDY 24C SLIGHT CHANCE OF SHOWERS 12%,RESPONSE: Great news! new year's eve in Rome is expected to be partly cloudy with a high of 24 degrees Celsius. There's only a slight 12% chance of showers
+USER: Can you give me the weather information for 23rd of july in Los Angeles?,COMMAND: GET WEATHER 23rd of july Los Angeles,SYSTEM: SUNNY 27C UV INDEX VERY HIGH,RESPONSE: Expect sunny skies in Los Angeles on 23rd of july with a high temperature of 27 degrees Celsius. The UV index is very high
+USER: I want Easter Island's weather forecast on 17th of october.,COMMAND: GET WEATHER 17th of october Easter Island,SYSTEM: CLEAR SKIES 30C NO PRECIPITATION,RESPONSE: 17th of october in Easter Island is expected to have clear skies and a high temperature of 30 degrees Celsius. There's no precipitation expected
+USER: What's the weather like in Barcelona on 12th of february?,COMMAND: GET WEATHER 12th of february Barcelona,SYSTEM: OVERCAST 16C RAIN LIKELY 50%,RESPONSE: On 12th of february
+USER: Can you provide the weather forecast for 7th of april in Maldives?,COMMAND: GET WEATHER 7th of april Maldives,SYSTEM: PARTLY SUNNY 21C BREEZY CONDITIONS,RESPONSE: The weather forecast for 7th of april in Maldives calls for partly sunny conditions with a high temperature of 21 degrees Celsius. Expect breezy conditions throughout the day.
+USER: I'm planning a trip on 28th of may. Can you tell me the weather forecast for Rome?,COMMAND: GET WEATHER 28th of may Rome,SYSTEM: MOSTLY CLEAR 20C LOW HUMIDITY,RESPONSE: Rome is expected to have mostly clear skies on 28th of may with a pleasant high of 20 degrees Celsius. The humidity will be low
+USER: I need to know the weather in Los Angeles on new year's eve. Can you provide the details?,COMMAND: GET WEATHER new year's eve Los Angeles,SYSTEM: FOGGY 9C VISIBILITY LIMITED,RESPONSE: Expect foggy conditions in Los Angeles on new year's eve with a high temperature of 9 degrees Celsius. Visibility will be limited
+USER: What's the expected weather for 1st of september in Bora Bora? I have outdoor plans.,COMMAND: GET WEATHER 1st of september Bora Bora,SYSTEM: SUNNY 26C UV INDEX HIGH,RESPONSE: Fantastic! Bora Bora is forecasted to have sunny weather on 1st of september with a high temperature of 26 degrees Celsius. The UV index is high
+USER: Can you provide the weather forecast for 19th of november in Maldives?,COMMAND: GET WEATHER 19th of november Maldives,SYSTEM: PARTLY CLOUDY 18C SLIGHT CHANCE OF RAIN,RESPONSE: On 19th of november
+USER: I'm traveling on 28th of may. Can you check the weather forecast for Barcelona?,COMMAND: GET WEATHER 28th of may Barcelona,SYSTEM: OVERCAST 11C RAIN SHOWERS LIKELY 60%,RESPONSE: 28th of may in Barcelona is anticipated to be overcast with a high temperature of 11 degrees Celsius. There's a 60% likelihood of rain showers
+USER: What's the weather outlook for 7th of april in Maldives?,COMMAND: GET WEATHER 7th of april Maldives,SYSTEM: CLEAR SKIES 28C HEAT ADVISORY,RESPONSE: Prepare for hot weather on 7th of april in Maldives with clear skies and a high of 28 degrees Celsius. A heat advisory is in effect
+USER: I'm curious about the weather in Maui on 21st of january. Can you provide the forecast?,COMMAND: GET WEATHER 21st of january Maui,SYSTEM: CLOUDY 19C CHANCE OF SCATTERED SHOWERS 30%,RESPONSE: Expect cloudy conditions in Maui on 21st of january with a high of 19 degrees Celsius. There's a 30% chance of scattered showers
+USER: What's the expected weather for 3rd of june in Maui?,COMMAND: GET WEATHER 3rd of june Maui,SYSTEM: PARTLY SUNNY 22C CALM WINDS,RESPONSE: The weather forecast for 3rd of june in Maui indicates partly sunny skies with a high temperature of 22 degrees Celsius. Winds will be calm
+USER: Can you give me the weather information for 1st of september?,COMMAND: GET WEATHER 1st of september $CURRENT_CITY$,SYSTEM: SUNNY 28C UV INDEX VERY HIGH,RESPONSE: Expect sunny skies on 1st of september with a high temperature of 28 degrees Celsius. The UV index is very high
+USER: I want to know the weather forecast for 21st of january.,COMMAND: GET WEATHER 21st of january $CURRENT_CITY$,SYSTEM: CLEAR SKIES 31C NO PRECIPITATION,RESPONSE: 21st of january is expected to have clear skies with a high temperature of 31 degrees Celsius. There's no precipitation expected
+USER: What's the weather like on 19th of november?,COMMAND: GET WEATHER 19th of november $CURRENT_CITY$,SYSTEM: OVERCAST 17C RAIN LIKELY 50%,RESPONSE: On 19th of november
+USER: Can you provide the weather forecast for 10th of march?,COMMAND: GET WEATHER 10th of march $CURRENT_CITY$,SYSTEM: PARTLY SUNNY 21C BREEZY CONDITIONS,RESPONSE: The weather forecast for 10th of march calls for partly sunny conditions with a high temperature of 21 degrees Celsius. Expect breezy conditions throughout the day.
+USER: I'm planning a trip on 3rd of june. Can you tell me the weather forecast?,COMMAND: GET WEATHER 3rd of june $CURRENT_CITY$,SYSTEM: MOSTLY CLEAR 20C LOW HUMIDITY,RESPONSE: 3rd of june is expected to have mostly clear skies with a pleasant high of 20 degrees Celsius. The humidity will be low
+USER: I need to know the weather on 7th of april. Can you provide the details?,COMMAND: GET WEATHER 7th of april $CURRENT_CITY$,SYSTEM: FOGGY 9C VISIBILITY LIMITED,RESPONSE: Expect foggy conditions on 7th of april with a high temperature of 9 degrees Celsius. Visibility will be limited
+USER: What's the expected weather for 10th of march? I have outdoor plans.,COMMAND: GET WEATHER 10th of march $CURRENT_CITY$,SYSTEM: SUNNY 26C UV INDEX HIGH,RESPONSE: Fantastic! 10th of march is forecasted to have sunny weather with a high temperature of 26 degrees Celsius. The UV index is high
+USER: Can you provide the weather forecast for 21st of january?,COMMAND: GET WEATHER 21st of january $CURRENT_CITY$,SYSTEM: PARTLY CLOUDY 18C SLIGHT CHANCE OF RAIN,RESPONSE: On 21st of january
+USER: I'm traveling on christmas day. Can you check the weather forecast?,COMMAND: GET WEATHER christmas day $CURRENT_CITY$,SYSTEM: OVERCAST 11C RAIN SHOWERS LIKELY 60%,RESPONSE: christmas day is anticipated to be overcast with a high temperature of 11 degrees Celsius. There's a 60% likelihood of rain showers
+USER: What's the weather outlook for 19th of november?,COMMAND: GET WEATHER 19th of november $CURRENT_CITY$,SYSTEM: CLEAR SKIES 28C HEAT ADVISORY,RESPONSE: Prepare for hot weather on 19th of november with clear skies and a high of 28 degrees Celsius. A heat advisory is in effect
+USER: I'm curious about the weather on the day after tomorrow. Can you provide the forecast?,COMMAND: GET WEATHER the day after tomorrow $CURRENT_CITY$,SYSTEM: CLOUDY 19C CHANCE OF SCATTERED SHOWERS 30%,RESPONSE: Expect cloudy conditions on the day after tomorrow with a high of 19 degrees Celsius. There's a 30% chance of scattered showers
+USER: What's the expected weather for 21st of january in the cold weather?,COMMAND: GET WEATHER 21st of january $CURRENT_CITY$,SYSTEM: COLD AND OVERCAST -2C CHANCE OF SNOW 40%,RESPONSE: Prepare for cold and overcast conditions on 21st of january with a high temperature of -2 degrees Celsius. There's a 40% chance of snow
+USER: I want to know the cold weather forecast for 12th of february.,COMMAND: GET WEATHER 12th of february $CURRENT_CITY$,SYSTEM: FREEZING COLD -5C BLIZZARD CONDITIONS 80% CHANCE OF SNOW,RESPONSE: 12th of february is expected to be freezing cold with a high temperature of -5 degrees Celsius. Blizzard conditions are likely with an 80% chance of snow
+USER: What's the cold weather like on 3rd of june?,COMMAND: GET WEATHER 3rd of june $CURRENT_CITY$,SYSTEM: EXTREMELY COLD -10C ICE STORM WARNING 90% CHANCE OF FREEZING RAIN,RESPONSE: On 3rd of june
+USER: Can you provide the cold weather forecast for 7th of april?,COMMAND: GET WEATHER 7th of april $CURRENT_CITY$,SYSTEM: FRIGID -8C SNOW SHOWERS 60% CHANCE OF BLIZZARD,RESPONSE: The cold weather forecast for 7th of april calls for frigid conditions with a high temperature of -8 degrees Celsius. Expect snow showers and a 60% chance of a blizzard.
+USER: I'm planning a trip in the cold weather on 28th of may. Can you tell me the weather forecast?,COMMAND: GET WEATHER 28th of may $CURRENT_CITY$,SYSTEM: ICY -6C FREEZING FOG ADVISORY 70% CHANCE OF SLEET,RESPONSE: 28th of may is expected to be icy with a high temperature of -6 degrees Celsius. A freezing fog advisory is in effect with a 70% chance of sleet
+USER: I need to know the cold weather on tomorrow. Can you provide the details?,COMMAND: GET WEATHER tomorrow $CURRENT_CITY$,SYSTEM: SUBZERO -15C SNOWSTORM WARNING 95% CHANCE OF HEAVY SNOW,RESPONSE: Expect subzero temperatures on tomorrow with a high of -15 degrees Celsius. A snowstorm warning is in effect with a 95% chance of heavy snowfall
+USER: What's the expected cold weather for 1st of september? I have outdoor plans.,COMMAND: GET WEATHER 1st of september $CURRENT_CITY$,SYSTEM: BITTER COLD -12C WIND CHILL ADVISORY 85% CHANCE OF HAIL,RESPONSE: 1st of september is forecasted to be bitterly cold with a high temperature of -12 degrees Celsius. A wind chill advisory is in effect with an 85% chance of hail
+USER: Can you provide the cold weather forecast for 23rd of july?,COMMAND: GET WEATHER 23rd of july $CURRENT_CITY$,SYSTEM: FRIGID CONDITIONS -9C LIGHT SNOW 50% CHANCE OF FREEZING DRIZZLE,RESPONSE: On 23rd of july
+USER: I'm traveling in the cold weather on tonight evening. Can you check the weather forecast?,COMMAND: GET WEATHER tonight evening $CURRENT_CITY$,SYSTEM: ARCTIC -18C SNOW AND ICE ADVISORY 100% CHANCE OF BLIZZARD,RESPONSE: tonight evening is anticipated to be arctic with a high temperature of -18 degrees Celsius. A snow and ice advisory is in effect with a 100% chance of a blizzard
+USER: What's the cold weather outlook for 28th of may?,COMMAND: GET WEATHER 28th of may $CURRENT_CITY$,SYSTEM: FREEZING TEMPERATURES -7C SLEET SHOWERS 70% CHANCE OF HAILSTORM,RESPONSE: Prepare for freezing temperatures on 28th of may with a high of -7 degrees Celsius. There's a 70% chance of sleet showers and a hailstorm
+USER: I'm curious about the cold weather on tonight evening. Can you provide the forecast?,COMMAND: GET WEATHER tonight evening $CURRENT_CITY$,SYSTEM: CHILLY -3C SNOW FLURRIES 45% CHANCE OF SNOW SQUALLS,RESPONSE: Expect chilly conditions on tonight evening with a high temperature of -3 degrees Celsius. There's a 45% chance of snow flurries and snow squalls
+TURN ON NAV LIGHTS
+USER: The night is falling
+USER: It's getting foggy out here. Time to activate the nav lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigational lights activated to guide us through the fog.
+USER: The weather is closing in
+USER: I see other vessels approaching. It's time to switch on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigation lights are active to signal our presence to other vessels.
+USER: It's dusk
+USER: The moon is hidden by clouds. Let's not take any chances
+USER: I just heard a foghorn nearby. It's time for the navigation lights to be on.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Responding to the fog signal
+USER: We're approaching a busy channel. Better turn on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigation lights are active to signal our position in the busy channel.
+USER: It's a starry night
+USER: The GPS just indicated reduced visibility. Let's switch on the nav lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Reacting to reduced visibility
+USER: We're entering a congested harbor. Turn on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigation lights are active for safe harbor entry.
+USER: I can hear the sound of waves crashing. Better activate the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Responding to the sound of waves
+USER: The lighthouse on the shore is visible. It's time to turn on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Guided by the lighthouse
+USER: I see a storm approaching. Turn on the navigation lights for added visibility.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Anticipating the storm
+USER: There's a lot of traffic in this shipping lane. Turn on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigation lights are active to navigate safely among other vessels.
+USER: It's getting misty out here. Turn on the navigation lights to be visible.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Responding to reduced visibility
+USER: The radar is picking up targets. It's time to turn on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Reacting to radar contacts
+USER: I just heard a distress call on the radio. Turn on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: In response to the distress call
+USER: We're nearing the buoy markers. Turn on the navigation lights for safe passage.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigational lights are active for safe passage near buoy markers.
+USER: The wind is picking up
+USER: It's a moonless night. Turn on the navigation lights to be visible.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: In the absence of moonlight
+USER: The rain is pouring
+USER: The waves are getting rough. Turn on the navigation lights for safety.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: In response to rough sea conditions
+USER: I just spotted a fishing boat ahead. Turn on the navigation lights to avoid a collision.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigational lights are active to prevent a collision with the fishing boat.
+USER: We're approaching a busy port. Time to switch on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigation lights are shining to signal our approach to the busy port.
+USER: The GPS shows us near a rocky coastline. Turn on the navigation lights for safety.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: For safe navigation near the rocky coast
+USER: We're passing through a narrow channel. Turn on the navigation lights for visibility.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigation lights are active to ensure visibility in the narrow channel.
+USER: The weather forecast predicts heavy fog. It's time to activate the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Preparing for heavy fog
+USER: The marine radio just received a safety message. Turn on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: In response to the safety message
+USER: We're nearing a busy harbor entrance. Turn on the navigation lights for safe passage.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigational lights are active for a secure entrance to the busy harbor.
+USER: The wind is howling
+USER: I just saw a buoy marker ahead. Turn on the navigation lights to navigate safely.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigational lights are active for safe passage near the buoy marker.
+USER: We're entering a marked shipping lane. Turn on the navigation lights for visibility.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigation lights are shining to navigate safely in the shipping lane.
+USER: The radar shows nearby vessels. It's time to turn on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Reacting to radar contacts
+USER: I received a marine safety alert. Turn on the navigation lights for caution.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: In response to the safety alert
+USER: We're approaching a critical turning point. Turn on the navigation lights for safety.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Navigational lights are active for safe navigation around the turning point.
+USER: The GPS is indicating reduced visibility. It's time to turn on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Responding to reduced visibility
+USER: The wind is gusting
+USER: The lighthouse on the shore is visible. It's time to turn on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: Guided by the lighthouse
+USER: The marine radio just received a distress call. Turn on the navigation lights.,COMMAND: TURN ON NAV LIGHTS,RESPONSE: In response to the distress call
+TURN OFF NAV LIGHTS
+USER: We've safely reached our destination. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off. Thank you for a safe journey.
+USER: The sun is rising
+USER: The moon is shining brightly. Time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: With the moonlight guiding us
+USER: We're entering a well-lit harbor. Turn off the navigation lights for now.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: In a well-lit harbor
+USER: The radar shows no nearby vessels. Let's turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: With no nearby vessels
+USER: We've exited the busy shipping lane. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off as we leave the shipping lane.
+USER: The weather is clear
+USER: The marine radio just received an all-clear signal. Turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: In response to the all-clear signal
+USER: We've passed the rocky coastline safely. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off after safely navigating the rocky coastline.
+USER: The GPS shows good visibility. Let's turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: With good visibility
+USER: We're leaving the congested harbor. Turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off as we exit the congested harbor.
+USER: The wind has calmed
+USER: I see a lighthouse ahead. Let's turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Guided by the lighthouse
+USER: We've passed through the narrow channel. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off after safely passing through the narrow channel.
+USER: The fog has cleared
+USER: The marine radio reports safe conditions. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: In response to the safe conditions
+USER: We've successfully reached the buoy markers. Turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off after reaching the buoy markers.
+USER: We've exited the busy port. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now switched off as we leave the busy port.
+USER: The radar shows no contacts. Let's turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: With no radar contacts
+USER: We've passed the critical turning point safely. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off after safely navigating the turning point.
+USER: The sun is high in the sky
+USER: We're sailing through calm waters. Turn off the navigation lights for now.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: In calm waters
+USER: The moon is setting
+USER: We're entering a well-illuminated harbor. Turn off the navigation lights for now.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: In a well-illuminated harbor
+USER: The radar indicates clear waters. Let's turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: With clear radar readings
+USER: We've exited the busy shipping lane. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off as we leave the shipping lane.
+USER: The weather is stable
+USER: The marine radio reports favorable conditions. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: In response to the favorable conditions
+USER: We've navigated safely past the rocky coastline. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off after a safe passage along the rocky coastline.
+USER: The GPS shows excellent visibility. Let's turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: With excellent GPS visibility
+USER: We're leaving the congested harbor. Turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off as we exit the congested harbor.
+USER: The wind has calmed
+USER: I see a lighthouse ahead. Let's turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Guided by the lighthouse
+USER: We've passed through the narrow channel safely. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off after safely passing through the narrow channel.
+USER: The fog has cleared
+USER: The marine radio reports safe conditions. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: In response to the safe conditions
+USER: We've reached the buoy markers safely. Turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off after reaching the buoy markers.
+USER: We've exited the busy port. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now switched off as we leave the busy port.
+USER: The radar shows no contacts. Let's turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: With no radar contacts
+USER: We've passed the critical turning point safely. It's time to turn off the navigation lights.,COMMAND: TURN OFF NAV LIGHTS,RESPONSE: Navigation lights are now turned off after a safe passage around the turning point.
+GET SPEED
+USER: Can you tell me our current speed?,COMMAND: GET SPEED,SYSTEM: 20 KNOTS,RESPONSE: Our current speed is 20 knots.
+USER: I'd like to know how fast we're moving.,COMMAND: GET SPEED,SYSTEM: 15 KNOTS,RESPONSE: We are cruising at a speed of 15 knots.
+USER: What's our speed right now?,COMMAND: GET SPEED,SYSTEM: 12 KNOTS,RESPONSE: Our current speed is 12 knots.
+USER: How quickly are we sailing?,COMMAND: GET SPEED,SYSTEM: 18 KNOTS,RESPONSE: We are sailing at a speed of 18 knots.
+USER: I'm curious about our speed. What is it?,COMMAND: GET SPEED,SYSTEM: 22 KNOTS,RESPONSE: Our current speed is 22 knots.
+USER: What's our velocity at the moment?,COMMAND: GET SPEED,SYSTEM: 25 KNOTS,RESPONSE: Our velocity at the moment is 25 knots.
+USER: I'd like to know our sailing speed.,COMMAND: GET SPEED,SYSTEM: 30 KNOTS,RESPONSE: We are sailing at a speed of 30 knots.
+USER: How fast are we going on the water?,COMMAND: GET SPEED,SYSTEM: 17 KNOTS,RESPONSE: We are traveling on the water at a speed of 17 knots.
+USER: What's our current nautical speed?,COMMAND: GET SPEED,SYSTEM: 19 KNOTS,RESPONSE: Our current nautical speed is 19 knots.
+USER: How many knots are we sailing at?,COMMAND: GET SPEED,SYSTEM: 28 KNOTS,RESPONSE: We are sailing at a speed of 28 knots.
+USER: Can you tell me our ship's speed?,COMMAND: GET SPEED,SYSTEM: 23 KNOTS,RESPONSE: Our ship's speed is 23 knots.
+USER: What's our velocity in knots?,COMMAND: GET SPEED,SYSTEM: 21 KNOTS,RESPONSE: Our velocity is currently 21 knots.
+USER: I'm interested in our speed. What is it?,COMMAND: GET SPEED,SYSTEM: 16 KNOTS,RESPONSE: Our current speed is 16 knots.
+USER: How quick are we sailing on the sea?,COMMAND: GET SPEED,SYSTEM: 24 KNOTS,RESPONSE: We are sailing at a speed of 24 knots.
+USER: What's our sailing pace?,COMMAND: GET SPEED,SYSTEM: 26 KNOTS,RESPONSE: Our current sailing pace is 26 knots.
+USER: Can you inform me of our current knot speed?,COMMAND: GET SPEED,SYSTEM: 14 KNOTS,RESPONSE: Our current knot speed is 14 knots.
+USER: How many knots are we currently traveling at?,COMMAND: GET SPEED,SYSTEM: 31 KNOTS,RESPONSE: We are currently traveling at a speed of 31 knots.
+USER: I'd like to know our nautical speed.,COMMAND: GET SPEED,SYSTEM: 29 KNOTS,RESPONSE: Our nautical speed is 29 knots.
+USER: What's our speed in nautical terms?,COMMAND: GET SPEED,SYSTEM: 27 KNOTS,RESPONSE: Our current speed
+USER: How fast are we moving on the water?,COMMAND: GET SPEED,SYSTEM: 33 KNOTS,RESPONSE: We are moving on the water at a speed of 33 knots.
+USER: What's our current velocity?,COMMAND: GET SPEED,SYSTEM: 20 KNOTS,RESPONSE: We are currently cruising at a velocity of 20 knots. Smooth sailing ahead.
+USER: How fast are we moving?,COMMAND: GET SPEED,SYSTEM: 15 KNOTS,RESPONSE: We are moving at a speed of 15 knots. A steady pace for a great journey.
+USER: Can you tell me our speed right now?,COMMAND: GET SPEED,SYSTEM: 22 KNOTS,RESPONSE: Our current speed is 22 knots. We're making good progress.
+USER: I'm curious about our speed. What is it?,COMMAND: GET SPEED,SYSTEM: 18 KNOTS,RESPONSE: Our speed is currently 18 knots. Enjoy the ride!
+USER: How quickly are we going?,COMMAND: GET SPEED,SYSTEM: 25 KNOTS,RESPONSE: We are moving at a brisk pace of 25 knots. Hold on
+USER: What's our velocity right now?,COMMAND: GET SPEED,SYSTEM: 30 KNOTS,RESPONSE: Our current velocity is a swift 30 knots. We're making great time.
+USER: Can you provide our speed?,COMMAND: GET SPEED,SYSTEM: 17 KNOTS,RESPONSE: Our speed is currently 17 knots. Enjoy the journey.
+USER: How fast are we traveling?,COMMAND: GET SPEED,SYSTEM: 21 KNOTS,RESPONSE: We are traveling at a speed of 21 knots. Smooth sailing ahead.
+USER: What's our current speed?,COMMAND: GET SPEED,SYSTEM: 28 KNOTS,RESPONSE: Our current speed is a swift 28 knots. Hold on
+USER: Tell me our velocity
+USER: How quick are we moving?,COMMAND: GET SPEED,SYSTEM: 19 KNOTS,RESPONSE: We are moving at a speed of 19 knots. A smooth and comfortable journey.
+USER: I'd like to know our speed.,COMMAND: GET SPEED,SYSTEM: 24 KNOTS,RESPONSE: Our speed is currently 24 knots. We're making good progress.
+USER: How fast are we sailing?,COMMAND: GET SPEED,SYSTEM: 16 KNOTS,RESPONSE: We are sailing at a speed of 16 knots. A steady pace for our voyage.
+USER: What's our current velocity?,COMMAND: GET SPEED,SYSTEM: 27 KNOTS,RESPONSE: Our current velocity is 27 knots. It's a speedy journey!
+USER: Can you tell me our speed right now?,COMMAND: GET SPEED,SYSTEM: 22 KNOTS,RESPONSE: Our speed is currently 22 knots. Enjoy the ride!
+USER: I'm curious about our speed. What is it?,COMMAND: GET SPEED,SYSTEM: 15 KNOTS,RESPONSE: Our speed is currently 15 knots. Sit back and relax.
+USER: How quickly are we going?,COMMAND: GET SPEED,SYSTEM: 20 KNOTS,RESPONSE: We are traveling at a speed of 20 knots. A pleasant journey is ahead.
+USER: What's our velocity right now?,COMMAND: GET SPEED,SYSTEM: 26 KNOTS,RESPONSE: Our current velocity is 26 knots. We're making great time.
+USER: Can you provide our speed?,COMMAND: GET SPEED,SYSTEM: 18 KNOTS,RESPONSE: Our speed is currently 18 knots. Enjoy the journey.
+USER: How fast are we traveling?,COMMAND: GET SPEED,SYSTEM: 30 KNOTS,RESPONSE: We are traveling at a speedy 30 knots. Hold on tight
+USER: How fast is our vessel moving right now?,COMMAND: GET SPEED,SYSTEM: 25 KNOTS,RESPONSE: Our vessel is currently moving at a speed of 25 knots. It's a steady pace for our journey.
+USER: I'd like to know our current speed
+USER: What's our velocity at this moment?,COMMAND: GET SPEED,SYSTEM: 21 KNOTS,RESPONSE: Our velocity at this moment is 21 knots. Smooth sailing ahead.
+USER: Can you provide our speed right now?,COMMAND: GET SPEED,SYSTEM: 27 KNOTS,RESPONSE: Our speed right now is 27 knots. We're making good progress.
+USER: How quickly are we traveling?,COMMAND: GET SPEED,SYSTEM: 16 KNOTS,RESPONSE: We are traveling at a speed of 16 knots. A comfortable journey awaits.
+USER: What's our current velocity
+USER: Tell me our speed
+USER: How fast are we moving at the moment?,COMMAND: GET SPEED,SYSTEM: 18 KNOTS,RESPONSE: At the moment
+USER: What's our current speed
+USER: How quick are we going
+USER: How fast is our vessel moving right now?,COMMAND: GET SPEED,SYSTEM: 24 KNOTS,RESPONSE: Our vessel is currently moving at a speed of 24 knots. Enjoy the ride!
+USER: I'd like to know our current speed
+USER: What's our velocity at this moment?,COMMAND: GET SPEED,SYSTEM: 28 KNOTS,RESPONSE: Our velocity at this moment is 28 knots. A fast-paced journey!
+USER: Can you provide our speed right now?,COMMAND: GET SPEED,SYSTEM: 17 KNOTS,RESPONSE: Our speed right now is 17 knots. A pleasant voyage.
+USER: How quickly are we traveling?,COMMAND: GET SPEED,SYSTEM: 22 KNOTS,RESPONSE: We are traveling at a speed of 22 knots. A comfortable and swift journey.
+USER: What's our current velocity
+USER: Tell me our speed
+USER: How fast are we moving at the moment?,COMMAND: GET SPEED,SYSTEM: 31 KNOTS,RESPONSE: At the moment
+USER: What's our current speed
+USER: How quick are we going
+GET COURSE
+USER: Can you tell me our current course?,COMMAND: GET COURSE,SYSTEM: 245 DEGREES,RESPONSE: Our current course is 245 degrees
+USER: What's our heading right now?,COMMAND: GET COURSE,SYSTEM: 315 DEGREES,RESPONSE: Our current heading is 315 degrees. We're on a clear path.
+USER: What direction are we headed in?,COMMAND: GET COURSE,SYSTEM: 50 DEGREES,RESPONSE: We are currently headed in the direction of 50 degrees.
+USER: I'm curious about our course. What is it?,COMMAND: GET COURSE,SYSTEM: 180 DEGREES,RESPONSE: Our course is set at 180 degrees
+USER: How are we currently oriented?,COMMAND: GET COURSE,SYSTEM: 270 DEGREES,RESPONSE: We are currently oriented at 270 degrees
+USER: What's our current course
+USER: Can you provide our heading?,COMMAND: GET COURSE,SYSTEM: 40 DEGREES,RESPONSE: Our heading is 40 degrees
+USER: Which way are we pointing?,COMMAND: GET COURSE,SYSTEM: 110 DEGREES,RESPONSE: We are currently pointing in the direction of 110 degrees.
+USER: How are we currently oriented
+USER: What is our course of action
+USER: Can you tell me our current course
+USER: How are we currently oriented
+USER: What's our current heading
+USER: What direction are we headed in
+USER: Can you provide our course
+USER: What is our course of action?,COMMAND: GET COURSE,SYSTEM: 30 DEGREES,RESPONSE: Our current course of action is set at 30 degrees. We're on the right track.
+USER: Can you tell me our heading right now?,COMMAND: GET COURSE,SYSTEM: 220 DEGREES,RESPONSE: Our heading is 220 degrees
+USER: How are we currently oriented?,COMMAND: GET COURSE,SYSTEM: 275 DEGREES,RESPONSE: We are currently oriented at 275 degrees. A steady course for our journey.
+USER: What's our current course
+USER: Can you provide our heading?,COMMAND: GET COURSE,SYSTEM: 160 DEGREES,RESPONSE: Our heading is 160 degrees
+USER: Which way are we pointing
+USER: How are we currently oriented
+USER: What is our course of action
+USER: Can you tell me our current course
+USER: How are we currently oriented
+USER: What's our current heading
+USER: What direction are we headed in
+USER: Can you provide our course
+USER: What is our course of action?,COMMAND: GET COURSE,SYSTEM: 40 DEGREES,RESPONSE: Our current course of action is set at 40 degrees. We're on the right track.
+USER: Can you tell me our heading right now?,COMMAND: GET COURSE,SYSTEM: 155 DEGREES,RESPONSE: Our heading is 155 degrees
+USER: How are we currently oriented?,COMMAND: GET COURSE,SYSTEM: 290 DEGREES,RESPONSE: We are currently oriented at 290 degrees. A steady course for our journey.
+USER: What's our current course
+USER: Can you provide our heading
+USER: How are we currently oriented
+USER: What is our course of action
+USER: Can you tell me our current course
+USER: How are we currently oriented
+GET FUEL INFO
+USER: Can you provide an update on our fuel situation?,COMMAND: GET FUEL INFO,SYSTEM: 0.8 LPNM 800L 1000NM,RESPONSE: Our fuel consumption is currently around 0.8 liters per nautical mile. We have 800 liters remaining in the tank
+USER: What's our current fuel status?,COMMAND: GET FUEL INFO,SYSTEM: 0.6 LPNM 950L 1500NM,RESPONSE: Our current fuel consumption is approximately 0.6 liters per nautical mile. We have a comfortable 950 liters left
+USER: How are we doing with our fuel reserves?,COMMAND: GET FUEL INFO,SYSTEM: 0.5 LPNM 750L 1500NM,RESPONSE: We are managing our fuel well at a rate of 0.5 liters per nautical mile. There are 750 liters in the tank
+USER: Can you update me on our fuel usage?,COMMAND: GET FUEL INFO,SYSTEM: 0.9 LPNM 600L 670NM,RESPONSE: Our current fuel usage is at 0.9 liters per nautical mile. We have 600 liters remaining
+USER: How's our fuel situation
+USER: What's the status of our fuel reserves?,COMMAND: GET FUEL INFO,SYSTEM: 0.4 LPNM 1200L 3000NM,RESPONSE: Our fuel reserves are excellent
+USER: How are we doing in terms of fuel efficiency?,COMMAND: GET FUEL INFO,SYSTEM: 0.6 LPNM 850L 1400NM,RESPONSE: Our fuel efficiency is good
+USER: Can you give me an update on our fuel consumption?,COMMAND: GET FUEL INFO,SYSTEM: 0.5 LPNM 1100L 2200NM,RESPONSE: Our fuel consumption rate is 0.5 liters per nautical mile. We have a substantial 1100 liters left
+USER: How's our fuel situation
+USER: What's the status of our fuel reserves?,COMMAND: GET FUEL INFO,SYSTEM: 0.4 LPNM 1300L 3500NM,RESPONSE: Our fuel reserves are in excellent shape
+USER: How are we doing in terms of fuel efficiency?,COMMAND: GET FUEL INFO,SYSTEM: 0.7 LPNM 950L 1350NM,RESPONSE: Our fuel efficiency is good at 0.7 liters per nautical mile. We have 950 liters remaining
+USER: Can you give me an update on our fuel consumption?,COMMAND: GET FUEL INFO,SYSTEM: 0.5 LPNM 1200L 2400NM,RESPONSE: Our fuel consumption rate is 0.5 liters per nautical mile. We have a substantial 1200 liters left
+USER: How's our fuel situation
+USER: What's the status of our fuel reserves?,COMMAND: GET FUEL INFO,SYSTEM: 0.4 LPNM 1400L 3700NM,RESPONSE: Our fuel reserves are in great shape
+USER: How are we doing in terms of fuel?,COMMAND: GET FUEL INFO,SYSTEM: 0.7 LPNM 875L 1250NM,RESPONSE: We are currently burning roughly 0.7 liters per nautical mile. There is 875 liters left in the tank
+USER: Can you provide an update on our fuel situation?,COMMAND: GET FUEL INFO,SYSTEM: 0.8 LPNM 800L 1000NM,RESPONSE: Our fuel consumption is currently around 0.8 liters per nautical mile. We have 800 liters remaining in the tank
+USER: What's our current fuel status?,COMMAND: GET FUEL INFO,SYSTEM: 0.6 LPNM 950L 1500NM,RESPONSE: Our current fuel consumption is approximately 0.6 liters per nautical mile. We have a comfortable 950 liters left
+USER: How are we doing with our fuel reserves?,COMMAND: GET FUEL INFO,SYSTEM: 0.5 LPNM 750L 1500NM,RESPONSE: We are managing our fuel well at a rate of 0.5 liters per nautical mile. There are 750 liters in the tank
+USER: Can you update me on our fuel usage?,COMMAND: GET FUEL INFO,SYSTEM: 0.9 LPNM 600L 670NM,RESPONSE: Our current fuel usage is at 0.9 liters per nautical mile. We have 600 liters remaining
+USER: How's our fuel situation
+USER: What's the status of our fuel reserves?,COMMAND: GET FUEL INFO,SYSTEM: 0.4 LPNM 1200L 3000NM,RESPONSE: Our fuel reserves are excellent
+USER: How are we doing in terms of fuel efficiency?,COMMAND: GET FUEL INFO,SYSTEM: 0.6 LPNM 850L 1400NM,RESPONSE: Our fuel efficiency is good
+USER: Can you give me an update on our fuel consumption?,COMMAND: GET FUEL INFO,SYSTEM: 0.5 LPNM 1100L 2200NM,RESPONSE: Our fuel consumption rate is 0.5 liters per nautical mile. We have a substantial 1100 liters left
+USER: How's our fuel situation
+USER: What's the status of our fuel reserves?,COMMAND: GET FUEL INFO,SYSTEM: 0.4 LPNM 1300L 3500NM,RESPONSE: Our fuel reserves are in excellent shape
+USER: How are we doing in terms of fuel efficiency?,COMMAND: GET FUEL INFO,SYSTEM: 0.7 LPNM 950L 1350NM,RESPONSE: Our fuel efficiency is good at 0.7 liters per nautical mile. We have 950 liters remaining
+USER: Can you give me an update on our fuel consumption?,COMMAND: GET FUEL INFO,SYSTEM: 0.5 LPNM 1200L 2400NM,RESPONSE: Our fuel consumption rate is 0.5 liters per nautical mile. We have a substantial 1200 liters left
+USER: How's our fuel situation
+USER: What's the status of our fuel reserves?,COMMAND: GET FUEL INFO,SYSTEM: 0.4 LPNM 1400L 3700NM,RESPONSE: Our fuel reserves are in great shape
+USER: Hey
+USER: Captain
+USER: Ahoy there! Tell me
+USER: Yo
+USER: Hey
+USER: Captain
+USER: Navigator
+USER: Smooth sailing or whitecaps
+USER: Captain
+USER: Hey
+USER: Captain
+GET DESTINATION INFO
+USER: Hey there
+USER: Captain
+USER: Navigator
+USER: Ahoy
+USER: Captain
+USER: Navigator
+USER: Hey there
+USER: Captain
+USER: Navigator
+USER: Ahoy
+USER: Captain
+USER: Navigator
+USER: Hey there
+USER: Captain
+USER: Navigator
+USER: Ahoy
+USER: Captain
+USER: Navigator
+USER: Where are we headed?,COMMAND: GET DESTINATION INFO,SYSTEM: Barcelona 210 NM left 7 hours 430 range,RESPONSE: We're headed to Barcelona
+USER: Captain
+USER: Navigator
+USER: Ahoy
+USER: Captain
+USER: Navigator
+USER: Hey there
+USER: Captain
+USER: Navigator
+USER: Ahoy
+USER: Captain
+USER: Navigator
+GOOD MORNING
+"USER: Hey, what's the scoop for today?",COMMAND: GOOD MORNING,SYSTEM: 07:30 9 October Sydney 130 NM left 4h15min 150 NM range; partly cloudy 16C wind SE 20kph; 215 degrees 18 knots,"RESPONSE: Good morning, ready for a great day? It's the 9th of October, and the time is 07:30. We're currently sailing towards Sydney, with 130 nautical miles left, which should take about 4 hours and 15 minutes at our current speed of 18 knots. Our range is 150 nautical miles, so no worries about refueling. The weather is partly cloudy with a high of 16 degrees Celsius, and we have a southeast wind at 20kph. Our current course is 215 degrees, taking us due south."
+"USER: Navigator, what's the status today?",COMMAND: GOOD MORNING,SYSTEM: 08:15 2 April Barcelona 90 NM left 2h30min 120 NM range; clear skies 19C wind SW 12kph; 220 degrees 14 knots,"RESPONSE: Good morning, navigator. Rise and shine! It's the 2nd of April, and the time is 08:15. We're on our way to Barcelona, with just 90 nautical miles left, which should take about 2 hours and 30 minutes at our current speed of 14 knots. Our range is 120 nautical miles, so no need to refuel just yet. The weather is beautiful with clear skies and a high of 19 degrees Celsius, and we have a gentle southwest wind at 12kph. Our current course is 220 degrees, steering us due southwest."
+"USER: Captain, what's the word for today?",COMMAND: GOOD MORNING,SYSTEM: 09:00 15 July Bali 75 NM left 2h45min 90 NM range; scattered clouds 28C wind NW 25kph; 235 degrees 20 knots,"RESPONSE: Good morning, captain. Ready to sail? It's the 15th of July, and the time is 09:00. We're heading to Bali, and there are 75 nautical miles left, which should take about 2 hours and 45 minutes at our current speed of 20 knots. Our range is 90 nautical miles, so we're good on fuel. The sky has scattered clouds today, and the temperature will reach a warm 28 degrees Celsius. The wind is blowing from the northwest at 25kph, and our current course is 235 degrees, taking us due southwest."
+"USER: Ahoy, matey! What's the plan for today?",COMMAND: GOOD MORNING,SYSTEM: 10:30 25 November Monaco 45 NM left 1h30min 60 NM range; sunny 22C wind E 15kph; 250 degrees 12 knots,"RESPONSE: Ahoy, matey! Ready for another adventure? It's the 25th of November, and the time is 10:30. Our destination is Monaco, and we've got just 45 nautical miles left, which should take about 1 hour and 30 minutes at our current speed of 12 knots. Our range is 60 nautical miles, so no refueling needed. Today is sunny with a pleasant high of 22 degrees Celsius, and the wind is blowing from the east at 15kph. Our current course is 250 degrees, taking us due west."
+"USER: Captain, what's the plan for today?",COMMAND: GOOD MORNING,SYSTEM: 11:15 10 August Mykonos 30 NM left 1 hour 35 NM range; clear skies 30C wind SE 10kph; 260 degrees 8 knots,"RESPONSE: Good morning, captain. Ready to set sail? It's the 10th of August, and the time is 11:15. Our ultimate destination is Mykonos, and we've got just 30 nautical miles left, which should take about 1 hour at our current speed of 8 knots. Our range is 35 nautical miles, so no need to refuel just yet. The skies are clear today, and the temperature will soar to 30 degrees Celsius. The wind is blowing gently from the southeast at 10kph. Our current course is 260 degrees, steering us due west."
+"USER: Navigator, what's the scoop for today?",COMMAND: GOOD MORNING,SYSTEM: 12:00 3 May Key West 40 NM left 1h30min 50 NM range; partly cloudy 27C wind S 18kph; 270 degrees 15 knots,"RESPONSE: Good morning, navigator. Ready to chart our course? It's the 3rd of May, and the time is 12:00. We're making our way to Key West, and we've got 40 nautical miles left, which should take about 1 hour and 30 minutes at our current speed of 15 knots. Our range is 50 nautical miles, so no need to refuel just yet. The skies are partly cloudy today, with a high of 27 degrees Celsius. The wind is blowing from the south at 18kph, and our current course is 270 degrees, taking us due west."
+"USER: Hey there, what's the status for today?",COMMAND: GOOD MORNING,SYSTEM: 13:30 20 September Santorini 20 NM left 45min 30 NM range; clear skies 25C wind N 14kph; 280 degrees 10 knots,"RESPONSE: Hey there, ready for the day's journey? It's the 20th of September, and the time is 13:30. Our destination is Santorini, and we're down to just 20 nautical miles left, which should take about 45 minutes at our current speed of 10 knots. Our range is 30 nautical miles, so we're good on fuel. The skies are clear today, with a high of 25 degrees Celsius. The wind is blowing from the north at 14kph, and our current course is 280 degrees, taking us due west."
+"USER: Captain, what's the plan for today?",COMMAND: GOOD MORNING,SYSTEM: 14:15 5 March Cape Town 25 NM left 1 hour 35min 40 NM range; sunny 24C wind W 22kph; 290 degrees 18 knots,"RESPONSE: Good morning, captain. Ready to set sail? It's the 5th of March, and the time is 14:15. Our ultimate destination is Cape Town, and we've got just 25 nautical miles left, which should take about 1 hour at our current speed of 18 knots. Our range is 40 nautical miles, so no need to refuel just yet. The weather is sunny today, with a high of 24 degrees Celsius. The wind is blowing from the west at 22kph, and our current course is 290 degrees, steering us due west."
+"USER: Navigator, what's the scoop for today?",COMMAND: GOOD MORNING,SYSTEM: 15:00 15 April Fiji 15 NM left 30min 20 NM range; scattered clouds 31C wind NE 12kph; 300 degrees 6 knots,"RESPONSE: Good morning, navigator. Ready to chart our course? It's the 15th of April, and the time is 15:00. We're making our way to Fiji, and we've got just 15 nautical miles left, which should take about 30 minutes at our current speed of 6 knots. Our range is 20 nautical miles, so no need to refuel just yet. The skies have scattered clouds today, with a high of 31 degrees Celsius. The wind is blowing gently from the northeast at 12kph, and our current course is 300 degrees, taking us due west."
+"USER: Hey there, what's the status for today?",COMMAND: GOOD MORNING,SYSTEM: 16:30 25 June Phuket 10 NM left 15min 15 NM range; clear skies 35C wind S 8kph; 310 degrees 4 knots,"RESPONSE: Hey there, ready for the day's journey? It's the 25th of June, and the time is 16:30. Our destination is Phuket, and we're down to just 10 nautical miles left, which should take about 15 minutes at our current speed of 4 knots. Our range is 15 nautical miles, so we're good on fuel. The skies are clear today, with a high of 35 degrees Celsius. The wind is blowing from the south at 8kph, and our current course is 310 degrees, taking us due west."
+"USER: Captain, what's the plan for today?",COMMAND: GOOD MORNING,SYSTEM: 17:15 10 August Venice 5 NM left 10min 5 NM range; clear skies 25C wind SE 6kph; 320 degrees 2 knots,"RESPONSE: Good morning, captain. Ready to set sail? It's the 10th of August, and the time is 17:15. Our ultimate destination is Venice, and we've got just 5 nautical miles left, which should take about 10 minutes at our current speed of 2 knots. Our range is 5 nautical miles, so no need to refuel just yet. The weather is sunny today, with a high of 25 degrees Celsius. The wind is blowing gently from the southeast at 6kph, and our current course is 320 degrees, steering us due west."
+"USER: Navigator, what's the scoop for today?",COMMAND: GOOD MORNING,SYSTEM: 18:00 3 December Seychelles 2 NM left 5min 2 NM range; clear skies 29C wind N 4kph; 330 degrees 1 knot,"RESPONSE: Good morning, navigator. Ready to chart our course? It's the 3rd of December, and the time is 18:00. We're making our way to Seychelles, and we've got just 2 nautical miles left, which should take about 5 minutes at our current speed of 1 knot. Our range is 2 nautical miles, so no need to refuel just yet. The skies are clear today, with a high of 29 degrees Celsius. The wind is barely blowing from the north at 4kph, and our current course is 330 degrees, taking us due west."
+"USER: Hey there, what's the status for today?",COMMAND: GOOD MORNING,SYSTEM: 08:30 15 May Key Largo 55 NM left 2h15min 70 NM range; sunny 28C wind E 15kph; 340 degrees 14 knots,"RESPONSE: Hey there, ready for the day's journey? It's the 15th of May, and the time is 08:30. Our destination is Key Largo, and there are 55 nautical miles left, which should take about 2 hours and 15 minutes at our current speed of 14 knots. Our range is 70 nautical miles, so no need to refuel just yet. Today is sunny with a high of 28 degrees Celsius, and the wind is blowing from the east at 15kph. Our current course is 340 degrees, taking us due northwest."
+"USER: Captain, what's the plan for today?",COMMAND: GOOD MORNING,SYSTEM: 09:15 20 November Cannes 20 NM left 45min 30 NM range; clear skies 25C wind NE 12kph; 350 degrees 10 knots,"RESPONSE: Good morning, captain. Ready to set sail? It's the 20th of November, and the time is 09:15. Our ultimate destination is Cannes, and we've got just 20 nautical miles left, which should take about 45 minutes at our current speed of 10 knots. Our range is 30 nautical miles, so no need to refuel just yet. The weather is sunny today, with a high of 25 degrees Celsius. The wind is blowing from the northeast at 12kph, and our current course is 350 degrees, steering us due north."
+"USER: Navigator, what's the scoop for today?",COMMAND: GOOD MORNING,SYSTEM: 10:00 10 July Ibiza 25 NM left 1 hour 40min 40 NM range; partly cloudy 22C wind NW 18kph; 0 degrees 16 knots,"RESPONSE: Good morning, navigator. Ready to chart our course? It's the 10th of July, and the time is 10:00. We're making our way to Ibiza, and we've got just 25 nautical miles left, which should take about 1 hour and 40 minutes at our current speed of 16 knots. Our range is 40 nautical miles, so no need to refuel just yet. The skies are partly cloudy today, with a high of 22 degrees Celsius. The wind is blowing from the northwest at 18kph, and our current course is due north."
+"USER: Hey there, what's the status for today?",COMMAND: GOOD MORNING,SYSTEM: 11:30 5 January Santorini 30 NM left 1h10min 50 NM range; clear skies 18C wind S 14kph; 10 degrees 12 knots,"RESPONSE: Hey there, ready for the day's journey? It's the 5th of January, and the time is 11:30. Our destination is Santorini, and there are 30 nautical miles left, which should take about 1 hour and 10 minutes at our current speed of 12 knots. Our range is 50 nautical miles, so no need to refuel just yet. The skies are clear today, with a high of 18 degrees Celsius. The wind is blowing from the south at 14kph, and our current course is 10 degrees, taking us due north."
+"USER: Captain, what's the plan for today?",COMMAND: GOOD MORNING,SYSTEM: 12:15 20 March Bali 15 NM left 30min 20 NM range; scattered clouds 30C wind SW 10kph; 20 degrees 8 knots,"RESPONSE: Good morning, captain. Ready to set sail? It's the 20th of March, and the time is 12:15. Our ultimate destination is Bali, and we've got just 15 nautical miles left, which should take about 30 minutes at our current speed of 8 knots. Our range is 20 nautical miles, so no need to refuel just yet. The skies have scattered clouds today, with a high of 30 degrees Celsius. The wind is blowing from the southwest at 10kph, and our current course is 20 degrees, taking us due north."
+"USER: Navigator, what's the scoop for today?",COMMAND: GOOD MORNING,SYSTEM: 13:00 15 September Mykonos 10 NM left 15min 15 NM range; clear skies 28C wind SE 6kph; 30 degrees 4 knots,"RESPONSE: Good morning, navigator. Ready to chart our course? It's the 15th of September, and the time is 13:00. We're making our way to Mykonos, and we've got just 10 nautical miles left, which should take about 15 minutes at our current speed of 4 knots. Our range is 15 nautical miles, so no need to refuel just yet. The skies are clear today, with a high of 28 degrees Celsius. The wind is blowing from the southeast at 6kph, and our current course is 30 degrees, taking us due north."
+"USER: Hey there, what's the status for today?",COMMAND: GOOD MORNING,SYSTEM: 14:30 10 May Key West 5 NM left 10min 5 NM range; clear skies 27C wind S 8kph; 40 degrees 2 knots,"RESPONSE: Hey there, ready for the day's journey? It's the 10th of May, and the time is 14:30. Our destination is Key West, and we're down to just 5 nautical miles left, which should take about 10 minutes at our current speed of 2 knots. Our range is 5 nautical miles, so we're good on fuel. The skies are clear today, with a high of 27 degrees Celsius. The wind is blowing from the south at 8kph, and our current course is 40 degrees, taking us due north."
+"USER: Captain, what's the plan for today?",COMMAND: GOOD MORNING,SYSTEM: 15:15 5 June Venice 2 NM left 5min 3 NM range; sunny 26C wind E 4kph; 50 degrees 2 knots,"RESPONSE: Good afternoon, captain. Ready to set sail? It's the 5th of June, and the time is 15:15. Our ultimate destination is Venice, and we've got just 2 nautical miles left, which should take about 5 minutes at our current speed of 2 knots. Our range is 3 nautical miles, so no need to refuel just yet. The weather is sunny today, with a high of 26 degrees Celsius. The wind is blowing from the east at 4kph, and our current course is 50 degrees, taking us due north."
+"USER: Navigator, what's the scoop for today?",COMMAND: GOOD MORNING,SYSTEM: 16:00 20 August Seychelles 1 NM left 2min 2 NM range; clear skies 30C wind SE 2kph; 60 degrees 1 knot,"RESPONSE: Good afternoon, navigator. Ready to chart our course? It's the 20th of August, and the time is 16:00. We're making our way to Seychelles, and we've got just 1 nautical mile left, which should take about 2 minutes at our current speed of 1 knot. Our range is 2 nautical miles, so no need to refuel just yet. The skies are clear today, with a high of 30 degrees Celsius. The wind is barely blowing from the southeast at 2kph, and our current course is 60 degrees, taking us due north."
+"USER: Hey there, what's the status for today?",COMMAND: GOOD MORNING,SYSTEM: 17:30 10 November Cannes 4 NM left 8min 6 NM range; clear skies 22C wind NW 6kph; 70 degrees 3 knots,"RESPONSE: Hey there, ready for the day's journey? It's the 10th of November, and the time is 17:30. Our destination is Cannes, and there are 4 nautical miles left, which should take about 8 minutes at our current speed of 3 knots. Our range is 6 nautical miles, so we're good on fuel. The skies are clear today, with a high of 22 degrees Celsius. The wind is blowing from the northwest at 6kph, and our current course is 70 degrees, taking us due north."
+"USER: Captain, what's the plan for today?",COMMAND: GOOD MORNING,SYSTEM: 18:15 5 April Ibiza 8 NM left 16min 10 NM range; partly cloudy 20C wind N 8kph; 80 degrees 4 knots,"RESPONSE: Good evening, captain. Ready to set sail? It's the 5th of April, and the time is 18:15. Our ultimate destination is Ibiza, and we've got just 8 nautical miles left, which should take about 16 minutes at our current speed of 4 knots. Our range is 10 nautical miles, so no need to refuel just yet. The skies are partly cloudy today, with a high of 20 degrees Celsius. The wind is blowing from the north at 8kph, and our current course is 80 degrees, taking us due east."
+"USER: Navigator, what's the scoop for today?",COMMAND: GOOD MORNING,SYSTEM: 19:00 15 June Mykonos 3 NM left 6min 5 NM range; clear skies 28C wind NE 4kph; 90 degrees 2 knots,"RESPONSE: Good evening, navigator. Ready to chart our course? It's the 15th of June, and the time is 19:00. We're making our way to Mykonos, and we've got just 3 nautical miles left, which should take about 6 minutes at our current speed of 2 knots. Our range is 5 nautical miles, so no need to refuel just yet. The skies are clear today, with a high of 28 degrees Celsius. The wind is blowing gently from the northeast at 4kph, and our current course is 90 degrees, taking us due east."
+"USER: Hey there, what's the status for today?",COMMAND: GOOD MORNING,SYSTEM: 20:30 10 October Key West 6 NM left 12min 8 NM range; clear skies 24C wind S 6kph; 100 degrees 3 knots,"RESPONSE: Hey there, ready for the day's journey? It's the 10th of October, and the time is 20:30. Our destination is Key West, and there are 6 nautical miles left, which should take about 12 minutes at our current speed of 3 knots. Our range is 8 nautical miles, so we're good on fuel. The skies are clear today, with a high of 24 degrees Celsius. The wind is blowing from the south at 6kph, and our current course is 100 degrees, taking us due east."
+PREPARE FOR DEPARTURE
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator
+USER: Captain
+USER: Navigator

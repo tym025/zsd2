@@ -1,0 +1,578 @@
+[
+    {
+        "input": "##USER: The dining area needs more light. Let's turn on the lights Warm White.",
+        "output": "##COMMAND: TURN ON LIGHTS Warm White Dining Area ##RESPONSE: Of course! Adding more light to the Dining Area with Warm White lights."
+    },
+    {
+        "input": "##USER: How about we create a cozy atmosphere in the Bedroom with Red lights?",
+        "output": "##COMMAND: TURN ON LIGHTS Red Bedroom ##RESPONSE: Absolutely! The Bedroom is now bathed in a cozy red glow."
+    },
+    {
+        "input": "##USER: Play some modern reggae, like Damian Marley",
+        "output": "##COMMAND: PLAY ARTIST DAMIAN MARLEY ##RESPONSE: Grooving to modern reggae with Damian Marley!"
+    },
+    {
+        "input": "##USER: The wind has picked up suddenly. Turn on the navigation lights to enhance visibility during gusty conditions.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the sudden wind increase and gusty conditions, navigation lights are now illuminated for improved visibility."
+    },
+    {
+        "input": "##USER: The dining area needs more light. Let's turn on the lights Warm White.",
+        "output": "##COMMAND: TURN ON LIGHTS Warm White Dining Area ##RESPONSE: Of course! Adding more light to the Dining Area with Warm White lights."
+    },
+    {
+        "input": "##USER: How about some pop-rock by Maroon 5?",
+        "output": "##COMMAND: PLAY ARTIST MAROON 5 ##RESPONSE: Rocking out with pop-rock from Maroon 5!"
+    },
+    {
+        "input": "##USER: Set Cool White lights in the Dining Area for a refreshing atmosphere.",
+        "output": "##COMMAND: TURN ON LIGHTS Cool White Dining Area ##RESPONSE: Dining Area now has a refreshing and cool atmosphere with Cool White lights."
+    },
+    {
+        "input": "##USER: The AIS system has detected a vessel on a collision course. Turn on the navigation lights to avoid a collision.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the vessel on a collision course detected by AIS, navigation lights are now active to prevent a collision."
+    },
+    {
+        "input": "##USER: There's a reported hazard ahead. Turn on the navigation lights for caution.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the reported hazard, navigation lights are now on for caution."
+    },
+    {
+        "input": "##USER: We're taking a sailing trip to the Canary Islands in three weeks. Can you check the weather forecast for July 7th?",
+        "output": "##COMMAND: GET WEATHER July 7th Canary Islands"
+    },
+    {
+        "input": "##USER: We're sailing through calm waters. Turn off the navigation lights for now.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: In calm waters, navigation lights are now turned off."
+    },
+    {
+        "input": "##USER: Turn on the lights Disco in the Living Room!",
+        "output": "##COMMAND: TURN ON LIGHTS Disco Living Room ##RESPONSE: Let's dance! Disco lights in the Living Room are on!"
+    },
+    {
+        "input": "##USER: I want to hear 'Babylon' by David Gray",
+        "output": "##COMMAND: PLAY SONG BABYLON - DAVID GRAY ##RESPONSE: Getting lost in the melodic 'Babylon' by David Gray."
+    },
+    {
+        "input": "##USER: We're moored alongside another vessel, and the marina is well-lit. Turn off the navigation lights to avoid glare.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Moored alongside another vessel in a well-lit marina, navigation lights are now switched off to avoid glare."
+    },
+    {
+        "input": "##USER: I'm planning a trip on tonight evening. Can you tell me the weather forecast for Hong Kong? ##COMMAND: GET WEATHER tonight evening Hong Kong ##SYSTEM: MOSTLY CLEAR 24C LOW HUMIDITY",
+        "output": "##RESPONSE: Hong Kong is expected to have mostly clear skies on tonight evening with a pleasant high of 24 degrees Celsius. The humidity will be low, making it a great day for your trip."
+    },
+    {
+        "input": "##USER: We're moored for the night. Let's turn off the navigation lights to conserve power.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: With the vessel moored for the night, navigation lights are now switched off to conserve power."
+    },
+    {
+        "input": "##USER: We've reached the buoy markers safely. Turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Navigation lights are now turned off after reaching the buoy markers."
+    },
+    {
+        "input": "##USER: The room feels dark. Let's turn on the Pink lights in Jacuzzi.",
+        "output": "##COMMAND: TURN ON LIGHTS Pink Jacuzzi ##RESPONSE: Of course! Adding some light to Jacuzzi with Pink lights."
+    },
+    {
+        "input": "##USER: The onboard AIS system indicates no nearby traffic. Turn off the navigation lights for now.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: With no nearby traffic indicated by the AIS system, navigation lights are now turned off for the time being."
+    },
+    {
+        "input": "##USER: I want to listen to some electronic music, like Daft Punk",
+        "output": "##COMMAND: PLAY ARTIST DAFT PUNK ##RESPONSE: Electronic vibes with Daft Punk!"
+    },
+    {
+        "input": "##USER: We're setting sail for a Mediterranean voyage on June 30th. Can you provide the weather forecast for that day? ##COMMAND: GET WEATHER June 30th Mediterranean ##SYSTEM: CLEAR SKIES 26C LIGHT BREEZE",
+        "output": "##RESPONSE: For your Mediterranean voyage on June 30th, expect clear skies with a high of 26 degrees Celsius and a light breeze, offering excellent conditions for your journey."
+    },
+    {
+        "input": "##USER: Create an inviting atmosphere in the Guest Cabin with Warm White lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Warm White Guest Cabin ##RESPONSE: Guest Cabin is now warm and inviting with Warm White lights."
+    },
+    {
+        "input": "##USER: What's the weather like in Cape Town on the day after tomorrow? ##COMMAND: GET WEATHER the day after tomorrow Cape Town ##SYSTEM: OVERCAST 18C RAIN LIKELY 50%",
+        "output": "##RESPONSE: On the day after tomorrow, Maui is likely to have overcast skies with a high of 18 degrees Celsius. There's a 50% chance of rain, so be prepared for wet conditions."
+    },
+    {
+        "input": "##USER: Play some modern West Coast rap, like YG",
+        "output": "##COMMAND: PLAY ARTIST YG ##RESPONSE: Vibing to the West Coast sound of modern rap with YG!"
+    },
+    {
+        "input": "##USER: I'd like to have the lights Yellow in Dining Room turned on, please.",
+        "output": "##COMMAND: TURN ON LIGHTS Lime Salon ##RESPONSE: The lights Lime in Salon are now on."
+    },
+    {
+        "input": "##USER: Play some modern horrorcore, like Tech N9ne",
+        "output": "##COMMAND: PLAY ARTIST TECH N9NE ##RESPONSE: Exploring dark and intense themes with Tech N9ne's horrorcore rap!"
+    },
+    {
+        "input": "##USER: I'm in the mood for 'Smooth Criminal' by Michael Jackson",
+        "output": "##COMMAND: PLAY SONG SMOOTH CRIMINAL - MICHAEL JACKSON ##RESPONSE: Getting ready to groove to 'Smooth Criminal' by Michael Jackson."
+    },
+    {
+        "input": "##USER: We're docked in a well-lit marina. Turn off the navigation lights for energy conservation.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Docked in a well-lit marina, navigation lights are now switched off to conserve energy."
+    },
+    {
+        "input": "##USER: Create an inviting atmosphere in the Guest Cabin with Warm White lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Warm White Guest Cabin ##RESPONSE: Guest Cabin is now warm and inviting with Warm White lights."
+    },
+    {
+        "input": "##USER: Can you provide the weather forecast for 28th of may in Auckland?",
+        "output": "##COMMAND: GET WEATHER 28th of may Auckland"
+    },
+    {
+        "input": "##USER: We're organizing a boat excursion to the Maldives in two weeks. Can you check the weather forecast for October 20th in the Maldives? ##COMMAND: GET WEATHER October 20th Maldives ##SYSTEM: CLEAR SKIES 31C LIGHT TRADE WINDS",
+        "output": "##RESPONSE: For your boat excursion to the Maldives on October 20th, expect clear skies with a high of 31 degrees Celsius and light trade winds, creating perfect conditions for your journey."
+    },
+    {
+        "input": "##USER: Set a relaxing mood in the Home Theater with Disco lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Disco Home Theater ##RESPONSE: Let's have a party in the Home Theater! Disco lights are shining."
+    },
+    {
+        "input": "##USER: I'm curious about the weather in Maui on 21st of january. Can you provide the forecast?",
+        "output": "##COMMAND: GET WEATHER 21st of january Maui"
+    },
+    {
+        "input": "##USER: The marine radio just received an all-clear signal. Turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: In response to the all-clear signal, navigation lights are now switched off."
+    },
+    {
+        "input": "##USER: We're leaving the congested harbor. Turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Navigation lights are now turned off as we exit the congested harbor."
+    },
+    {
+        "input": "##USER: I'd like to listen to some modern indie pop, like Tegan and Sara",
+        "output": "##COMMAND: PLAY ARTIST TEGAN AND SARA ##RESPONSE: Enjoying modern indie pop with Tegan and Sara!"
+    },
+    {
+        "input": "##USER: Play some soul music, like Aretha Franklin",
+        "output": "##COMMAND: PLAY ARTIST ARETHA FRANKLIN ##RESPONSE: Soulful tunes with Aretha Franklin!"
+    },
+    {
+        "input": "##USER: I'm in the mood for stoner rock, maybe Queens of the Stone Age",
+        "output": "##COMMAND: PLAY ARTIST QUEENS OF THE STONE AGE ##RESPONSE: Getting into the groove with stoner rock by Queens of the Stone Age!"
+    },
+    {
+        "input": "##USER: I want to hear 'Time' by Pink Floyd",
+        "output": "##COMMAND: PLAY SONG TIME - PINK FLOYD ##RESPONSE: Losing track of time with 'Time' by Pink Floyd."
+    },
+    {
+        "input": "##USER: It's a bit dim in the Kitchen. Let's turn on the lights Soft White.",
+        "output": "##COMMAND: TURN ON LIGHTS Soft White Kitchen ##RESPONSE: Of course! The Kitchen is now illuminated with a soft, warm white light."
+    },
+    {
+        "input": "##USER: Can you provide the weather forecast for 28th of may in Auckland? ##COMMAND: GET WEATHER 28th of may Auckland ##SYSTEM: PARTLY SUNNY 22C BREEZY CONDITIONS",
+        "output": "##RESPONSE: The weather forecast for 28th of may in Auckland calls for partly sunny conditions with a high temperature of 22 degrees Celsius. Expect breezy conditions throughout the day."
+    },
+    {
+        "input": "##USER: I'm in the mood for progressive metal, maybe Mastodon?",
+        "output": "##COMMAND: PLAY ARTIST MASTODON ##RESPONSE: Diving into the intricate world of progressive metal with Mastodon!"
+    },
+    {
+        "input": "##USER: Can you play 'Blinding Lights' by The Weeknd?",
+        "output": "##COMMAND: PLAY SONG BLINDING LIGHTS - THE WEEKND ##RESPONSE: Getting lost in 'Blinding Lights' by The Weeknd."
+    },
+    {
+        "input": "##USER: Can you give me the weather information for 7th of april in Santorini?",
+        "output": "##COMMAND: GET WEATHER 7th of april Santorini"
+    },
+    {
+        "input": "##USER: Create a soothing ambiance in the Living Room with Ocean Blue lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Ocean Blue Living Room ##RESPONSE: Relax and unwind in the Living Room with soothing Ocean Blue lights."
+    },
+    {
+        "input": "##USER: Put on 'Stairway to Heaven' by Led Zeppelin, please",
+        "output": "##COMMAND: PLAY SONG STAIRWAY TO HEAVEN - LED ZEPPELIN ##RESPONSE: Ascending 'Stairway to Heaven' with Led Zeppelin."
+    },
+    {
+        "input": "##USER: Put on some tracks from the Beatles, please",
+        "output": "##COMMAND: PLAY ARTIST THE BEATLES ##RESPONSE: Sure thing! Here come the Beatles."
+    },
+    {
+        "input": "##USER: How about some conscious female rap, like Rapsody",
+        "output": "##COMMAND: PLAY ARTIST RAPSODY ##RESPONSE: Grooving to the conscious and empowering themes of Rapsody's rap!"
+    },
+    {
+        "input": "##USER: I'm planning a fishing trip to Key West next weekend. What's the weather like on September 8th? ##COMMAND: GET WEATHER September 8th Key West ##SYSTEM: PARTLY CLOUDY 29C CALM SEAS",
+        "output": "##RESPONSE: If you're planning a fishing trip to Key West on September 8th, expect partly cloudy skies with a high of 29 degrees Celsius and calm seas, providing great conditions for your fishing adventure."
+    },
+    {
+        "input": "##USER: How about some contemporary Latin pop, like Rosal\u0102\u00ada?",
+        "output": "##COMMAND: PLAY ARTIST ROSAL\u0102\u0164A ##RESPONSE: Dancing to Latin pop rhythms with Rosal\u0102\u00ada!"
+    },
+    {
+        "input": "##USER: How about creating a relaxing mood in the Bedroom with Ocean Blue lights?",
+        "output": "##COMMAND: TURN ON LIGHTS Ocean Blue Bedroom ##RESPONSE: Absolutely! The Bedroom now offers a serene ocean blue ambiance for relaxation."
+    },
+    {
+        "input": "##USER: Can you play 'Dream On' by Aerosmith?",
+        "output": "##COMMAND: PLAY SONG DREAM ON - AEROSMITH ##RESPONSE: Dreaming away with 'Dream On' by Aerosmith."
+    },
+    {
+        "input": "##USER: I'm planning a fishing trip to Key West next weekend. What's the weather like on September 8th?",
+        "output": "##COMMAND: GET WEATHER September 8th Key West"
+    },
+    {
+        "input": "##USER: I'm feeling like some contemporary pop punk, maybe Paramore?",
+        "output": "##COMMAND: PLAY ARTIST PARAMORE ##RESPONSE: Rocking out to contemporary pop punk with Paramore!"
+    },
+    {
+        "input": "##USER: I'm in the mood for modern rockabilly, maybe JD McPherson?",
+        "output": "##COMMAND: PLAY ARTIST JD MCPHERSON ##RESPONSE: Rocking out to modern rockabilly with JD McPherson!"
+    },
+    {
+        "input": "##USER: We're in a busy harbor with restricted visibility. Turn on the navigation lights to signal our presence.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: To signal our presence in the busy harbor with restricted visibility, navigation lights are now active."
+    },
+    {
+        "input": "##USER: I'm in the mood for a romantic dinner. Turn on Warm White lights in the Dining Area.",
+        "output": "##COMMAND: TURN ON LIGHTS Warm White Dining Area ##RESPONSE: Romantic dinner mode engaged! Dining Area now warmly lit."
+    },
+    {
+        "input": "##USER: The marine radio just received a distress call. Turn on the navigation lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the distress call, navigation lights are active for assistance."
+    },
+    {
+        "input": "##USER: How about some contemporary garage rock, like The White Stripes?",
+        "output": "##COMMAND: PLAY ARTIST THE WHITE STRIPES ##RESPONSE: Rocking to contemporary garage rock with The White Stripes!"
+    },
+    {
+        "input": "##USER: The lighthouse beacon is visible, and we're anchored. Turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: With the visible lighthouse beacon and our vessel anchored, navigation lights are now switched off."
+    },
+    {
+        "input": "##USER: The sun is high in the sky, and it's a clear day. Let's turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: With bright sunlight and clear skies, navigation lights are now switched off."
+    },
+    {
+        "input": "##USER: I'm planning a sailing adventure to the Seychelles next year. What's the weather typically like in February? ##COMMAND: GET AVERAGE WEATHER February Seychelles ##SYSTEM: WARM AND HUMID, AVERAGE HIGH 31C",
+        "output": "##RESPONSE: In the Seychelles, February typically experiences warm and humid weather with an average high temperature of around 31 degrees Celsius, making it a great time for a sailing adventure."
+    },
+    {
+        "input": "##USER: I need some light in Spa. Let's turn on the Grey lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Grey Spa ##RESPONSE: Of course! Adding some light to Spa with Grey lights."
+    },
+    {
+        "input": "##USER: I'm planning a diving trip to the Great Barrier Reef next month. Can you check the weather forecast for July 15th? ##COMMAND: GET WEATHER July 15th Great Barrier Reef ##SYSTEM: CLEAR SKIES 28C CALM WATERS",
+        "output": "##RESPONSE: For your diving trip to the Great Barrier Reef on July 15th, expect clear skies with a high of 28 degrees Celsius and calm waters, providing excellent conditions for your underwater adventure."
+    },
+    {
+        "input": "##USER: The maritime authorities have issued a maritime security alert. Turn on the navigation lights for heightened security measures.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the maritime security alert, navigation lights are now active to implement heightened security measures."
+    },
+    {
+        "input": "##USER: The hallway is too dim. Let's turn on the lights Cool White.",
+        "output": "##COMMAND: TURN ON LIGHTS Cool White Hallway ##RESPONSE: Sure thing! Brightening up the hallway with Cool White lights."
+    },
+    {
+        "input": "##USER: Can you play some EDM, like Calvin Harris?",
+        "output": "##COMMAND: PLAY ARTIST CALVIN HARRIS ##RESPONSE: Getting the party started with EDM from Calvin Harris!"
+    },
+    {
+        "input": "##USER: It's movie night. Turn on Home Theater lights to Purple!",
+        "output": "##COMMAND: TURN ON LIGHTS Purple Home Theater ##RESPONSE: Movie night magic! Home Theater is now in a purple glow."
+    },
+    {
+        "input": "##USER: I'm in the mood for some modern hip-hop, like Kendrick Lamar",
+        "output": "##COMMAND: PLAY ARTIST KENDRICK LAMAR ##RESPONSE: Grooving to modern hip-hop beats with Kendrick Lamar!"
+    },
+    {
+        "input": "##USER: I'm going fishing on September 3rd. What's the weather forecast for Key West? ##COMMAND: GET WEATHER September 3rd Key West ##SYSTEM: SUNNY 32C CALM SEAS",
+        "output": "##RESPONSE: If you're planning a fishing trip on September 3rd in Key West, you can look forward to sunny weather with a high of 32 degrees Celsius and calm seas, perfect for fishing."
+    },
+    {
+        "input": "##USER: I'm in the mood for grunge, maybe Foo Fighters",
+        "output": "##COMMAND: PLAY ARTIST FOO FIGHTERS ##RESPONSE: Rocking to the iconic grunge sound of Foo Fighters!"
+    },
+    {
+        "input": "##USER: We're organizing a regatta in the Hamptons next month. Can you provide the weather forecast for September 10th?",
+        "output": "##COMMAND: GET WEATHER September 10th Hamptons"
+    },
+    {
+        "input": "##USER: We've reached a serene anchorage. Turn off the navigation lights for a tranquil night on the water.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Now that we've reached a serene anchorage, navigation lights are turned off for a tranquil night on the water."
+    },
+    {
+        "input": "##USER: I need better lighting in The Bridge. Turn on the Navy lights, please.",
+        "output": "##COMMAND: TURN ON LIGHTS Grey Dining Room ##RESPONSE: Absolutely! Turning on the Grey lights in Dining Room for improved lighting."
+    },
+    {
+        "input": "##USER: The radar shows no contacts. Let's turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: With no radar contacts, navigation lights are now turned off."
+    },
+    {
+        "input": "##USER: We're taking a sailing trip to the Canary Islands in three weeks. Can you check the weather forecast for July 7th? ##COMMAND: GET WEATHER July 7th Canary Islands ##SYSTEM: SUNNY 30C TRADE WINDS",
+        "output": "##RESPONSE: For your sailing trip to the Canary Islands on July 7th, expect sunny weather with a high of 30 degrees Celsius and favorable trade winds, making it an ideal day for your voyage."
+    },
+    {
+        "input": "##USER: I need to know the weather in Maui on tomorrow. Can you provide the details?",
+        "output": "##COMMAND: GET WEATHER tomorrow Maui"
+    },
+    {
+        "input": "##USER: Play some modern trap, like Travis Scott",
+        "output": "##COMMAND: PLAY ARTIST TRAVIS SCOTT ##RESPONSE: Getting into the groove with modern trap beats by Travis Scott!"
+    },
+    {
+        "input": "##USER: How about some country music by Johnny Cash?",
+        "output": "##COMMAND: PLAY ARTIST JOHNNY CASH ##RESPONSE: Going country with Johnny Cash!"
+    },
+    {
+        "input": "##USER: I'm curious about the weather in Phuket on new year's eve. Can you provide the forecast?",
+        "output": "##COMMAND: GET WEATHER new year's eve Phuket"
+    },
+    {
+        "input": "##USER: Play 'Kiss Me More' by Doja Cat and SZA",
+        "output": "##COMMAND: PLAY SONG KISS ME MORE - DOJA CAT & SZA ##RESPONSE: Getting in the mood with 'Kiss Me More' by Doja Cat and SZA."
+    },
+    {
+        "input": "##USER: We're navigating near a marine research area. Turn on the navigation lights to avoid disturbing ongoing research.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: To avoid disturbing ongoing marine research, navigation lights are now active."
+    },
+    {
+        "input": "##USER: The moon is shining brightly. Time to turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: With the moonlight guiding us, navigation lights are now off."
+    },
+    {
+        "input": "##USER: Can you provide the weather forecast for the day after tomorrow in Prague?",
+        "output": "##COMMAND: GET WEATHER the day after tomorrow Prague"
+    },
+    {
+        "input": "##USER: How about some modern trap, like Future?",
+        "output": "##COMMAND: PLAY ARTIST FUTURE ##RESPONSE: Grooving to modern trap beats with Future!"
+    },
+    {
+        "input": "##USER: I'm planning a sailing race in the Hamptons this weekend. Can you provide the weather forecast for September 3rd?",
+        "output": "##COMMAND: GET WEATHER September 3rd Hamptons"
+    },
+    {
+        "input": "##USER: How about we set a party atmosphere in the Bedroom with Disco lights?",
+        "output": "##COMMAND: TURN ON LIGHTS Disco Bedroom ##RESPONSE: Let's get the party started! The Bedroom now has colorful disco lights."
+    },
+    {
+        "input": "##USER: I'm curious about the weather on the day after tomorrow. Can you provide the forecast?",
+        "output": "##COMMAND: GET WEATHER the day after tomorrow $CURRENT_CITY$"
+    },
+    {
+        "input": "##USER: Let's have a disco in the Living Room with Disco lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Disco Living Room ##RESPONSE: It's party time in the Living Room! Disco lights are shining."
+    },
+    {
+        "input": "##USER: Put on 'Shape of You' by Ed Sheeran",
+        "output": "##COMMAND: PLAY SONG SHAPE OF YOU - ED SHEERAN ##RESPONSE: Dancing to 'Shape of You' by Ed Sheeran."
+    },
+    {
+        "input": "##USER: I'm feeling cozy. Turn on Warm White lights in the Bedroom, please.",
+        "output": "##COMMAND: TURN ON LIGHTS Warm White Bedroom ##RESPONSE: Cozy vibes incoming! Bedroom is now illuminated with Warm White lights."
+    },
+    {
+        "input": "##USER: Play some contemporary jazz, like Esperanza Spalding",
+        "output": "##COMMAND: PLAY ARTIST ESPERANZA SPALDING ##RESPONSE: Let's jazz it up with contemporary jazz by Esperanza Spalding!"
+    },
+    {
+        "input": "##USER: Play 'Bohemian Rhapsody' by Queen",
+        "output": "##COMMAND: PLAY SONG BOHEMIAN RHAPSODY - QUEEN ##RESPONSE: Rocking out to 'Bohemian Rhapsody' by Queen."
+    },
+    {
+        "input": "##USER: Make the Kitchen feel like a party. Turn on Disco lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Disco Kitchen ##RESPONSE: Kitchen party time! Disco lights are shining."
+    },
+    {
+        "input": "##USER: How about some modern jazz rap, like Kendrick Lamar's 'To Pimp a Butterfly' album?",
+        "output": "##COMMAND: PLAY ALBUM TO PIMP A BUTTERFLY BY KENDRICK LAMAR ##RESPONSE: Grooving to the fusion of jazz and rap in Kendrick Lamar's 'To Pimp a Butterfly' album!"
+    },
+    {
+        "input": "##USER: I need focused lighting in the Study. Let's turn on the lights Daylight White.",
+        "output": "##COMMAND: TURN ON LIGHTS Daylight White Study ##RESPONSE: Absolutely! The Study is now brightly lit with Daylight White lights for better focus."
+    },
+    {
+        "input": "##USER: Can you provide the weather forecast for 21st of january in Amsterdam? ##COMMAND: GET WEATHER 21st of january Amsterdam ##SYSTEM: PARTLY CLOUDY 20C SLIGHT CHANCE OF RAIN",
+        "output": "##RESPONSE: On 21st of january, Easter Island is expected to have partly cloudy skies with a high of 20 degrees Celsius. There's a slight chance of rain, so be prepared for possible precipitation."
+    },
+    {
+        "input": "##USER: Can you provide the weather forecast for 21st of january in Amsterdam?",
+        "output": "##COMMAND: GET WEATHER 21st of january Amsterdam"
+    },
+    {
+        "input": "##USER: How about some contemporary folk rock, like The Lumineers?",
+        "output": "##COMMAND: PLAY ARTIST THE LUMINEERS ##RESPONSE: Enjoying contemporary folk-rock melodies with The Lumineers!"
+    },
+    {
+        "input": "##USER: I'm planning a cruise to the Seychelles next year. What's the weather typically like in April?",
+        "output": "##COMMAND: GET AVERAGE WEATHER April Seychelles"
+    },
+    {
+        "input": "##USER: I'm planning a camping trip for August 15th. What's the weather forecast for Yosemite National Park?",
+        "output": "##COMMAND: GET WEATHER August 15th Yosemite National Park"
+    },
+    {
+        "input": "##USER: Put on 'Old Town Road' by Lil Nas X",
+        "output": "##COMMAND: PLAY SONG OLD TOWN ROAD - LIL NAS X ##RESPONSE: Riding along with 'Old Town Road' by Lil Nas X."
+    },
+    {
+        "input": "##USER: I'm feeling cozy. Turn on Warm White lights in the Bedroom, please.",
+        "output": "##COMMAND: TURN ON LIGHTS Warm White Bedroom ##RESPONSE: Cozy vibes incoming! Bedroom is now illuminated with Warm White lights."
+    },
+    {
+        "input": "##USER: We're taking a boat trip to the Maldives in three weeks. Can you check the weather forecast for July 15th? ##COMMAND: GET WEATHER July 15th Maldives ##SYSTEM: SUNNY 31C GENTLE BREEZE",
+        "output": "##RESPONSE: For your boat trip to the Maldives on July 15th, expect sunny weather with a high of 31 degrees Celsius and a gentle breeze, making it an ideal day for your journey."
+    },
+    {
+        "input": "##USER: Put on 'God's Plan' by Drake",
+        "output": "##COMMAND: PLAY SONG GOD'S PLAN - DRAKE ##RESPONSE: Listening to 'God's Plan' by Drake."
+    },
+    {
+        "input": "##USER: Play 'Butter' by BTS",
+        "output": "##COMMAND: PLAY SONG BUTTER - BTS ##RESPONSE: Grooving to the smooth beats of 'Butter' by BTS."
+    },
+    {
+        "input": "##USER: Play some modern neo-soul, like Anderson .Paak",
+        "output": "##COMMAND: PLAY ARTIST ANDERSON .PAAK ##RESPONSE: Grooving to modern neo-soul with Anderson .Paak!"
+    },
+    {
+        "input": "##USER: We're approaching a critical turning point. Turn on the navigation lights for safety.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigational lights are active for safe navigation around the turning point."
+    },
+    {
+        "input": "##USER: The electronic chart shows that we're at our intended waypoint. Turn off the navigation lights now.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: With the electronic chart confirming our arrival at the intended waypoint, navigation lights are now turned off."
+    },
+    {
+        "input": "##USER: Put on 'Rolling in the Deep' by Adele, please",
+        "output": "##COMMAND: PLAY SONG ROLLING IN THE DEEP - ADELE ##RESPONSE: Singing along to 'Rolling in the Deep' by Adele."
+    },
+    {
+        "input": "##USER: It's a bit dim in the Office. Let's turn on the lights Daylight White.",
+        "output": "##COMMAND: TURN ON LIGHTS Daylight White Office ##RESPONSE: Sure thing! The Office is now well-lit with Daylight White lights for productivity."
+    },
+    {
+        "input": "##USER: Time to focus in the Office. Turn on Daylight White lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Daylight White Office ##RESPONSE: Focus mode activated in the Office! Daylight White lights are on."
+    },
+    {
+        "input": "##USER: Play some modern alternative pop, like Lorde",
+        "output": "##COMMAND: PLAY ARTIST LORDE ##RESPONSE: Enjoying modern alternative pop with Lorde!"
+    },
+    {
+        "input": "##USER: The sunset is making it difficult to see. Turn on the navigation lights for visibility.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the sunset, navigation lights are now active to improve visibility."
+    },
+    {
+        "input": "##USER: How about some Motown, like The Supremes?",
+        "output": "##COMMAND: PLAY ARTIST THE SUPREMES ##RESPONSE: Grooving to Motown classics with The Supremes!"
+    },
+    {
+        "input": "##USER: I'm in the mood for conscious rap, maybe Logic",
+        "output": "##COMMAND: PLAY ARTIST LOGIC ##RESPONSE: Exploring thought-provoking themes with Logic's conscious rap!"
+    },
+    {
+        "input": "##USER: Can you please turn on the lights Purple in the Home Theater?",
+        "output": "##COMMAND: TURN ON LIGHTS Purple Home Theater ##RESPONSE: Certainly! The Home Theater now has a mystical purple ambiance."
+    },
+    {
+        "input": "##USER: I'm in the mood for some alternative rock, maybe Radiohead?",
+        "output": "##COMMAND: PLAY ARTIST RADIOHEAD ##RESPONSE: Exploring alternative rock with Radiohead!"
+    },
+    {
+        "input": "##USER: Can you tell me the weather forecast for 3rd of june in Seychelles?",
+        "output": "##COMMAND: GET WEATHER 3rd of june Seychelles"
+    },
+    {
+        "input": "##USER: I'm curious about the weather in Santorini on 28th of may. Can you provide the forecast?",
+        "output": "##COMMAND: GET WEATHER 28th of may Santorini"
+    },
+    {
+        "input": "##USER: I'd like to listen to some modern pop, like Dua Lipa",
+        "output": "##COMMAND: PLAY ARTIST DUA LIPA ##RESPONSE: Enjoying modern pop hits with Dua Lipa!"
+    },
+    {
+        "input": "##USER: I just spotted a fishing boat ahead. Turn on the navigation lights to avoid a collision.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigational lights are active to prevent a collision with the fishing boat."
+    },
+    {
+        "input": "##USER: What's the weather like in Barcelona on 12th of february? ##COMMAND: GET WEATHER 12th of february Barcelona ##SYSTEM: OVERCAST 16C RAIN LIKELY 50%",
+        "output": "##RESPONSE: On 12th of february, Svalbard is likely to have overcast skies with a high of 16 degrees Celsius. There's a 50% chance of rain, so be prepared for wet conditions."
+    },
+    {
+        "input": "##USER: We're entering a congested harbor. Turn on the navigation lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigation lights are active for safe harbor entry."
+    },
+    {
+        "input": "##USER: I'd like to listen to some modern post-rock, like Explosions in the Sky",
+        "output": "##COMMAND: PLAY ARTIST EXPLOSIONS IN THE SKY ##RESPONSE: Exploring modern post-rock sounds with Explosions in the Sky!"
+    },
+    {
+        "input": "##USER: The crew is conducting a man overboard drill. Turn on the navigation lights to aid in the operation.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: To aid in the man overboard drill, navigation lights are now illuminated."
+    },
+    {
+        "input": "##USER: The hallway is too dim. Let's turn on the lights Cool White.",
+        "output": "##COMMAND: TURN ON LIGHTS Cool White Hallway ##RESPONSE: Sure thing! Brightening up the hallway with Cool White lights."
+    },
+    {
+        "input": "##USER: Play some modern rock, like Arctic Monkeys",
+        "output": "##COMMAND: PLAY ARTIST ARCTIC MONKEYS ##RESPONSE: Rocking out with modern rock by Arctic Monkeys!"
+    },
+    {
+        "input": "##USER: The onboard radar has detected a small craft in our vicinity. Turn on the navigation lights to avoid collision.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the small craft detected by radar, navigation lights are now active to prevent a collision."
+    },
+    {
+        "input": "##USER: I need to travel on tomorrow. What's the weather forecast for Hawaii?",
+        "output": "##COMMAND: GET WEATHER tomorrow Hawaii"
+    },
+    {
+        "input": "##USER: I'd like to turn on the lights Cool White in the Living Room.",
+        "output": "##COMMAND: TURN ON LIGHTS Cool White Living Room ##RESPONSE: Certainly! The Living Room is now lit up with Cool White lights."
+    },
+    {
+        "input": "##USER: I'd like to hear 'Imagine Dragons' by Radioactive",
+        "output": "##COMMAND: PLAY SONG RADIOACTIVE - IMAGINE DRAGONS ##RESPONSE: Getting fired up with 'Radioactive' by Imagine Dragons."
+    },
+    {
+        "input": "##USER: I'm in the mood for 'Landslide' by Fleetwood Mac",
+        "output": "##COMMAND: PLAY SONG LANDSLIDE - FLEETWOOD MAC ##RESPONSE: Getting lost in the classic 'Landslide' by Fleetwood Mac."
+    },
+    {
+        "input": "##USER: It's a moonless night. Turn on the navigation lights to be visible.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In the absence of moonlight, navigation lights are now shining."
+    },
+    {
+        "input": "##USER: How about some contemporary reggaeton, like Bad Bunny?",
+        "output": "##COMMAND: PLAY ARTIST BAD BUNNY ##RESPONSE: Dancing to contemporary reggaeton with Bad Bunny!"
+    },
+    {
+        "input": "##USER: I'm planning a sailing excursion to the Great Barrier Reef next week. What's the weather forecast for June 15th? ##COMMAND: GET WEATHER June 15th Great Barrier Reef ##SYSTEM: CLEAR SKIES 29C CALM WATERS",
+        "output": "##RESPONSE: For your sailing excursion to the Great Barrier Reef on June 15th, expect clear skies with a high of 29 degrees Celsius and calm waters, providing excellent conditions for your reef adventure."
+    },
+    {
+        "input": "##USER: Play 'Sweet Child o' Mine.'",
+        "output": "##COMMAND: PLAY SONG SWEET CHILD O' MINE ##RESPONSE: Rocking out to 'Sweet Child o' Mine.'"
+    },
+    {
+        "input": "##USER: I'm curious about the weather in Maui on 21st of january. Can you provide the forecast? ##COMMAND: GET WEATHER 21st of january Maui ##SYSTEM: CLOUDY 19C CHANCE OF SCATTERED SHOWERS 30%",
+        "output": "##RESPONSE: Expect cloudy conditions in Maui on 21st of january with a high of 19 degrees Celsius. There's a 30% chance of scattered showers, so keep an umbrella handy."
+    },
+    {
+        "input": "##USER: How about creating a cozy ambiance in the Bedroom with Red lights?",
+        "output": "##COMMAND: TURN ON LIGHTS Red Bedroom ##RESPONSE: Absolutely! The Bedroom is now set to a cozy red ambiance."
+    },
+    {
+        "input": "##USER: I want to hear 'Good 4 U' by Olivia Rodrigo",
+        "output": "##COMMAND: PLAY SONG GOOD 4 U - OLIVIA RODRIGO ##RESPONSE: Rocking out to 'Good 4 U' by Olivia Rodrigo."
+    },
+    {
+        "input": "##USER: Let's make the Office feel vibrant. Turn on the Bright Green lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Bright Green Office ##RESPONSE: Going green in the Office! Vibrant bright green lights are on."
+    },
+    {
+        "input": "##USER: I'm planning a trip on 28th of may. Can you tell me the weather forecast for Rome?",
+        "output": "##COMMAND: GET WEATHER 28th of may Rome"
+    },
+    {
+        "input": "##USER: We've sighted a pod of whales. Turn on the navigation lights to avoid disturbing them.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: To avoid disturbing the pod of whales, navigation lights are now active."
+    },
+    {
+        "input": "##USER: Can you please turn on the Red lights in Lounge?",
+        "output": "##COMMAND: TURN ON LIGHTS Red Lounge ##RESPONSE: Of course! The Red lights in Lounge are now on."
+    }
+]

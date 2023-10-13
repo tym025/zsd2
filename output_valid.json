@@ -1,0 +1,498 @@
+[
+    {
+        "input": "##USER: How quick are we going, Captain?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: What's our current velocity, Captain?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Which way are we pointing? ##COMMAND: GET COURSE ##SYSTEM: 110 DEGREES",
+        "output": "##RESPONSE: We are currently pointing in the direction of 110 degrees."
+    },
+    {
+        "input": "##USER: Hey there, what's the status for today? ##COMMAND: GOOD MORNING ##SYSTEM: 16:30 25 June Phuket 10 NM left 15min 15 NM range; clear skies 35C wind S 8kph; 310 degrees 4 knots",
+        "output": "##RESPONSE: Hey there, ready for the day's journey? It's the 25th of June, and the time is 16:30. Our destination is Phuket, and we're down to just 10 nautical miles left, which should take about 15 minutes at our current speed of 4 knots. Our range is 15 nautical miles, so we're good on fuel. The skies are clear today, with a high of 35 degrees Celsius. The wind is blowing from the south at 8kph, and our current course is 310 degrees, taking us due west."
+    },
+    {
+        "input": "##USER: What's the expected weather for christmas day in Barcelona?",
+        "output": "##COMMAND: GET WEATHER christmas day Barcelona"
+    },
+    {
+        "input": "##USER: Navigator, where are we setting our course?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: What's our current fuel status?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: How are we doing in terms of fuel efficiency? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.6 LPNM 850L 1400NM",
+        "output": "##RESPONSE: Our fuel efficiency is good, at 0.6 liters per nautical mile. We have 850 liters remaining, offering a range of 1400 nautical miles."
+    },
+    {
+        "input": "##USER: Make Crew Quarters feel like a rainy day.",
+        "output": "##COMMAND: TURN ON LIGHTS rgb(128, 128, 128) Dining Room ##RESPONSE: Dining Room is now immersed in the ambiance of a rainy day."
+    },
+    {
+        "input": "##USER: How many knots are we sailing at? ##COMMAND: GET SPEED ##SYSTEM: 28 KNOTS",
+        "output": "##RESPONSE: We are sailing at a speed of 28 knots."
+    },
+    {
+        "input": "##USER: Can you provide our course, Captain?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: How fast are we moving at the moment? ##COMMAND: GET SPEED ##SYSTEM: 31 KNOTS",
+        "output": "##RESPONSE: At the moment, we are moving at a swift 31 knots. It's an exciting journey!"
+    },
+    {
+        "input": "##USER: I see other vessels approaching. It's time to switch on the navigation lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigation lights are active to signal our presence to other vessels."
+    },
+    {
+        "input": "##USER: We're nearing the buoy markers. Turn on the navigation lights for safe passage.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigational lights are active for safe passage near buoy markers."
+    },
+    {
+        "input": "##USER: I'm curious about the weather in Phuket on new year's eve. Can you provide the forecast? ##COMMAND: GET WEATHER new year's eve Phuket ##SYSTEM: CLOUDY 21C CHANCE OF SCATTERED SHOWERS 40%",
+        "output": "##RESPONSE: Expect cloudy conditions in Phuket on new year's eve with a high of 21 degrees Celsius. There's a 40% chance of scattered showers, so keep an umbrella handy."
+    },
+    {
+        "input": "##USER: How quick are we going, Captain?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Play songs from the '80s, like Michael Jackson",
+        "output": "##COMMAND: PLAY ARTIST MICHAEL JACKSON ##RESPONSE: Let's dance to '80s hits with Michael Jackson!"
+    },
+    {
+        "input": "##USER: Can you give me an update on our fuel consumption? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.5 LPNM 1100L 2200NM",
+        "output": "##RESPONSE: Our fuel consumption rate is 0.5 liters per nautical mile. We have a substantial 1100 liters left, providing a range of 2200 nautical miles."
+    },
+    {
+        "input": "##USER: Hey there, where's our journey taking us?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: How quick are we moving?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: I need to know the weather on 7th of april. Can you provide the details? ##COMMAND: GET WEATHER 7th of april $CURRENT_CITY$ ##SYSTEM: FOGGY 9C VISIBILITY LIMITED",
+        "output": "##RESPONSE: Expect foggy conditions on 7th of april with a high temperature of 9 degrees Celsius. Visibility will be limited, so exercise caution while traveling."
+    },
+    {
+        "input": "##USER: What's the weather outlook for 19th of november in Santorini?",
+        "output": "##COMMAND: GET WEATHER 19th of november Santorini"
+    },
+    {
+        "input": "##USER: I'm planning an outdoor event on new year's eve. Can you check the weather forecast for Rome? ##COMMAND: GET WEATHER new year's eve Rome ##SYSTEM: PARTLY CLOUDY 24C SLIGHT CHANCE OF SHOWERS 12%",
+        "output": "##RESPONSE: Great news! new year's eve in Rome is expected to be partly cloudy with a high of 24 degrees Celsius. There's only a slight 12% chance of showers, so your outdoor event should go smoothly."
+    },
+    {
+        "input": "##USER: How's our fuel situation, Captain? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.8 LPNM 700L 900NM",
+        "output": "##RESPONSE: Our fuel situation is a bit tight, with a consumption rate of 0.8 liters per nautical mile. We have 700 liters remaining, offering a range of 900 nautical miles."
+    },
+    {
+        "input": "##USER: I want Library to feel like a cafe.",
+        "output": "##COMMAND: TURN ON LIGHTS rgb(153, 102, 51) Crew Quarters ##RESPONSE: Welcome to the cafe atmosphere in Crew Quarters."
+    },
+    {
+        "input": "##USER: Captain, how's the fuel symphony sounding today?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: We're nearing a busy harbor entrance. Turn on the navigation lights for safe passage.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigational lights are active for a secure entrance to the busy harbor."
+    },
+    {
+        "input": "##USER: The marine radio just received a distress call. Turn on the navigation lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the distress call, navigation lights are active for assistance."
+    },
+    {
+        "input": "##USER: How's our fuel situation, Captain?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: How are we doing in terms of fuel efficiency? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.7 LPNM 950L 1350NM",
+        "output": "##RESPONSE: Our fuel efficiency is good at 0.7 liters per nautical mile. We have 950 liters remaining, offering a range of 1350 nautical miles."
+    },
+    {
+        "input": "##USER: I want a retro vibe in Dining Room.",
+        "output": "##COMMAND: TURN ON LIGHTS rgb(255, 204, 102) The Bridge ##RESPONSE: Bringing a touch of retro nostalgia to The Bridge."
+    },
+    {
+        "input": "##USER: Navigator, what's the scoop for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: What direction are we headed in, Captain? ##COMMAND: GET COURSE ##SYSTEM: 150 DEGREES",
+        "output": "##RESPONSE: We are currently headed in the direction of 150 degrees, Captain."
+    },
+    {
+        "input": "##USER: Navigator, prepare for departure. We're ready to head out. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather radar malfunction. Fuel 450/500L, destination Santorini, ETA 4h40m,",
+        "output": "##RESPONSE: Aye, aye, navigator! The weather radar is currently malfunctioning, and it should be fixed before we depart. Our fuel tank is at 450 liters out of 500, and our destination is Santorini. We should arrive there in approximately 4 hours and 40 minutes once the radar is operational."
+    },
+    {
+        "input": "##USER: I'm curious about the weather in Phuket on new year's eve. Can you provide the forecast?",
+        "output": "##COMMAND: GET WEATHER new year's eve Phuket"
+    },
+    {
+        "input": "##USER: I'm planning a trip on new year's eve. Can you tell me the weather forecast for Hawaii? ##COMMAND: GET WEATHER new year's eve Hawaii ##SYSTEM: MOSTLY CLEAR 22C LOW HUMIDITY",
+        "output": "##RESPONSE: Hawaii is expected to have mostly clear skies on new year's eve with a pleasant high of 22 degrees Celsius. The humidity will be low, making it a great day for your trip."
+    },
+    {
+        "input": "##USER: I'm planning a trip in the cold weather on 28th of may. Can you tell me the weather forecast? ##COMMAND: GET WEATHER 28th of may $CURRENT_CITY$ ##SYSTEM: ICY -6C FREEZING FOG ADVISORY 70% CHANCE OF SLEET",
+        "output": "##RESPONSE: 28th of may is expected to be icy with a high temperature of -6 degrees Celsius. A freezing fog advisory is in effect with a 70% chance of sleet, so be cautious during your trip."
+    },
+    {
+        "input": "##USER: Play 'Billie Jean.'",
+        "output": "##COMMAND: PLAY SONG BILLIE JEAN ##RESPONSE: Getting into the groove with 'Billie Jean.'"
+    },
+    {
+        "input": "##USER: What's our sailing pace?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Please turn on the Yellow lights in Guest Bedroom 2 for me.",
+        "output": "##COMMAND: TURN ON LIGHTS Yellow Guest Bedroom 2 ##RESPONSE: Of course! The Yellow lights in Guest Bedroom 2 are now turned on."
+    },
+    {
+        "input": "##USER: Hey there, navigator! What's our final stop? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Santorini 62 NM left 2h20min 170 range",
+        "output": "##RESPONSE: Hey there, navigator! Our final stop is Santorini. We've got just 62 nautical miles left, or about 2 hours and 20 minutes at our current pace. Our range is 170 nautical miles, so we're sailing smoothly."
+    },
+    {
+        "input": "##USER: Can you tell me our heading right now?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: What's the weather outlook for 7th of april in Maldives? ##COMMAND: GET WEATHER 7th of april Maldives ##SYSTEM: CLEAR SKIES 28C HEAT ADVISORY",
+        "output": "##RESPONSE: Prepare for hot weather on 7th of april in Maldives with clear skies and a high of 28 degrees Celsius. A heat advisory is in effect, so stay hydrated and cool."
+    },
+    {
+        "input": "##USER: Make Crew Quarters feel like a forest.",
+        "output": "##COMMAND: TURN ON LIGHTS rgb(0, 102, 0) Salon ##RESPONSE: Bringing the essence of a forest to Salon."
+    },
+    {
+        "input": "##USER: I'm planning an outdoor event on 7th of april. Can you check the weather forecast for Cape Town? ##COMMAND: GET WEATHER 7th of april Cape Town ##SYSTEM: PARTLY CLOUDY 26C SLIGHT CHANCE OF SHOWERS 10%",
+        "output": "##RESPONSE: Great news! 7th of april in Cape Town is expected to be partly cloudy with a high of 26 degrees Celsius. There's only a slight 10% chance of showers, so your outdoor event should go smoothly."
+    },
+    {
+        "input": "##USER: How are we doing in terms of fuel efficiency? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.6 LPNM 850L 1400NM",
+        "output": "##RESPONSE: Our fuel efficiency is good, at 0.6 liters per nautical mile. We have 850 liters remaining, offering a range of 1400 nautical miles."
+    },
+    {
+        "input": "##USER: What's our sailing pace? ##COMMAND: GET SPEED ##SYSTEM: 26 KNOTS",
+        "output": "##RESPONSE: Our current sailing pace is 26 knots."
+    },
+    {
+        "input": "##USER: Tell me our speed, please.",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Where are we headed? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Barcelona 210 NM left 7 hours 430 range",
+        "output": "##RESPONSE: We're headed to Barcelona, my friend. There are 210 nautical miles left, which should take us approximately 7 hours at our current speed. Our range is 430 nautical miles, so we're well-prepared for the journey."
+    },
+    {
+        "input": "##USER: How are we currently oriented? ##COMMAND: GET COURSE ##SYSTEM: 270 DEGREES",
+        "output": "##RESPONSE: We are currently oriented at 270 degrees, which is due West."
+    },
+    {
+        "input": "##USER: I need better lighting in Bar Lounge. Turn on the White lights, please.",
+        "output": "##COMMAND: TURN ON LIGHTS Turquoise Lounge ##RESPONSE: Absolutely! Turning on the Turquoise lights in Lounge for improved lighting."
+    },
+    {
+        "input": "##USER: What's the weather outlook for christmas day in Seychelles? ##COMMAND: GET WEATHER christmas day Seychelles ##SYSTEM: CLEAR SKIES 29C HEAT ADVISORY",
+        "output": "##RESPONSE: Prepare for hot weather on christmas day in Seychelles with clear skies and a high of 29 degrees Celsius. A heat advisory is in effect, so stay hydrated and cool."
+    },
+    {
+        "input": "##USER: Captain, are we ready to set sail? Prepare for departure.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: I'm curious about the weather in Santorini on 28th of may. Can you provide the forecast? ##COMMAND: GET WEATHER 28th of may Santorini ##SYSTEM: CLOUDY 19C CHANCE OF SCATTERED SHOWERS 30%",
+        "output": "##RESPONSE: Expect cloudy conditions in Santorini on 28th of may with a high of 19 degrees Celsius. There's a 30% chance of scattered showers, so keep an umbrella handy."
+    },
+    {
+        "input": "##USER: What's our velocity at the moment? ##COMMAND: GET SPEED ##SYSTEM: 25 KNOTS",
+        "output": "##RESPONSE: Our velocity at the moment is 25 knots."
+    },
+    {
+        "input": "##USER: I need Game Room to feel like a party.",
+        "output": "##COMMAND: TURN ON LIGHTS rgb(255, 0, 128) Fitness Center ##RESPONSE: Get ready to dance! Party mode activated in Fitness Center."
+    },
+    {
+        "input": "##USER: Navigator, what's the destination for this voyage?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: I want Phuket's weather forecast on 12th of february.",
+        "output": "##COMMAND: GET WEATHER 12th of february Phuket"
+    },
+    {
+        "input": "##USER: How are we doing with our fuel reserves?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: Make The Bridge feel like a cozy cabin in the woods.",
+        "output": "##COMMAND: TURN ON LIGHTS rgb(153, 102, 102) Crew Quarters ##RESPONSE: Crew Quarters is now reminiscent of a cozy cabin in the woods."
+    },
+    {
+        "input": "##USER: Play 'Sick Boy' by The Chainsmokers",
+        "output": "##COMMAND: PLAY SONG SICK BOY - THE CHAINSMOKERS ##RESPONSE: Listening to 'Sick Boy' by The Chainsmokers."
+    },
+    {
+        "input": "##USER: Ahoy, where's our final port of call?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: I want a cozy atmosphere in Sun Deck.",
+        "output": "##COMMAND: TURN ON LIGHTS rgb(255, 204, 153) Sun Deck ##RESPONSE: Creating a warm and cozy ambiance in Sun Deck."
+    },
+    {
+        "input": "##USER: Can you give me the weather information for 23rd of july in Los Angeles?",
+        "output": "##COMMAND: GET WEATHER 23rd of july Los Angeles"
+    },
+    {
+        "input": "##USER: Put on some reggae music, like Bob Marley",
+        "output": "##COMMAND: PLAY ARTIST BOB MARLEY ##RESPONSE: Reggae vibes with Bob Marley!"
+    },
+    {
+        "input": "##USER: I want to hear 'Time' by Pink Floyd",
+        "output": "##COMMAND: PLAY SONG TIME - PINK FLOYD ##RESPONSE: Losing track of time with 'Time' by Pink Floyd."
+    },
+    {
+        "input": "##USER: I'm curious about our course. What is it?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Hey there, what's the status for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: What's our velocity right now? ##COMMAND: GET SPEED ##SYSTEM: 26 KNOTS",
+        "output": "##RESPONSE: Our current velocity is 26 knots. We're making great time."
+    },
+    {
+        "input": "##USER: I want to hear 'Imagine' by John Lennon",
+        "output": "##COMMAND: PLAY SONG IMAGINE - JOHN LENNON ##RESPONSE: Enjoying the classic 'Imagine' by John Lennon."
+    },
+    {
+        "input": "##USER: Put on 'Don't Stop Me Now,' please",
+        "output": "##COMMAND: PLAY SONG DON'T STOP ME NOW ##RESPONSE: Getting ready to enjoy 'Don't Stop Me Now.'"
+    },
+    {
+        "input": "##USER: Put on 'Wonderwall' by Oasis, please",
+        "output": "##COMMAND: PLAY SONG WONDERWALL - OASIS ##RESPONSE: Listening to 'Wonderwall' by Oasis."
+    },
+    {
+        "input": "##USER: I want a mystical atmosphere in Fitness Center.",
+        "output": "##COMMAND: TURN ON LIGHTS rgb(102, 0, 102) Guest Bedroom 2 ##RESPONSE: Guest Bedroom 2 is now shrouded in mystical vibes."
+    },
+    {
+        "input": "##USER: Navigator, prepare for departure. We're ready to head out.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: Hey, how's our fuel game, shipmate?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: Hey, skipper! Fuel check - are we revving high or just coasting? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.9 LPNM 600L 670NM",
+        "output": "##RESPONSE: Hey, skipper! We're revving a bit high today, but we're coasting fine. Fuel's at 0.9 liters per nautical mile, and we've got 600 liters in the tank, allowing us to coast for around 670 nautical miles."
+    },
+    {
+        "input": "##USER: Create a romantic and candlelit atmosphere in Jacuzzi.",
+        "output": "##COMMAND: TURN ON LIGHTS rgb(255, 153, 153) Bar Lounge ##RESPONSE: Setting a romantic and candlelit mood in Bar Lounge."
+    },
+    {
+        "input": "##USER: What's the weather like on 19th of november? ##COMMAND: GET WEATHER 19th of november $CURRENT_CITY$ ##SYSTEM: OVERCAST 17C RAIN LIKELY 50%",
+        "output": "##RESPONSE: On 19th of november, the weather is likely to be overcast with a high of 17 degrees Celsius. There's a 50% chance of rain, so be prepared for wet conditions."
+    },
+    {
+        "input": "##USER: Navigator, get everything ready. It's time to prepare for departure.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: Can you tell me our heading right now?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: How are we currently oriented, Captain? ##COMMAND: GET COURSE ##SYSTEM: 310 DEGREES",
+        "output": "##RESPONSE: We are currently oriented at 310 degrees, Captain. Hold the course."
+    },
+    {
+        "input": "##USER: Ahoy, where's our final port of call? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Seychelles 75 NM left 2 hours 180 range",
+        "output": "##RESPONSE: Ahoy, our final port of call is Seychelles. There are just 75 nautical miles left, or about 2 hours at our current pace. Our range is 180 nautical miles, so we're sailing smoothly."
+    },
+    {
+        "input": "##USER: Can you provide the weather forecast for 21st of january in Amsterdam?",
+        "output": "##COMMAND: GET WEATHER 21st of january Amsterdam"
+    },
+    {
+        "input": "##USER: Captain, can you provide information on our destination?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: Captain, give me the lowdown on our fuel jam, is it chill or heating up? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.5 LPNM 1100L 2200NM",
+        "output": "##RESPONSE: Captain, our fuel jam is chill, no heating up here. We're flowing at 0.5 liters per nautical mile, and we've got a generous 1100 liters left to keep the chill vibes going for another 2200 nautical miles."
+    },
+    {
+        "input": "##USER: The weather is closing in, let's illuminate those navigation lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigational lights are now on to guide us through adverse conditions."
+    },
+    {
+        "input": "##USER: Captain, what's the plan for today? ##COMMAND: GOOD MORNING ##SYSTEM: 18:15 5 April Ibiza 8 NM left 16min 10 NM range; partly cloudy 20C wind N 8kph; 80 degrees 4 knots",
+        "output": "##RESPONSE: Good evening, captain. Ready to set sail? It's the 5th of April, and the time is 18:15. Our ultimate destination is Ibiza, and we've got just 8 nautical miles left, which should take about 16 minutes at our current speed of 4 knots. Our range is 10 nautical miles, so no need to refuel just yet. The skies are partly cloudy today, with a high of 20 degrees Celsius. The wind is blowing from the north at 8kph, and our current course is 80 degrees, taking us due east."
+    },
+    {
+        "input": "##USER: Let's make Lounge feel like a garden.",
+        "output": "##COMMAND: TURN ON LIGHTS rgb(102, 204, 102) Engine Room ##RESPONSE: Engine Room is now transformed into a lush garden."
+    },
+    {
+        "input": "##USER: What's the expected weather for 21st of january in the cold weather? ##COMMAND: GET WEATHER 21st of january $CURRENT_CITY$ ##SYSTEM: COLD AND OVERCAST -2C CHANCE OF SNOW 40%",
+        "output": "##RESPONSE: Prepare for cold and overcast conditions on 21st of january with a high temperature of -2 degrees Celsius. There's a 40% chance of snow, so be cautious while traveling."
+    },
+    {
+        "input": "##USER: Can you tell me our ship's speed?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: How are we currently oriented, Captain? ##COMMAND: GET COURSE ##SYSTEM: 290 DEGREES",
+        "output": "##RESPONSE: We are currently oriented at 290 degrees, Captain. Hold steady."
+    },
+    {
+        "input": "##USER: I need to know the cold weather on tomorrow. Can you provide the details?",
+        "output": "##COMMAND: GET WEATHER tomorrow $CURRENT_CITY$"
+    },
+    {
+        "input": "##USER: Set a futuristic and high-tech mood in Observation Deck.",
+        "output": "##COMMAND: TURN ON LIGHTS rgb(51, 51, 255) Game Room ##RESPONSE: Game Room is now immersed in a futuristic and high-tech environment."
+    },
+    {
+        "input": "##USER: Captain, where's our destination, mate? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Mykonos 45 NM left 1h35min 115 range",
+        "output": "##RESPONSE: Captain, our destination, mate, be Mykonos. There be 45 nautical miles left, 'bout 1 hour and 35 minutes at our current pace. Our range be 115 nautical miles, so we're sailin' smooth."
+    },
+    {
+        "input": "##USER: Navigator, get everything ready. It's time to prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: GPS signal lost. Fuel 380/450L, destination Venice, ETA 3h50m,",
+        "output": "##RESPONSE: Aye, aye, navigator! The GPS signal is currently lost, and it should be restored before we depart. Our fuel tank is at 380 liters out of 450, and our destination is Venice. We should arrive there in approximately 3 hours and 50 minutes once the GPS is operational."
+    },
+    {
+        "input": "##USER: Can you provide our speed right now?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Captain, what's our ultimate destination? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Phuket 91 NM left 3h15min 210 range",
+        "output": "##RESPONSE: Captain, our ultimate destination is Phuket. There are 91 nautical miles left, approximately 3 hours and 15 minutes at our current speed. Our range is 210 nautical miles, so we're good to go."
+    },
+    {
+        "input": "##USER: Navigator, what's the word on our final stop? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Key West 78 NM left 2h50min 185 range",
+        "output": "##RESPONSE: Navigator, the word on our final stop be Key West. There be 78 nautical miles left, 'bout 2 hours and 50 minutes at our current speed. Our range be 185 nautical miles, so we're in the clear."
+    },
+    {
+        "input": "##USER: Can you give me an update on our fuel consumption?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: What's our current speed? ##COMMAND: GET SPEED ##SYSTEM: 28 KNOTS",
+        "output": "##RESPONSE: Our current speed is a swift 28 knots. Hold on, it's a fast ride!"
+    },
+    {
+        "input": "##USER: I received a marine safety alert. Turn on the navigation lights for caution.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the safety alert, navigation lights are active for caution."
+    },
+    {
+        "input": "##USER: We're entering a congested harbor. Turn on the navigation lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigation lights are active for safe harbor entry."
+    },
+    {
+        "input": "##USER: The marine radio reports safe conditions. It's time to turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: In response to the safe conditions, navigation lights are now turned off."
+    },
+    {
+        "input": "##USER: We've exited the busy shipping lane. It's time to turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Navigation lights are now turned off as we leave the shipping lane."
+    },
+    {
+        "input": "##USER: Navigator, prepare for departure. We're ready to head out.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: How quickly are we traveling? ##COMMAND: GET SPEED ##SYSTEM: 22 KNOTS",
+        "output": "##RESPONSE: We are traveling at a speed of 22 knots. A comfortable and swift journey."
+    },
+    {
+        "input": "##USER: What direction are we headed in, Captain?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Navigator, what's the word on our final destination?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: We're entering a marked shipping lane. Turn on the navigation lights for visibility.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigation lights are shining to navigate safely in the shipping lane."
+    },
+    {
+        "input": "##USER: What is our course of action, Captain?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Can you provide our speed? ##COMMAND: GET SPEED ##SYSTEM: 17 KNOTS",
+        "output": "##RESPONSE: Our speed is currently 17 knots. Enjoy the journey."
+    },
+    {
+        "input": "##USER: I'm planning a trip on tonight evening. Can you tell me the weather forecast for Hong Kong?",
+        "output": "##COMMAND: GET WEATHER tonight evening Hong Kong"
+    },
+    {
+        "input": "##USER: Navigator, what's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 18:00 3 December Seychelles 2 NM left 5min 2 NM range; clear skies 29C wind N 4kph; 330 degrees 1 knot",
+        "output": "##RESPONSE: Good morning, navigator. Ready to chart our course? It's the 3rd of December, and the time is 18:00. We're making our way to Seychelles, and we've got just 2 nautical miles left, which should take about 5 minutes at our current speed of 1 knot. Our range is 2 nautical miles, so no need to refuel just yet. The skies are clear today, with a high of 29 degrees Celsius. The wind is barely blowing from the north at 4kph, and our current course is 330 degrees, taking us due west."
+    },
+    {
+        "input": "##USER: Can you give me the weather information for the day after tomorrow in Barcelona?",
+        "output": "##COMMAND: GET WEATHER the day after tomorrow Barcelona"
+    },
+    {
+        "input": "##USER: What's the expected cold weather for 1st of september? I have outdoor plans.",
+        "output": "##COMMAND: GET WEATHER 1st of september $CURRENT_CITY$"
+    },
+    {
+        "input": "##USER: What's the weather outlook for 7th of april in Maldives?",
+        "output": "##COMMAND: GET WEATHER 7th of april Maldives"
+    },
+    {
+        "input": "##USER: Ahoy, matey! What be our final port of call? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Monaco 69 NM left 2h5min 170 range",
+        "output": "##RESPONSE: Ahoy, matey! Our final port of call be Monaco. There be 69 nautical miles left, takin' us 'bout 2 hours and 5 minutes at our current speed. Our range be 170 nautical miles, so we're in fine shape."
+    },
+    {
+        "input": "##USER: Navigator, what's the scoop for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: Captain, it's time to prepare for departure. Are we ready to set sail? ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: All clear. Fuel 660/700L, destination Cannes, ETA 6h30m,",
+        "output": "##RESPONSE: Aye, aye, captain! Everything is in order. Our fuel tank is at 660 liters out of 700, and our destination is Cannes. We should reach there in approximately 6 hours and 30 minutes."
+    },
+    {
+        "input": "##USER: Tell me our speed, please.",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: What's the weather outlook for 19th of november?",
+        "output": "##COMMAND: GET WEATHER 19th of november $CURRENT_CITY$"
+    },
+    {
+        "input": "##USER: Can you provide an update on our fuel situation?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: Navigator, what's the word on our final stop? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Key West 78 NM left 2h50min 185 range",
+        "output": "##RESPONSE: Navigator, the word on our final stop be Key West. There be 78 nautical miles left, 'bout 2 hours and 50 minutes at our current speed. Our range be 185 nautical miles, so we're in the clear."
+    },
+    {
+        "input": "##USER: Can you give me the weather information for tonight evening in Easter Island? ##COMMAND: GET WEATHER tonight evening Easter Island ##SYSTEM: PARTLY SUNNY 20C WINDS LIGHT",
+        "output": "##RESPONSE: Easter Island will experience partly sunny conditions on tonight evening with a high temperature of 20 degrees Celsius. The winds will be light, making it a pleasant day overall."
+    }
+]
