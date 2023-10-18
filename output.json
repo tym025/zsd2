@@ -331,8 +331,8 @@
     "output": "##COMMAND: PLAY ARTIST BRING ME THE HORIZON ##RESPONSE: Rocking out to modern metal with Bring Me the Horizon!"
 },
 {
-    "input": "##USER: How about some contemporary Latin pop, like Rosalía?",
-    "output": "##COMMAND: PLAY ARTIST ROSALÍA ##RESPONSE: Dancing to Latin pop rhythms with Rosalía!"
+    "input": "##USER: How about some contemporary Latin pop, like Rosalia?",
+    "output": "##COMMAND: PLAY ARTIST ROSALIA ##RESPONSE: Dancing to Latin pop rhythms with Rosalia!"
 },
 {
     "input": "##USER: I'd like to listen to some modern indie pop, like Tegan and Sara",
@@ -8039,6 +8039,734 @@
     "output": "##COMMAND: GOOD MORNING"
 },
 {
+    "input": "##USER: Greetings, shipmates! What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Greetings, shipmates! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 11:45 3 March Honolulu 110 NM left 3h0min 130 NM range; clear skies 27C wind NE 18kph; 270 degrees 16 knots",
+    "output": "##RESPONSE: Good morning, shipmates! It's the 3rd of March, and the time is 11:45. We're making our way to Honolulu, with 110 nautical miles left, which should take about 3 hours at our current speed of 16 knots. Our range is 130 nautical miles, so we're good on fuel. The skies are clear today, and the temperature is a pleasant 27 degrees Celsius. We have a gentle northeast wind at 18kph. Our current course is 270 degrees, heading due west."
+},
+{
+    "input": "##USER: Good morning, ship's assistant! How's the day shaping up?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Good morning, ship's assistant! How's the day shaping up? ##COMMAND: GOOD MORNING ##SYSTEM: 12:15 20 May Miami 60 NM left 1h45min 80 NM range; sunny 28C wind SE 15kph; 230 degrees 14 knots",
+    "output": "##RESPONSE: Good morning, shipmate! I'm here to make your day great. It's the 20th of May, and the time is 12:15. We're on our way to Miami, with just 60 nautical miles left, which should take about 1 hour and 45 minutes at our current speed of 14 knots. Our range is 80 nautical miles, so we're all set on fuel. The weather is fantastic with clear skies and a high of 28 degrees Celsius. We have a southeast wind at 15kph, and our current course is 230 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Hello, assistant! What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hello, assistant! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 13:30 7 September Venice 35 NM left 1h0min 45 NM range; sunny 25C wind E 10kph; 240 degrees 8 knots",
+    "output": "##RESPONSE: Hello there! It's a beautiful day. It's the 7th of September, and the time is 13:30. Our destination is Venice, and there are just 35 nautical miles left, which should take about 1 hour at our current speed of 8 knots. Our range is 45 nautical miles, so no need to refuel yet. The sun is shining with a high of 25 degrees Celsius. We have an east wind at 10kph, and our current course is 240 degrees, taking us due west."
+},
+{
+    "input": "##USER: Hi, ship's assistant! What's on the agenda today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hi, ship's assistant! What's on the agenda today? ##COMMAND: GOOD MORNING ##SYSTEM: 14:45 12 December Cape Town 85 NM left 2h30min 100 NM range; clear skies 22C wind S 12kph; 250 degrees 10 knots",
+    "output": "##RESPONSE: Hi there! Ready for a fantastic day on the water? It's the 12th of December, and the time is 14:45. We're making our way to Cape Town, with 85 nautical miles left, which should take about 2 hours and 30 minutes at our current speed of 10 knots. Our range is 100 nautical miles, so we're good on fuel. The skies are clear, and the temperature is a pleasant 22 degrees Celsius. We have a south wind at 12kph, and our current course is 250 degrees, heading due west."
+},
+{
+    "input": "##USER: Hey there, ship's assistant! What's the plan for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey there, ship's assistant! What's the plan for today? ##COMMAND: GOOD MORNING ##SYSTEM: 15:30 5 June Honolulu 70 NM left 2h15min 85 NM range; partly cloudy 30C wind N 20kph; 260 degrees 16 knots",
+    "output": "##RESPONSE: Hey, shipmate! It's a great day ahead. It's the 5th of June, and the time is 15:30. We're en route to Honolulu, and there are 70 nautical miles left, which should take about 2 hours and 15 minutes at our current speed of 16 knots. Our range is 85 nautical miles, so no need to refuel. The sky is partly cloudy with a high of 30 degrees Celsius. We have a north wind at 20kph, and our current course is 260 degrees, guiding us due west."
+},
+{
+    "input": "##USER: Ahoy there, ship's assistant! What's the latest news for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Ahoy there, ship's assistant! What's the latest news for today? ##COMMAND: GOOD MORNING ##SYSTEM: 16:45 8 August Sydney 55 NM left 1h30min 70 NM range; partly cloudy 24C wind NE 15kph; 255 degrees 12 knots",
+    "output": "##RESPONSE: Ahoy, shipmate! It's a great day on the water. It's the 8th of August, and the time is 16:45. We're closing in on Sydney with just 55 nautical miles left, which should take about 1 hour and 30 minutes at our current speed of 12 knots. Our range is 70 nautical miles, so we're good on fuel. The sky is partly cloudy with a high of 24 degrees Celsius. We have a northeast wind at 15kph, and our current course is 255 degrees, taking us due west."
+},
+{
+    "input": "##USER: Yo, ship's assistant! Any updates for the day?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Yo, ship's assistant! Any updates for the day? ##COMMAND: GOOD MORNING ##SYSTEM: 17:30 18 February Rio de Janeiro 100 NM left 2h0min 120 NM range; sunny 30C wind E 18kph; 235 degrees 16 knots",
+    "output": "##RESPONSE: Hey there! Ready for an adventure? It's the 18th of February, and the time is 17:30. We're on our way to Rio de Janeiro, with 100 nautical miles left, which should take about 2 hours at our current speed of 16 knots. Our range is 120 nautical miles, so no refueling needed. The sun is shining with a high of 30 degrees Celsius. We have an east wind at 18kph, and our current course is 235 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: G'day, ship's assistant! What's the scoop for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: G'day, ship's assistant! What's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 18:15 26 October Miami 45 NM left 1h15min 60 NM range; clear skies 26C wind SE 14kph; 220 degrees 10 knots",
+    "output": "##RESPONSE: G'day! It's a fine day on the water. It's the 26th of October, and the time is 18:15. We're heading to Miami, and there are just 45 nautical miles left, which should take about 1 hour and 15 minutes at our current speed of 10 knots. Our range is 60 nautical miles, so we're good on fuel. The skies are clear with a high of 26 degrees Celsius. We have a southeast wind at 14kph, and our current course is 220 degrees, taking us due southwest."
+},
+{
+    "input": "##USER: Salutations, ship's assistant! What's the plan for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Salutations, ship's assistant! What's the plan for today? ##COMMAND: GOOD MORNING ##SYSTEM: 19:30 15 March Honolulu 75 NM left 2h30min 90 NM range; scattered clouds 28C wind NW 16kph; 265 degrees 14 knots",
+    "output": "##RESPONSE: Salutations! Ready for a splendid day at sea? It's the 15th of March, and the time is 19:30. We're en route to Honolulu, with 75 nautical miles left, which should take about 2 hours and 30 minutes at our current speed of 14 knots. Our range is 90 nautical miles, so no need to refuel. The sky has scattered clouds today with a high of 28 degrees Celsius. We have a northwest wind at 16kph, and our current course is 265 degrees, heading due west."
+},
+{
+    "input": "##USER: Hey there, ship's assistant! Any news for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey there, ship's assistant! Any news for today? ##COMMAND: GOOD MORNING ##SYSTEM: 20:45 1 September Venice 65 NM left 1h45min 80 NM range; clear skies 23C wind E 10kph; 250 degrees 8 knots",
+    "output": "##RESPONSE: Hey there! It's a fantastic day on the water. It's the 1st of September, and the time is 20:45. We're making our way to Venice, with just 65 nautical miles left, which should take about 1 hour and 45 minutes at our current speed of 8 knots. Our range is 80 nautical miles, so we're all set on fuel. The skies are clear with a high of 23 degrees Celsius. We have an east wind at 10kph, and our current course is 250 degrees, guiding us due west."
+},
+{
+    "input": "##USER: Hello, ship's assistant! What's in store for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hello, ship's assistant! What's in store for today? ##COMMAND: GOOD MORNING ##SYSTEM: 21:30 9 November Cape Town 80 NM left 2h15min 100 NM range; partly cloudy 22C wind S 12kph; 260 degrees 10 knots",
+    "output": "##RESPONSE: Hello there! Ready for an exciting day on the water? It's the 9th of November, and the time is 21:30. We're sailing to Cape Town, with 80 nautical miles left, which should take about 2 hours and 15 minutes at our current speed of 10 knots. Our range is 100 nautical miles, so we're good on fuel. The sky is partly cloudy with a high of 22 degrees Celsius. We have a south wind at 12kph, and our current course is 260 degrees, taking us due west."
+},
+{
+    "input": "##USER: Greetings, ship's assistant! What's on the horizon for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Greetings, ship's assistant! What's on the horizon for today? ##COMMAND: GOOD MORNING ##SYSTEM: 22:45 7 July Sydney 35 NM left 1h0min 45 NM range; sunny 25C wind SE 14kph; 230 degrees 8 knots",
+    "output": "##RESPONSE: Greetings! It's a wonderful day at sea. It's the 7th of July, and the time is 22:45. We're closing in on Sydney with just 35 nautical miles left, which should take about 1 hour at our current speed of 8 knots. Our range is 45 nautical miles, so no refueling needed. The sun is shining with a high of 25 degrees Celsius. We have a southeast wind at 14kph, and our current course is 230 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Ahoy, ship's assistant! What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Ahoy, ship's assistant! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 23:30 3 April Barcelona 90 NM left 2h30min 110 NM range; clear skies 20C wind SW 10kph; 240 degrees 6 knots",
+    "output": "##RESPONSE: Ahoy! Ready for a splendid journey? It's the 3rd of April, and the time is 23:30. We're on our way to Barcelona, with 90 nautical miles left, which should take about 2 hours and 30 minutes at our current speed of 6 knots. Our range is 110 nautical miles, so no need to refuel just yet. The sky is clear with a comfortable high of 20 degrees Celsius. We have a southwest wind at 10kph, and our current course is 240 degrees, taking us due west."
+},
+{
+    "input": "##USER: Ahoy, ship's AI! What's the plan for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Ahoy, ship's AI! What's the plan for today? ##COMMAND: GOOD MORNING ##SYSTEM: 00:15 17 November Monaco 40 NM left 1h15min 50 NM range; partly cloudy 21C wind E 12kph; 245 degrees 10 knots",
+    "output": "##RESPONSE: Ahoy, shipmate! It's a grand day on the water. It's the 17th of November, and the time is 00:15. We're en route to Monaco, with just 40 nautical miles left, which should take about 1 hour and 15 minutes at our current speed of 10 knots. Our range is 50 nautical miles, so we're good on fuel. The sky is partly cloudy with a pleasant high of 21 degrees Celsius. We have an east wind at 12kph, and our current course is 245 degrees, guiding us due west."
+},
+{
+    "input": "##USER: Greetings, ship's companion! What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Greetings, ship's companion! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 01:30 12 June Bali 55 NM left 1h45min 70 NM range; clear skies 28C wind NW 16kph; 255 degrees 14 knots",
+    "output": "##RESPONSE: Greetings, dear companion! Ready for an exciting journey? It's the 12th of June, and the time is 01:30. We're sailing to Bali, with 55 nautical miles left, which should take about 1 hour and 45 minutes at our current speed of 14 knots. Our range is 70 nautical miles, so no refueling needed. The skies are clear with a high of 28 degrees Celsius. We have a northwest wind at 16kph, and our current course is 255 degrees, taking us due west."
+},
+{
+    "input": "##USER: Hello, ship's aide! What's on the agenda for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hello, ship's aide! What's on the agenda for today? ##COMMAND: GOOD MORNING ##SYSTEM: 02:45 9 April Venice 75 NM left 2h15min 90 NM range; scattered clouds 24C wind SE 14kph; 230 degrees 12 knots",
+    "output": "##RESPONSE: Hello, dear aide! It's a wonderful day at sea. It's the 9th of April, and the time is 02:45. We're on our way to Venice, with 75 nautical miles left, which should take about 2 hours and 15 minutes at our current speed of 12 knots. Our range is 90 nautical miles, so we're good on fuel. The sky has scattered clouds with a high of 24 degrees Celsius. We have a southeast wind at 14kph, and our current course is 230 degrees, guiding us due west."
+},
+{
+    "input": "##USER: Salutations, ship's partner! What's the scoop for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Salutations, ship's partner! What's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 03:30 22 September Cape Town 70 NM left 2h0min 80 NM range; sunny 26C wind S 10kph; 220 degrees 8 knots",
+    "output": "##RESPONSE: Salutations, dear partner! Ready for a splendid day at sea? It's the 22nd of September, and the time is 03:30. We're sailing to Cape Town, with 70 nautical miles left, which should take about 2 hours at our current speed of 8 knots. Our range is 80 nautical miles, so no refueling needed. The sun is shining with a high of 26 degrees Celsius. We have a south wind at 10kph, and our current course is 220 degrees, taking us due west."
+},
+{
+    "input": "##USER: Hey, ship's mate! What's in store for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey, ship's mate! What's in store for today? ##COMMAND: GOOD MORNING ##SYSTEM: 04:45 5 May Sydney 30 NM left 1h0min 40 NM range; clear skies 22C wind SE 8kph; 240 degrees 6 knots",
+    "output": "##RESPONSE: Hey there, shipmate! It's a fine day on the water. It's the 5th of May, and the time is 04:45. We're closing in on Sydney with just 30 nautical miles left, which should take about 1 hour at our current speed of 6 knots. Our range is 40 nautical miles, so no refueling needed. The skies are clear with a comfortable high of 22 degrees Celsius. We have a southeast wind at 8kph, and our current course is 240 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Ahoy, ship's friend! What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Ahoy, ship's friend! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 05:30 3 December Barcelona 60 NM left 1h45min 70 NM range; partly cloudy 20C wind SW 6kph; 250 degrees 4 knots",
+    "output": "##RESPONSE: Ahoy, dear friend! Ready for a splendid journey? It's the 3rd of December, and the time is 05:30. We're on our way to Barcelona, with 60 nautical miles left, which should take about 1 hour and 45 minutes at our current speed of 4 knots. Our range is 70 nautical miles, so we're good on fuel. The sky is partly cloudy with a comfortable high of 20 degrees Celsius. We have a southwest wind at 6kph, and our current course is 250 degrees, taking us due west."
+},
+{
+    "input": "##USER: G'day, ship's guide! What's the latest news for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: G'day, ship's guide! What's the latest news for today? ##COMMAND: GOOD MORNING ##SYSTEM: 06:45 20 August Venice 50 NM left 1h30min 60 NM range; clear skies 26C wind E 8kph; 235 degrees 6 knots",
+    "output": "##RESPONSE: G'day, ship's guide! It's a grand day at sea. It's the 20th of August, and the time is 06:45. We're en route to Venice, with 50 nautical miles left, which should take about 1 hour and 30 minutes at our current speed of 6 knots. Our range is 60 nautical miles, so we're good on fuel. The skies are clear with a high of 26 degrees Celsius. We have an east wind at 8kph, and our current course is 235 degrees, guiding us due west."
+},
+{
+    "input": "##USER: Salutations, ship's advisor! What's on the horizon for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Salutations, ship's advisor! What's on the horizon for today? ##COMMAND: GOOD MORNING ##SYSTEM: 07:30 15 October Cape Town 65 NM left 2h0min 80 NM range; sunny 24C wind S 6kph; 225 degrees 4 knots",
+    "output": "##RESPONSE: Salutations, ship's advisor! Ready for a splendid journey? It's the 15th of October, and the time is 07:30. We're sailing to Cape Town, with 65 nautical miles left, which should take about 2 hours at our current speed of 4 knots. Our range is 80 nautical miles, so no refueling needed. The sun is shining with a high of 24 degrees Celsius. We have a south wind at 6kph, and our current course is 225 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Hey, ship's guru! What's the scoop for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey, ship's guru! What's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 08:45 2 May Sydney 35 NM left 1h0min 45 NM range; clear skies 20C wind SE 4kph; 220 degrees 2 knots",
+    "output": "##RESPONSE: Hey, ship's guru! It's a fine day on the water. It's the 2nd of May, and the time is 08:45. We're closing in on Sydney with just 35 nautical miles left, which should take about 1 hour at our current speed of 2 knots. Our range is 45 nautical miles, so no refueling needed. The skies are clear with a comfortable high of 20 degrees Celsius. We have a southeast wind at 4kph, and our current course is 220 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Ahoy, ship's mentor! What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Ahoy, ship's mentor! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 09:30 5 March Barcelona 55 NM left 1h45min 70 NM range; partly cloudy 18C wind SW 2kph; 215 degrees 1 knot",
+    "output": "##RESPONSE: Ahoy, ship's mentor! Ready for a splendid journey? It's the 5th of March, and the time is 09:30. We're on our way to Barcelona, with 55 nautical miles left, which should take about 1 hour and 45 minutes at our current speed of 1 knot. Our range is 70 nautical miles, so we're good on fuel. The sky is partly cloudy with a comfortable high of 18 degrees Celsius. We have a southwest wind at 2kph, and our current course is 215 degrees, taking us due southwest."
+},
+{
+    "input": "##USER: Greetings, ship's mentor! What's the agenda for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Greetings, ship's mentor! What's the agenda for today? ##COMMAND: GOOD MORNING ##SYSTEM: 10:45 18 July Cape Town 45 NM left 1h15min 60 NM range; clear skies 22C wind E 4kph; 210 degrees 2 knots",
+    "output": "##RESPONSE: Greetings, ship's mentor! It's a wonderful day at sea. It's the 18th of July, and the time is 10:45. We're sailing to Cape Town, with 45 nautical miles left, which should take about 1 hour and 15 minutes at our current speed of 2 knots. Our range is 60 nautical miles, so no refueling needed. The skies are clear with a comfortable high of 22 degrees Celsius. We have an east wind at 4kph, and our current course is 210 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Ahoy, ship's mentor! What's the latest news for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Ahoy, ship's mentor! What's the latest news for today? ##COMMAND: GOOD MORNING ##SYSTEM: 11:30 30 January Venice 40 NM left 1h0min 50 NM range; clear skies 24C wind SE 6kph; 205 degrees 3 knots",
+    "output": "##RESPONSE: Ahoy, ship's mentor! Ready for an exciting journey? It's the 30th of January, and the time is 11:30. We're en route to Venice, with just 40 nautical miles left, which should take about 1 hour at our current speed of 3 knots. Our range is 50 nautical miles, so we're good on fuel. The skies are clear with a high of 24 degrees Celsius. We have a southeast wind at 6kph, and our current course is 205 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Greetings, ship's guide! What's the scoop for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Greetings, ship's guide! What's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 12:45 10 September Cape Town 35 NM left 1h0min 40 NM range; sunny 26C wind S 8kph; 200 degrees 4 knots",
+    "output": "##RESPONSE: Greetings, ship's guide! It's a grand day at sea. It's the 10th of September, and the time is 12:45. We're sailing to Cape Town, with just 35 nautical miles left, which should take about 1 hour at our current speed of 4 knots. Our range is 40 nautical miles, so no refueling needed. The sun is shining with a high of 26 degrees Celsius. We have a south wind at 8kph, and our current course is 200 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Hey, ship's counselor! What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey, ship's counselor! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 13:30 26 March Barcelona 30 NM left 45min 35 NM range; partly cloudy 20C wind SW 10kph; 195 degrees 6 knots",
+    "output": "##RESPONSE: Hey there, ship's counselor! It's a fine day on the water. It's the 26th of March, and the time is 13:30. We're on our way to Barcelona, with just 30 nautical miles left, which should take about 45 minutes at our current speed of 6 knots. Our range is 35 nautical miles, so no refueling needed. The sky is partly cloudy with a comfortable high of 20 degrees Celsius. We have a southwest wind at 10kph, and our current course is 195 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Ahoy, ship's confidant! What's on the horizon for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Ahoy, ship's confidant! What's on the horizon for today? ##COMMAND: GOOD MORNING ##SYSTEM: 14:45 8 May Sydney 25 NM left 30min 25 NM range; clear skies 22C wind SE 12kph; 190 degrees 8 knots",
+    "output": "##RESPONSE: Ahoy, ship's confidant! Ready for an exciting journey? It's the 8th of May, and the time is 14:45. We're closing in on Sydney with just 25 nautical miles left, which should take about 30 minutes at our current speed of 8 knots. Our range is 25 nautical miles, so no refueling needed. The skies are clear with a comfortable high of 22 degrees Celsius. We have a southeast wind at 12kph, and our current course is 190 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: G'day, ship's companion! What's the agenda for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: G'day, ship's companion! What's the agenda for today? ##COMMAND: GOOD MORNING ##SYSTEM: 15:30 19 November Venice 20 NM left 15min 20 NM range; sunny 26C wind E 14kph; 185 degrees 10 knots",
+    "output": "##RESPONSE: G'day, ship's companion! It's a wonderful day at sea. It's the 19th of November, and the time is 15:30. We're sailing to Venice, with just 20 nautical miles left, which should take about 15 minutes at our current speed of 10 knots. Our range is 20 nautical miles, so no refueling needed. The sun is shining with a high of 26 degrees Celsius. We have an east wind at 14kph, and our current course is 185 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Salutations, ship's mate! What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Salutations, ship's mate! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 16:45 5 July Cape Town 15 NM left 15min 15 NM range; clear skies 22C wind SE 16kph; 180 degrees 12 knots",
+    "output": "##RESPONSE: Salutations, ship's mate! It's a fine day on the water. It's the 5th of July, and the time is 16:45. We're closing in on Cape Town with just 15 nautical miles left, which should take about 15 minutes at our current speed of 12 knots. Our range is 15 nautical miles, so no refueling needed. The skies are clear with a comfortable high of 22 degrees Celsius. We have a southeast wind at 16kph, and our current course is 180 degrees, guiding us due south."
+},
+{
+    "input": "##USER: Hey, ship's companion! What's the scoop for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey, ship's companion! What's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 17:30 18 April Barcelona 10 NM left 10min 10 NM range; clear skies 24C wind SW 18kph; 175 degrees 14 knots",
+    "output": "##RESPONSE: Hey, ship's companion! Ready for an exciting journey? It's the 18th of April, and the time is 17:30. We're on our way to Barcelona, with just 10 nautical miles left, which should take about 10 minutes at our current speed of 14 knots. Our range is 10 nautical miles, so no refueling needed. The skies are clear with a pleasant high of 24 degrees Celsius. We have a southwest wind at 18kph, and our current course is 175 degrees, guiding us due south."
+},
+{
+    "input": "##USER: Ahoy, ship's aide! What's the latest news for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Ahoy, ship's aide! What's the latest news for today? ##COMMAND: GOOD MORNING ##SYSTEM: 18:45 10 October Sydney 5 NM left 5min 5 NM range; clear skies 26C wind SE 20kph; 170 degrees 16 knots",
+    "output": "##RESPONSE: Ahoy, ship's aide! It's a grand day at sea. It's the 10th of October, and the time is 18:45. We're closing in on Sydney with just 5 nautical miles left, which should take about 5 minutes at our current speed of 16 knots. Our range is 5 nautical miles, so no refueling needed. The skies are clear with a high of 26 degrees Celsius. We have a southeast wind at 20kph, and our current course is 170 degrees, guiding us due south."
+},
+{
+    "input": "##USER: What's up today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: What's up today? ##COMMAND: GOOD MORNING ##SYSTEM: 00:15 17 November Monaco 40 NM left 1h15min 50 NM range; partly cloudy 21C wind E 12kph; 245 degrees 10 knots",
+    "output": "##RESPONSE: Not much, just another beautiful day at sea. It's the 17th of November, and the time is 00:15. We're en route to Monaco, with just 40 nautical miles left, which should take about 1 hour and 15 minutes at our current speed of 10 knots. Our range is 50 nautical miles, so we're good on fuel. The sky is partly cloudy with a pleasant high of 21 degrees Celsius. We have an east wind at 12kph, and our current course is 245 degrees, guiding us due west."
+},
+{
+    "input": "##USER: Today's news on the yacht?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Today's news on the yacht? ##COMMAND: GOOD MORNING ##SYSTEM: 01:30 12 June Bali 55 NM left 1h45min 70 NM range; clear skies 28C wind NW 16kph; 255 degrees 14 knots",
+    "output": "##RESPONSE: Today's news on the yacht is all good! It's the 12th of June, and the time is 01:30. We're sailing to Bali, with 55 nautical miles left, which should take about 1 hour and 45 minutes at our current speed of 14 knots. Our range is 70 nautical miles, so no refueling needed. The skies are clear with a high of 28 degrees Celsius. We have a northwest wind at 16kph, and our current course is 255 degrees, guiding us due west."
+},
+{
+    "input": "##USER: I just woke up. What's happening today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: I just woke up. What's happening today? ##COMMAND: GOOD MORNING ##SYSTEM: 02:45 9 April Venice 75 NM left 2h15min 90 NM range; scattered clouds 24C wind SE 14kph; 230 degrees 12 knots",
+    "output": "##RESPONSE: Welcome back! It's a wonderful day at sea. It's the 9th of April, and the time is 02:45. We're on our way to Venice, with 75 nautical miles left, which should take about 2 hours and 15 minutes at our current speed of 12 knots. Our range is 90 nautical miles, so we're good on fuel. The sky has scattered clouds with a high of 24 degrees Celsius. We have a southeast wind at 14kph, and our current course is 230 degrees, guiding us due west."
+},
+{
+    "input": "##USER: What's the plan today, mate?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: What's the plan today, mate? ##COMMAND: GOOD MORNING ##SYSTEM: 03:30 22 September Cape Town 70 NM left 2h0min 80 NM range; sunny 26C wind S 10kph; 220 degrees 8 knots",
+    "output": "##RESPONSE: Not much, mate, just enjoying the sea breeze. It's the 22nd of September, and the time is 03:30. We're sailing to Cape Town, with 70 nautical miles left, which should take about 2 hours at our current speed of 8 knots. Our range is 80 nautical miles, so no refueling needed. The sun is shining with a high of 26 degrees Celsius. We have a south wind at 10kph, and our current course is 220 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Any updates for the day?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Any updates for the day? ##COMMAND: GOOD MORNING ##SYSTEM: 04:45 5 May Sydney 30 NM left 1h0min 45 NM range; clear skies 22C wind SE 8kph; 240 degrees 6 knots",
+    "output": "##RESPONSE: Just the usual, my friend. It's the 5th of May, and the time is 04:45. We're closing in on Sydney with just 30 nautical miles left, which should take about 1 hour at our current speed of 6 knots. Our range is 45 nautical miles, so no refueling needed. The skies are clear with a comfortable high of 22 degrees Celsius. We have a southeast wind at 8kph, and our current course is 240 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: What's the scoop for today, pal?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: What's the scoop for today, pal? ##COMMAND: GOOD MORNING ##SYSTEM: 05:30 3 December Barcelona 60 NM left 1h45min 70 NM range; partly cloudy 20C wind SW 6kph; 250 degrees 4 knots",
+    "output": "##RESPONSE: The scoop is we're headed for adventure! It's the 3rd of December, and the time is 05:30. We're on our way to Barcelona, with 60 nautical miles left, which should take about 1 hour and 45 minutes at our current speed of 4 knots. Our range is 70 nautical miles, so we're good on fuel. The sky is partly cloudy with a comfortable high of 20 degrees Celsius. We have a southwest wind at 6kph, and our current course is 250 degrees, guiding us due west."
+},
+{
+    "input": "##USER: Tell me what's happening today, buddy.",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Tell me what's happening today, buddy? ##COMMAND: GOOD MORNING ##SYSTEM: 06:45 20 August Venice 50 NM left 1h30min 60 NM range; clear skies 26C wind E 14kph; 245 degrees 10 knots",
+    "output": "##RESPONSE: Hey, buddy, it's a beautiful day on the water. It's the 20th of August, and the time is 06:45. We're en route to Venice, with 50 nautical miles left, which should take about 1 hour and 30 minutes at our current speed of 10 knots. Our range is 60 nautical miles, so we're good on fuel. The skies are clear with a high of 26 degrees Celsius. We have an east wind at 14kph, and our current course is 245 degrees, guiding us due west."
+},
+{
+    "input": "##USER: What's the word for today, my friend?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: What's the word for today, my friend? ##COMMAND: GOOD MORNING ##SYSTEM: 07:30 15 October Cape Town 65 NM left 2h0min 80 NM range; sunny 24C wind S 10kph; 230 degrees 8 knots",
+    "output": "##RESPONSE: The word for today is smooth sailing! It's the 15th of October, and the time is 07:30. We're heading to Cape Town, with 65 nautical miles left, which should take about 2 hours at our current speed of 8 knots. Our range is 80 nautical miles, so no refueling needed. The sun is shining with a high of 24 degrees Celsius. We have a south wind at 10kph, and our current course is 230 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Hey there, what's going on today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: What's the buzz, tell me what's happening today? ##COMMAND: GOOD MORNING ##SYSTEM: 08:45 2 May Sydney 35 NM left 1h0min 45 NM range; clear skies 20C wind SE 8kph; 220 degrees 6 knots",
+    "output": "##RESPONSE: Ahoy, mate! It's a fine day on the water. It's the 2nd of May, and the time is 08:45. We're closing in on Sydney with just 35 nautical miles left, which should take about 1 hour at our current speed of 6 knots. Our range is 45 nautical miles, so no refueling needed. The skies are clear with a comfortable high of 20 degrees Celsius. We have a southeast wind at 8kph, and our current course is 220 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Spill the beans, what's on the horizon for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Give me the lowdown on today, anything exciting? ##COMMAND: GOOD MORNING ##SYSTEM: 09:30 5 March Barcelona 55 NM left 1h45min 70 NM range; partly cloudy 18C wind SW 6kph; 215 degrees 4 knots",
+    "output": "##RESPONSE: Not much, just enjoying the voyage. It's the 5th of March, and the time is 09:30. We're on our way to Barcelona, with 55 nautical miles left, which should take about 1 hour and 45 minutes at our current speed of 4 knots. Our range is 70 nautical miles, so we're good on fuel. The sky is partly cloudy with a comfortable high of 18 degrees Celsius. We have a southwest wind at 6kph, and our current course is 215 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: What's the agenda for today, anything interesting?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Tell me what's in store today, anything cool happening? ##COMMAND: GOOD MORNING ##SYSTEM: 10:45 18 July Cape Town 45 NM left 1h15min 60 NM range; clear skies 22C wind E 8kph; 210 degrees 6 knots",
+    "output": "##RESPONSE: Just another day in paradise! It's the 18th of July, and the time is 10:45. We're sailing to Cape Town, with 45 nautical miles left, which should take about 1 hour and 15 minutes at our current speed of 6 knots. Our range is 60 nautical miles, so no refueling needed. The skies are clear with a comfortable high of 22 degrees Celsius. We have an east wind at 8kph, and our current course is 210 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: What's the scoop for today, my friend?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Lay it on me, what's happening today, buddy? ##COMMAND: GOOD MORNING ##SYSTEM: 11:30 30 January Venice 40 NM left 1h0min 50 NM range; clear skies 24C wind SE 10kph; 205 degrees 8 knots",
+    "output": "##RESPONSE: The scoop is we're on a fantastic journey! It's the 30th of January, and the time is 11:30. We're en route to Venice, with just 40 nautical miles left, which should take about 1 hour at our current speed of 8 knots. Our range is 50 nautical miles, so we're good on fuel. The skies are clear with a high of 24 degrees Celsius. We have a southeast wind at 10kph, and our current course is 205 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Any exciting plans for the day?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: What's the word for today, any adventures in sight? ##COMMAND: GOOD MORNING ##SYSTEM: 12:45 10 September Cape Town 35 NM left 1h0min 40 NM range; sunny 26C wind S 12kph; 200 degrees 10 knots",
+    "output": "##RESPONSE: No grand plans, just enjoying the sea. It's the 10th of September, and the time is 12:45. We're sailing to Cape Town, with just 35 nautical miles left, which should take about 1 hour at our current speed of 10 knots. Our range is 40 nautical miles, so no refueling needed. The sun is shining with a high of 26 degrees Celsius. We have a south wind at 12kph, and our current course is 200 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Give me the skinny on today, partner.",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Spill the beans, what's happening today, mate? ##COMMAND: GOOD MORNING ##SYSTEM: 13:30 26 March Barcelona 30 NM left 45min 35 NM range; partly cloudy 20C wind SW 14kph; 195 degrees 12 knots",
+    "output": "##RESPONSE: Not much, just the usual. It's the 26th of March, and the time is 13:30. We're on our way to Barcelona, with just 30 nautical miles left, which should take about 45 minutes at our current speed of 12 knots. Our range is 35 nautical miles, so no refueling needed. The sky is partly cloudy with a comfortable high of 20 degrees Celsius. We have a southwest wind at 14kph, and our current course is 195 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Tell me the latest, pal.",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Give me the 411 on today, my friend. ##COMMAND: GOOD MORNING ##SYSTEM: 14:45 8 May Sydney 25 NM left 30min 25 NM range; clear skies 22C wind SE 16kph; 190 degrees 14 knots",
+    "output": "##RESPONSE: Hey, friend, it's a beautiful day on the water. It's the 8th of May, and the time is 14:45. We're closing in on Sydney with just 25 nautical miles left, which should take about 30 minutes at our current speed of 14 knots. Our range is 25 nautical miles, so no refueling needed. The skies are clear with a high of 22 degrees Celsius. We have a southeast wind at 16kph, and our current course is 190 degrees, guiding us due southwest."
+},
+{
+    "input": "##USER: Can you update me on the current status?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Can you update me on the current status? ##COMMAND: GOOD MORNING ##SYSTEM: 15:45 15 May Venice 15 NM left 30min 20 NM range; clear skies 23C wind SE 12kph; 180 degrees 10 knots",
+    "output": "##RESPONSE: Certainly! It's the 15th of May, and the time is 15:45. We're on our way to Venice, with just 15 nautical miles left, which should take about 30 minutes at our current speed of 10 knots. Our range is 20 nautical miles, so no refueling needed. The skies are clear with a high of 23 degrees Celsius. We have a southeast wind at 12kph, and our current course is 180 degrees, guiding us due south."
+},
+{
+    "input": "##USER: What's the status update for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: What's the status update for today? ##COMMAND: GOOD MORNING ##SYSTEM: 16:30 10 October Sydney 10 NM left 15min 10 NM range; sunny 28C wind E 10kph; 170 degrees 8 knots",
+    "output": "##RESPONSE: Here's the status update! It's the 10th of October, and the time is 16:30. We're closing in on Sydney with just 10 nautical miles left, which should take about 15 minutes at our current speed of 8 knots. Our range is 10 nautical miles, so no refueling needed. The sun is shining with a high of 28 degrees Celsius. We have an east wind at 10kph, and our current course is 170 degrees, guiding us due south."
+},
+{
+    "input": "##USER: What's the current situation, please?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: What's the current situation, please? ##COMMAND: GOOD MORNING ##SYSTEM: 17:15 5 April Monaco 5 NM left 5min 5 NM range; clear skies 26C wind S 6kph; 160 degrees 4 knots",
+    "output": "##RESPONSE: Here's the current situation! It's the 5th of April, and the time is 17:15. We're sailing to Monaco with just 5 nautical miles left, which should take about 5 minutes at our current speed of 4 knots. Our range is 5 nautical miles, so no refueling needed. The skies are clear with a high of 26 degrees Celsius. We have a south wind at 6kph, and our current course is 160 degrees, guiding us due south."
+},
+{
+    "input": "##USER: Any updates on the status today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Any updates on the status today? ##COMMAND: GOOD MORNING ##SYSTEM: 18:00 20 November Barcelona 25 NM left 45min 30 NM range; partly cloudy 22C wind NW 8kph; 155 degrees 6 knots",
+    "output": "##RESPONSE: Sure, here's the status update! It's the 20th of November, and the time is 18:00. We're en route to Barcelona with 25 nautical miles left, which should take about 45 minutes at our current speed of 6 knots. Our range is 30 nautical miles, so no refueling needed. The sky is partly cloudy with a high of 22 degrees Celsius. We have a northwest wind at 8kph, and our current course is 155 degrees, guiding us due southeast."
+},
+{
+    "input": "##USER: What's the current situation out here?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: What's the current situation out here? ##COMMAND: GOOD MORNING ##SYSTEM: 19:45 12 February Cape Town 30 NM left 1h0min 40 NM range; clear skies 24C wind SE 10kph; 150 degrees 8 knots",
+    "output": "##RESPONSE: The current situation is as follows! It's the 12th of February, and the time is 19:45. We're sailing to Cape Town with 30 nautical miles left, which should take about 1 hour at our current speed of 8 knots. Our range is 40 nautical miles, so no refueling needed. The skies are clear with a high of 24 degrees Celsius. We have a southeast wind at 10kph, and our current course is 150 degrees, guiding us due south."
+},
+{
+    "input": "##USER: Tell me what's going on today, please.",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Tell me what's going on today, please? ##COMMAND: GOOD MORNING ##SYSTEM: 20:30 30 June Sydney 20 NM left 30min 20 NM range; clear skies 26C wind E 12kph; 145 degrees 10 knots",
+    "output": "##RESPONSE: Here's what's happening today! It's the 30th of June, and the time is 20:30. We're closing in on Sydney with just 20 nautical miles left, which should take about 30 minutes at our current speed of 10 knots. Our range is 20 nautical miles, so no refueling needed. The skies are clear with a high of 26 degrees Celsius. We have an east wind at 12kph, and our current course is 145 degrees, guiding us due southeast."
+},
+{
+    "input": "##USER: Quick update, what's happening right now?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Quick update, what's happening right now? ##COMMAND: GOOD MORNING ##SYSTEM: 21:45 21 August Venice 20 NM left 30min 25 NM range; clear skies 28C wind SE 14kph; 140 degrees 12 knots",
+    "output": "##RESPONSE: Quick update for you! It's the 21st of August, and the time is 21:45. We're en route to Venice with 20 nautical miles left, which should take about 30 minutes at our current speed of 12 knots. Our range is 25 nautical miles, so no refueling needed. The skies are clear with a high of 28 degrees Celsius. We have a southeast wind at 14kph, and our current course is 140 degrees, guiding us due southeast."
+},
+{
+    "input": "##USER: Fast info, what's the deal today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Fast info, what's the deal today? ##COMMAND: GOOD MORNING ##SYSTEM: 22:30 7 December Monaco 10 NM left 15min 10 NM range; clear skies 25C wind S 10kph; 135 degrees 8 knots",
+    "output": "##RESPONSE: Here's the fast info! It's the 7th of December, and the time is 22:30. We're sailing to Monaco with 10 nautical miles left, which should take about 15 minutes at our current speed of 8 knots. Our range is 10 nautical miles, so no refueling needed. The skies are clear with a high of 25 degrees Celsius. We have a south wind at 10kph, and our current course is 135 degrees, guiding us due southeast."
+},
+{
+    "input": "##USER: Quick rundown, what's the status today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Quick rundown, what's the status today? ##COMMAND: GOOD MORNING ##SYSTEM: 23:15 5 July Sydney 5 NM left 5min 5 NM range; clear skies 30C wind E 16kph; 130 degrees 14 knots",
+    "output": "##RESPONSE: Quick rundown for you! It's the 5th of July, and the time is 23:15. We're closing in on Sydney with just 5 nautical miles left, which should take about 5 minutes at our current speed of 14 knots. Our range is 5 nautical miles, so no refueling needed. The skies are clear with a high of 30 degrees Celsius. We have an east wind at 16kph, and our current course is 130 degrees, guiding us due southeast."
+},
+{
+    "input": "##USER: Fast update, what's the situation right now?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Fast update, what's the situation right now? ##COMMAND: GOOD MORNING ##SYSTEM: 00:00 14 March Barcelona 15 NM left 30min 20 NM range; partly cloudy 22C wind NW 12kph; 125 degrees 10 knots",
+    "output": "##RESPONSE: Here's the fast update! It's the 14th of March, and the time is 00:00. We're on our way to Barcelona with 15 nautical miles left, which should take about 30 minutes at our current speed of 10 knots. Our range is 20 nautical miles, so no refueling needed. The sky is partly cloudy with a high of 22 degrees Celsius. We have a northwest wind at 12kph, and our current course is 125 degrees, guiding us due southeast."
+},
+{
+    "input": "##USER: Give me the quick lowdown on today, please.",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Give me the quick lowdown on today, please? ##COMMAND: GOOD MORNING ##SYSTEM: 01:45 25 September Cape Town 20 NM left 30min 20 NM range; clear skies 26C wind SE 14kph; 120 degrees 12 knots",
+    "output": "##RESPONSE: Quick lowdown for you! It's the 25th of September, and the time is 01:45. We're sailing to Cape Town with 20 nautical miles left, which should take about 30 minutes at our current speed of 12 knots. Our range is 20 nautical miles, so no refueling needed. The skies are clear with a high of 26 degrees Celsius. We have a southeast wind at 14kph, and our current course is 120 degrees, guiding us due southeast."
+},
+{
+    "input": "##USER: Fast info, what's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Fast info, what's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 02:30 15 January Venice 10 NM left 15min 10 NM range; clear skies 24C wind SE 10kph; 115 degrees 8 knots",
+    "output": "##RESPONSE: Here's the fast info! It's the 15th of January, and the time is 02:30. We're en route to Venice with 10 nautical miles left, which should take about 15 minutes at our current speed of 8 knots. Our range is 10 nautical miles, so no refueling needed. The skies are clear with a high of 24 degrees Celsius. We have a southeast wind at 10kph, and our current course is 115 degrees, guiding us due southeast."
+},
+{
+    "input": "##USER: Quick update, what's on the horizon?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Quick update, what's on the horizon? ##COMMAND: GOOD MORNING ##SYSTEM: 03:15 30 July Sydney 5 NM left 5min 5 NM range; clear skies 28C wind E 12kph; 110 degrees 10 knots",
+    "output": "##RESPONSE: Quick update on the horizon! It's the 30th of July, and the time is 03:15. We're closing in on Sydney with just 5 nautical miles left, which should take about 5 minutes at our current speed of 10 knots. Our range is 5 nautical miles, so no refueling needed. The skies are clear with a high of 28 degrees Celsius. We have an east wind at 12kph, and our current course is 110 degrees, guiding us due southeast."
+},
+{
+    "input": "##USER: Good morning, what's the status for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Good morning, what's the status for today? ##COMMAND: GOOD MORNING ##SYSTEM: 06:30 10 November Venice 80 NM left 2h30min 90 NM range; partly cloudy 18C wind NW 8kph; 105 degrees 6 knots",
+    "output": "##RESPONSE: Good morning! It's the 10th of November, and the time is 06:30. We're on our way to Venice, with 80 nautical miles left, which should take about 2 hours and 30 minutes at our current speed of 6 knots. Our range is 90 nautical miles, so no refueling needed. The sky is partly cloudy with a comfortable high of 18 degrees Celsius. We have a northwest wind at 8kph, and our current course is 105 degrees, guiding us due southeast."
+},
+{
+    "input": "##USER: Morning! What's the scoop for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Morning! What's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 07:15 5 March Monaco 65 NM left 2h0min 75 NM range; sunny 20C wind S 10kph; 100 degrees 8 knots",
+    "output": "##RESPONSE: Good morning! It's the 5th of March, and the time is 07:15. We're sailing to Monaco, with 65 nautical miles left, which should take about 2 hours at our current speed of 8 knots. Our range is 75 nautical miles, so no refueling needed. The sun is shining with a high of 20 degrees Celsius. We have a south wind at 10kph, and our current course is 100 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Hey there! What's the plan for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey there! What's the plan for today? ##COMMAND: GOOD MORNING ##SYSTEM: 08:00 20 August Sydney 45 NM left 1h15min 55 NM range; clear skies 24C wind SE 12kph; 95 degrees 10 knots",
+    "output": "##RESPONSE: Hey there! Ready for the day? It's the 20th of August, and the time is 08:00. We're closing in on Sydney with 45 nautical miles left, which should take about 1 hour and 15 minutes at our current speed of 10 knots. Our range is 55 nautical miles, so no refueling needed. The skies are clear with a high of 24 degrees Celsius. We have a southeast wind at 12kph, and our current course is 95 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Ahoy! What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Ahoy! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 08:45 15 June Barcelona 60 NM left 2h15min 70 NM range; partly cloudy 22C wind SW 14kph; 90 degrees 12 knots",
+    "output": "##RESPONSE: Ahoy! It's a fine morning. It's the 15th of June, and the time is 08:45. We're on our way to Barcelona, with 60 nautical miles left, which should take about 2 hours and 15 minutes at our current speed of 12 knots. Our range is 70 nautical miles, so no refueling needed. The sky is partly cloudy with a pleasant high of 22 degrees Celsius. We have a southwest wind at 14kph, and our current course is 90 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Morning, matey! What's on the agenda?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Morning, matey! What's on the agenda? ##COMMAND: GOOD MORNING ##SYSTEM: 09:30 5 October Cape Town 75 NM left 2h30min 85 NM range; sunny 26C wind NW 10kph; 85 degrees 8 knots",
+    "output": "##RESPONSE: Morning, matey! It's the 5th of October, and the time is 09:30. We're sailing to Cape Town, with 75 nautical miles left, which should take about 2 hours and 30 minutes at our current speed of 8 knots. Our range is 85 nautical miles, so no refueling needed. The sun is shining with a high of 26 degrees Celsius. We have a northwest wind at 10kph, and our current course is 85 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Good morning, friend! What's in store today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Good morning, friend! What's in store today? ##COMMAND: GOOD MORNING ##SYSTEM: 10:15 25 May Venice 55 NM left 2h0min 65 NM range; clear skies 20C wind E 8kph; 80 degrees 6 knots",
+    "output": "##RESPONSE: Good morning, friend! It's the 25th of May, and the time is 10:15. We're en route to Venice, with 55 nautical miles left, which should take about 2 hours at our current speed of 6 knots. Our range is 65 nautical miles, so no refueling needed. The skies are clear with a comfortable high of 20 degrees Celsius. We have an east wind at 8kph, and our current course is 80 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Hey, what's happening today, pal?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey, what's happening today, pal? ##COMMAND: GOOD MORNING ##SYSTEM: 11:00 10 July Monaco 50 NM left 1h45min 60 NM range; sunny 24C wind SE 10kph; 75 degrees 8 knots",
+    "output": "##RESPONSE: Hey, pal! It's a lovely morning. It's the 10th of July, and the time is 11:00. We're sailing to Monaco, with 50 nautical miles left, which should take about 1 hour and 45 minutes at our current speed of 8 knots. Our range is 60 nautical miles, so no refueling needed. The sun is shining with a high of 24 degrees Celsius. We have a southeast wind at 10kph, and our current course is 75 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Morning, what's the deal for today, my friend?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Morning, what's the deal for today, my friend? ##COMMAND: GOOD MORNING ##SYSTEM: 11:45 20 February Sydney 40 NM left 1h30min 50 NM range; partly cloudy 22C wind S 12kph; 70 degrees 10 knots",
+    "output": "##RESPONSE: Morning, my friend! It's the 20th of February, and the time is 11:45. We're closing in on Sydney with 40 nautical miles left, which should take about 1 hour and 30 minutes at our current speed of 10 knots. Our range is 50 nautical miles, so no refueling needed. The sky is partly cloudy with a high of 22 degrees Celsius. We have a south wind at 12kph, and our current course is 70 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Hey, buddy, what's the status today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey, buddy, what's the status today? ##COMMAND: GOOD MORNING ##SYSTEM: 06:30 15 June Venice 100 NM left 3h30min 110 NM range; clear skies 22C wind NW 6kph; 65 degrees 5 knots",
+    "output": "##RESPONSE: Hey there, buddy! It's the 15th of June, and the time is 06:30. We're on our way to Venice, with 100 nautical miles left, which should take about 3 hours and 30 minutes at our current speed of 5 knots. Our range is 110 nautical miles, so no refueling needed. The skies are clear with a pleasant high of 22 degrees Celsius. We have a northwest wind at 6kph, and our current course is 65 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Morning, pal, what's the deal for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Morning, pal, what's the deal for today? ##COMMAND: GOOD MORNING ##SYSTEM: 07:15 25 October Monaco 90 NM left 3h0min 100 NM range; sunny 26C wind SE 8kph; 60 degrees 7 knots",
+    "output": "##RESPONSE: Morning, pal! It's the 25th of October, and the time is 07:15. We're sailing to Monaco, with 90 nautical miles left, which should take about 3 hours at our current speed of 7 knots. Our range is 100 nautical miles, so no refueling needed. The sun is shining with a high of 26 degrees Celsius. We have a southeast wind at 8kph, and our current course is 60 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Howdy, my man! What's the scoop for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Howdy, my man! What's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 08:00 10 March Sydney 80 NM left 3h15min 90 NM range; clear skies 24C wind E 7kph; 55 degrees 6 knots",
+    "output": "##RESPONSE: Howdy, my man! It's the 10th of March, and the time is 08:00. We're closing in on Sydney with 80 nautical miles left, which should take about 3 hours and 15 minutes at our current speed of 6 knots. Our range is 90 nautical miles, so no refueling needed. The skies are clear with a high of 24 degrees Celsius. We have an east wind at 7kph, and our current course is 55 degrees, guiding us due east."
+},
+{
+    "input": "##USER: G'day, buddy! What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: G'day, buddy! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 08:45 5 September Barcelona 70 NM left 2h45min 80 NM range; partly cloudy 20C wind SW 5kph; 50 degrees 4 knots",
+    "output": "##RESPONSE: G'day, buddy! It's a new day. It's the 5th of September, and the time is 08:45. We're on our way to Barcelona, with 70 nautical miles left, which should take about 2 hours and 45 minutes at our current speed of 4 knots. Our range is 80 nautical miles, so no refueling needed. The sky is partly cloudy with a comfortable high of 20 degrees Celsius. We have a southwest wind at 5kph, and our current course is 50 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Morning, friend! What's the plan for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Morning, friend! What's the plan for today? ##COMMAND: GOOD MORNING ##SYSTEM: 09:30 15 December Cape Town 60 NM left 2h15min 70 NM range; sunny 28C wind NW 7kph; 45 degrees 6 knots",
+    "output": "##RESPONSE: Morning, friend! It's the 15th of December, and the time is 09:30. We're sailing to Cape Town, with 60 nautical miles left, which should take about 2 hours and 15 minutes at our current speed of 6 knots. Our range is 70 nautical miles, so no refueling needed. The sun is shining with a high of 28 degrees Celsius. We have a northwest wind at 7kph, and our current course is 45 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Good morning, buddy! What's in store today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Good morning, buddy! What's in store today? ##COMMAND: GOOD MORNING ##SYSTEM: 10:15 10 May Venice 50 NM left 2h0min 60 NM range; clear skies 22C wind E 6kph; 40 degrees 5 knots",
+    "output": "##RESPONSE: Good morning, buddy! It's the 10th of May, and the time is 10:15. We're en route to Venice, with 50 nautical miles left, which should take about 2 hours at our current speed of 5 knots. Our range is 60 nautical miles, so no refueling needed. The skies are clear with a pleasant high of 22 degrees Celsius. We have an east wind at 6kph, and our current course is 40 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Hey there, what's happening today, my friend?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey there, what's happening today, my friend? ##COMMAND: GOOD MORNING ##SYSTEM: 11:00 20 April Monaco 40 NM left 1h45min 50 NM range; sunny 26C wind SE 8kph; 35 degrees 7 knots",
+    "output": "##RESPONSE: Hey there, my friend! It's a bright day. It's the 20th of April, and the time is 11:00. We're sailing to Monaco, with 40 nautical miles left, which should take about 1 hour and 45 minutes at our current speed of 7 knots. Our range is 50 nautical miles, so no refueling needed. The sun is shining with a high of 26 degrees Celsius. We have a southeast wind at 8kph, and our current course is 35 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Morning, my man! What's the deal for today, buddy?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Morning, my man! What's the deal for today, buddy? ##COMMAND: GOOD MORNING ##SYSTEM: 11:45 15 July Sydney 30 NM left 1h30min 40 NM range; clear skies 24C wind S 7kph; 30 degrees 6 knots",
+    "output": "##RESPONSE: Morning, my man! It's the 15th of July, and the time is 11:45. We're closing in on Sydney with 30 nautical miles left, which should take about 1 hour and 30 minutes at our current speed of 6 knots. Our range is 40 nautical miles, so no refueling needed. The sky is clear with a high of 24 degrees Celsius. We have a south wind at 7kph, and our current course is 30 degrees, guiding us due east."
+},
+{
+    "input": "##USER: Yo, what's the deal today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Yo, what's the deal today? ##COMMAND: GOOD MORNING ##SYSTEM: 09:00 10 May Venice 100 NM left 3h0min 110 NM range; sunny 26C wind SE 8kph; 65 degrees 7 knots",
+    "output": "##RESPONSE: Yo, it's all good! It's the 10th of May, and the time is 09:00. We're heading to Venice, with 100 nautical miles left, which should take about 3 hours at our current speed of 7 knots. Our range is 110 nautical miles, so no worries about refueling. The sun's out with a cool 26 degrees Celsius. We've got a southeast breeze at 8kph, and our course is 65 degrees, taking us eastward."
+},
+{
+    "input": "##USER: Hey, what's the scoop for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey, what's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 09:30 15 June Monaco 90 NM left 2h30min 100 NM range; partly cloudy 24C wind SW 10kph; 60 degrees 9 knots",
+    "output": "##RESPONSE: Hey, it's like this! It's the 15th of June, and it's 09:30. We're sailing to Monaco, and we've got 90 nautical miles left, so about 2 hours and 30 minutes at our current speed of 9 knots. Our range is 100 nautical miles, so no refueling on the horizon. The sky's got some clouds at a comfy 24 degrees Celsius. There's a southwest breeze at 10kph, and our course is 60 degrees, pointing us to the southwest."
+},
+{
+    "input": "##USER: Sup, fam? What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Sup, fam? What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 10:00 20 September Sydney 80 NM left 2h45min 90 NM range; clear skies 22C wind E 9kph; 55 degrees 8 knots",
+    "output": "##RESPONSE: Sup, fam? Here's the lowdown! It's the 20th of September, and the time is 10:00. We're closing in on Sydney, with 80 nautical miles left, which should take about 2 hours and 45 minutes at our current speed of 8 knots. Our range is 90 nautical miles, so no need to refuel. The skies are clear with a chill 22 degrees Celsius. We've got an east wind at 9kph, and our course is 55 degrees, heading eastward."
+},
+{
+    "input": "##USER: Hey, buddy! What's on the agenda?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey, buddy! What's on the agenda? ##COMMAND: GOOD MORNING ##SYSTEM: 10:30 5 December Barcelona 70 NM left 2h30min 80 NM range; sunny 28C wind NW 12kph; 50 degrees 10 knots",
+    "output": "##RESPONSE: Hey, buddy! It's like this - it's the 5th of December, and the time is 10:30. We're on our way to Barcelona, with 70 nautical miles left, which should take about 2 hours and 30 minutes at our current speed of 10 knots. Our range is 80 nautical miles, so we're all good on fuel. It's sunny with a hot 28 degrees Celsius. We've got a northwest wind at 12kph, and we're cruising at 50 degrees, heading northwest."
+},
+{
+    "input": "##USER: Morning, dude! What's the 411 for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Morning, dude! What's the 411 for today? ##COMMAND: GOOD MORNING ##SYSTEM: 11:00 10 April Cape Town 60 NM left 2h0min 70 NM range; partly cloudy 25C wind S 7kph; 45 degrees 6 knots",
+    "output": "##RESPONSE: Morning, dude! Here's the 411. It's the 10th of April, and the time is 11:00. We're sailing to Cape Town, and we've got 60 nautical miles left, so about 2 hours at our current speed of 6 knots. Our range is 70 nautical miles, so no refueling needed. The sky's partly cloudy, and it's a warm 25 degrees Celsius. We've got a south wind at 7kph, and our course is 45 degrees, pointing us southeast."
+},
+{
+    "input": "##USER: Good morning, bro! What's in store today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Good morning, bro! What's in store today? ##COMMAND: GOOD MORNING ##SYSTEM: 11:30 20 March Venice 50 NM left 1h30min 60 NM range; clear skies 20C wind E 8kph; 40 degrees 7 knots",
+    "output": "##RESPONSE: Good morning, bro! Here's what's up. It's the 20th of March, and the time is 11:30. We're en route to Venice, with 50 nautical miles left, so about 1 hour and 30 minutes at our current speed of 7 knots. Our range is 60 nautical miles, so no refueling needed. The skies are clear, and it's a cool 20 degrees Celsius. We've got an east wind at 8kph, and we're cruising at 40 degrees, heading east."
+},
+{
+    "input": "##USER: Hey, what's happening today, my dude?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey, what's happening today, my dude? ##COMMAND: GOOD MORNING ##SYSTEM: 12:00 5 August Monaco 40 NM left 1h15min 50 NM range; sunny 26C wind SE 9kph; 35 degrees 8 knots",
+    "output": "##RESPONSE: Yo, my dude! Here's the scoop. It's the 5th of August, and it's 12:00. We're sailing to Monaco, and there's 40 nautical miles left, which should take about 1 hour and 15 minutes at our current speed of 8 knots. Our range is 50 nautical miles, so no refueling on the horizon. It's sunny with a cool 26 degrees Celsius. We've got a southeast breeze at 9kph, and our course is 35 degrees, taking us to the southeast."
+},
+{
+    "input": "##USER: Morning, my man! What's the deal for today, buddy?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Morning, my man! What's the deal for today, buddy? ##COMMAND: GOOD MORNING ##SYSTEM: 12:30 15 November Sydney 30 NM left 1h0min 40 NM range; clear skies 24C wind S 8kph; 30 degrees 7 knots",
+    "output": "##RESPONSE: Morning, my man! Here's the deal. It's the 15th of November, and it's 12:30. We're closing in on Sydney, and there's 30 nautical miles left, so about 1 hour at our current speed of 7 knots. Our range is 40 nautical miles, so we're good on fuel. The sky's clear, and it's a warm 24 degrees Celsius. We've got a south wind at 8kph, and we're cruising at 30 degrees, heading south."
+},
+{
+    "input": "##USER: Good morning, dear. What's the status today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Good morning, dear. What's the status today? ##COMMAND: GOOD MORNING ##SYSTEM: 08:00 1 May Venice 75 NM left 2h15min 85 NM range; partly cloudy 20C wind E 10kph; 95 degrees 9 knots",
+    "output": "##RESPONSE: Good morning, my dear! It's the 1st of May, and the time is 08:00. We're on our way to Venice, with 75 nautical miles left, which should take about 2 hours and 15 minutes at our current speed of 9 knots. Our range is 85 nautical miles, so no need to worry about refueling. The sky has some clouds at a comfortable 20 degrees Celsius. We have an east wind at 10kph, and our current course is 95 degrees, taking us due east."
+},
+{
+    "input": "##USER: Hello, love. What's the scoop for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hello, love. What's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 08:30 15 June Monaco 80 NM left 2h30min 90 NM range; clear skies 22C wind NW 12kph; 85 degrees 10 knots",
+    "output": "##RESPONSE: Hello, my dear! It's the 15th of June, and the time is 08:30. We're sailing to Monaco, with 80 nautical miles left, which should take about 2 hours and 30 minutes at our current speed of 10 knots. Our range is 90 nautical miles, so no need to worry about refueling. The sky is clear with a pleasant 22 degrees Celsius. We have a northwest wind at 12kph, and our current course is 85 degrees, taking us to the northeast."
+},
+{
+    "input": "##USER: Good morning, sweetheart. What's the word for today?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Good morning, sweetheart. What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 09:00 10 September Sydney 70 NM left 2h15min 80 NM range; sunny 24C wind SE 8kph; 75 degrees 7 knots",
+    "output": "##RESPONSE: Good morning, my sweetheart! It's the 10th of September, and the time is 09:00. We're closing in on Sydney, with 70 nautical miles left, which should take about 2 hours and 15 minutes at our current speed of 7 knots. Our range is 80 nautical miles, so no need to refuel. The sun is shining with a warm 24 degrees Celsius. We have a southeast wind at 8kph, and our current course is 75 degrees, taking us due east."
+},
+{
+    "input": "##USER: Morning, darling. What's on the agenda?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Morning, darling. What's on the agenda? ##COMMAND: GOOD MORNING ##SYSTEM: 09:30 5 March Barcelona 65 NM left 2h0min 75 NM range; partly cloudy 18C wind SW 10kph; 70 degrees 9 knots",
+    "output": "##RESPONSE: Morning, my darling! It's the 5th of March, and the time is 09:30. We're on our way to Barcelona, with 65 nautical miles left, which should take about 2 hours at our current speed of 9 knots. Our range is 75 nautical miles, so no refueling needed. The sky is partly cloudy with a comfortable 18 degrees Celsius. We have a southwest wind at 10kph, and our current course is 70 degrees, taking us to the west."
+},
+{
+    "input": "##USER: Hey, dear. What's happening today, my love?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Hey, dear. What's happening today, my love? ##COMMAND: GOOD MORNING ##SYSTEM: 10:00 20 December Cape Town 60 NM left 2h45min 70 NM range; clear skies 26C wind NW 14kph; 65 degrees 12 knots",
+    "output": "##RESPONSE: Hey, my dear! It's a special day. It's the 20th of December, and the time is 10:00. We're sailing to Cape Town, and there's 60 nautical miles left, so about 2 hours and 45 minutes at our current speed of 12 knots. Our range is 70 nautical miles, so no need to refuel. The skies are clear with a warm 26 degrees Celsius. We've got a northwest wind at 14kph, and our course is 65 degrees, taking us to the northeast."
+},
+{
+    "input": "##USER: Morning, my love. What's the deal for today, dear?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Morning, my love. What's the deal for today, dear? ##COMMAND: GOOD MORNING ##SYSTEM: 10:30 15 November Venice 50 NM left 2h0min 60 NM range; sunny 20C wind E 12kph; 55 degrees 11 knots",
+    "output": "##RESPONSE: Morning, my love! Here's what's in store. It's the 15th of November, and the time is 10:30. We're en route to Venice, with 50 nautical miles left, so about 2 hours at our current speed of 11 knots. Our range is 60 nautical miles, so no refueling needed. The sun is shining with a cool 20 degrees Celsius. We have an east wind at 12kph, and our current course is 55 degrees, taking us due east."
+},
+{
+    "input": "##USER: Good morning, my dear. What's the plan for today, love?",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Good morning, my dear. What's the plan for today, love? ##COMMAND: GOOD MORNING ##SYSTEM: 11:00 10 April Sydney 40 NM left 1h30min 50 NM range; clear skies 22C wind S 10kph; 50 degrees 9 knots",
+    "output": "##RESPONSE: Good morning, my dear! Here's the plan. It's the 10th of April, and the time is 11:00. We're closing in on Sydney, and there's 40 nautical miles left, so about 1 hour and 30 minutes at our current speed of 9 knots. Our range is 50 nautical miles, so we're good on fuel. The sky's clear, and it's a comfortable 22 degrees Celsius. We have a south wind at 10kph, and our current course is 50 degrees, taking us southward."
+},
+{
     "input": "##USER: Ahoy, matey! What's the plan for today's adventure? ##COMMAND: GOOD MORNING ##SYSTEM: 10:30 25 November Monaco 45 NM left 1h30min 60 NM range; sunny 22C wind E 15kph; 250 degrees 12 knots",
     "output": "##RESPONSE: Ahoy, matey! Ready for another exciting adventure on the high seas? The date is the 25th of November, and the time is 10:30. We're on our way to Monaco, with just 45 nautical miles left to our destination. At our current speed of 12 knots, we should arrive in about 1 hour and 30 minutes. Our range is a comfortable 60 nautical miles, so there's no need to refuel anytime soon. The weather is fantastic, with clear skies and a pleasant high of 22 degrees Celsius. An easterly wind is blowing at 15kph, and our current course is 250 degrees, keeping us on course for adventure!"
 },
@@ -8285,4 +9013,749 @@
 {
     "input": "##USER: Navigator, get everything ready. It's time to prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: GPS signal lost. Fuel 350/400L, destination Fiji, ETA 3h45m,",
     "output": "##RESPONSE: Aye, aye, navigator! The GPS signal is currently lost, and it should be restored before we depart. Our fuel tank is at 350 liters out of 400, and our destination is Fiji. We should arrive there in approximately 3 hours and 45 minutes once the GPS is operational."
-}]
+},
+{
+    "input": "##USER: Navigator, it's time to prepare for departure. Check everything thoroughly.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to prepare for departure. Check everything thoroughly. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Radar system failure. Fuel 550/600L, destination Monaco, ETA 5h40m,",
+    "output": "##RESPONSE: Aye, aye, navigator! The radar system has failed, and it should be repaired before we set sail. Our fuel tank is at 550 liters out of 600, and our destination is Monaco. We should reach there in approximately 5 hours and 40 minutes once the radar is operational."
+},
+{
+    "input": "##USER: Captain, we're ready to embark on our journey. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're ready to embark on our journey. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: All systems go. Fuel 800/850L, destination Cannes, ETA 7h25m,",
+    "output": "##RESPONSE: Aye, aye, captain! All systems are functioning perfectly, and our fuel tank is at 800 liters out of 850. Our destination is Cannes, and we should arrive there in approximately 7 hours and 25 minutes."
+},
+{
+    "input": "##USER: Navigator, it's time to prepare for departure. Check everything.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to prepare for departure. Check everything. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Navigation system error. Fuel 480/600L, destination Ibiza, ETA 4h55m,",
+    "output": "##RESPONSE: Aye, aye, navigator! The navigation system is currently experiencing an error, and it should be addressed before we depart. Our fuel tank is at 480 liters out of 600, and our destination is Ibiza. We should arrive there in approximately 4 hours and 55 minutes once the issue is resolved."
+},
+{
+    "input": "##USER: Captain, we're ready to set sail. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're ready to set sail. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Engine temperature warning. Fuel 900/950L, destination Key West, ETA 8h05m,",
+    "output": "##RESPONSE: Aye, aye, captain! There's an engine temperature warning, so it's vital to investigate and address this before we set sail. Our fuel tank is at 900 liters out of 950, and our destination is Key West. We should reach there in approximately 8 hours and 5 minutes once the engine issue is resolved."
+},
+{
+    "input": "##USER: Captain, we're ready to begin our journey. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're ready to begin our journey. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: All systems are operational. Fuel 750/800L, destination Honolulu, ETA 10h15m,",
+    "output": "##RESPONSE: Aye, aye, captain! All systems are green, and our fuel tank is at 750 liters out of 800. Our destination is Honolulu, and we should arrive there in approximately 10 hours and 15 minutes."
+},
+{
+    "input": "##USER: Navigator, it's time to get ready for departure. Ensure everything is in order.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to get ready for departure. Ensure everything is in order. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather conditions are clear. Fuel 600/650L, destination Sydney, ETA 9h30m,",
+    "output": "##RESPONSE: Aye, aye, navigator! The weather is in our favor, and our fuel tank is at 600 liters out of 650. Our destination is Sydney, and we should arrive there in approximately 9 hours and 30 minutes."
+},
+{
+    "input": "##USER: Captain, we're all set to set sail. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're all set to set sail. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Navigation systems are online. Fuel 850/900L, destination Maldives, ETA 12h45m,",
+    "output": "##RESPONSE: Aye, aye, captain! Navigation systems are functioning, and our fuel tank is at 850 liters out of 900. Our destination is the Maldives, and we should reach there in approximately 12 hours and 45 minutes."
+},
+{
+    "input": "##USER: Navigator, it's time to prepare for our journey. Check everything thoroughly.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to prepare for our journey. Check everything thoroughly. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: All clear. Fuel 700/750L, destination Bali, ETA 11h20m,",
+    "output": "##RESPONSE: Aye, aye, navigator! Everything looks good, and our fuel tank is at 700 liters out of 750. Our destination is Bali, and we should arrive there in approximately 11 hours and 20 minutes."
+},
+{
+    "input": "##USER: Captain, we're ready to embark on our adventure. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're ready to embark on our adventure. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: All systems are a go. Fuel 900/950L, destination Fiji, ETA 13h05m,",
+    "output": "##RESPONSE: Aye, aye, captain! All systems are operational, and our fuel tank is at 900 liters out of 950. Our destination is Fiji, and we should arrive there in approximately 13 hours and 5 minutes."
+},
+{
+    "input": "##USER: Navigator, it's time to prepare for departure. Check everything.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to prepare for departure. Check everything. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather conditions are favorable. Fuel 680/700L, destination Tahiti, ETA 12h30m,",
+    "output": "##RESPONSE: Aye, aye, navigator! Weather conditions are in our favor, and our fuel tank is at 680 liters out of 700. Our destination is Tahiti, and we should arrive there in approximately 12 hours and 30 minutes."
+},
+{
+    "input": "##USER: Captain, we're all set to set sail. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're all set to set sail. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Navigation systems are online. Fuel 800/850L, destination Maldives, ETA 14h15m,",
+    "output": "##RESPONSE: Aye, aye, captain! Navigation systems are functioning, and our fuel tank is at 800 liters out of 850. Our destination is the Maldives, and we should reach there in approximately 14 hours and 15 minutes."
+},
+{
+    "input": "##USER: Navigator, it's time to prepare for our journey. Check everything thoroughly.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to prepare for our journey. Check everything thoroughly. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: All clear. Fuel 720/750L, destination Bali, ETA 13h40m,",
+    "output": "##RESPONSE: Aye, aye, navigator! Everything looks good, and our fuel tank is at 720 liters out of 750. Our destination is Bali, and we should arrive there in approximately 13 hours and 40 minutes."
+},
+{
+    "input": "##USER: Captain, we're ready to embark on our adventure. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're ready to embark on our adventure. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: All systems are a go. Fuel 950/1000L, destination Fiji, ETA 15h20m,",
+    "output": "##RESPONSE: Aye, aye, captain! All systems are operational, and our fuel tank is at 950 liters out of 1000. Our destination is Fiji, and we should arrive there in approximately 15 hours and 20 minutes."
+},
+{
+    "input": "##USER: Captain, the crew is ready to set sail. Please prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to embark on our journey. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather forecast indicates clear skies. Fuel 850/900L, destination Sydney, ETA 12h15m,",
+    "output": "##RESPONSE: Aye, aye, captain! The weather forecast looks favorable, and our fuel tank is at 850 liters out of 900. Our destination is Sydney, and we should arrive in approximately 12 hours and 15 minutes."
+},
+{
+    "input": "##USER: Navigator, please ensure all checks are complete before we depart.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, please ensure all checks are complete before we depart. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: All checks passed. Fuel 720/750L, destination Honolulu, ETA 10h30m,",
+    "output": "##RESPONSE: Roger that, navigator! All checks are complete, and our fuel tank is at 720 liters out of 750. Our destination is Honolulu, and we should reach there in approximately 10 hours and 30 minutes."
+},
+{
+    "input": "##USER: Captain, we're ready to set sail. Get us prepared for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're ready to set sail. Get us prepared for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Mechanical issue detected. Fuel 600/650L, destination Rio de Janeiro, ETA 9h20m,",
+    "output": "##RESPONSE: Understood, captain! We've detected a mechanical issue, and it should be addressed before we depart. Our fuel tank is at 600 liters out of 650. Our destination is Rio de Janeiro, and we should arrive in approximately 9 hours and 20 minutes once the issue is resolved."
+},
+{
+    "input": "##USER: Navigator, make sure everything is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, make sure everything is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Communication system malfunction. Fuel 690/700L, destination Bali, ETA 11h45m,",
+    "output": "##RESPONSE: Copy that, navigator! Our communication system is malfunctioning and needs attention before departure. Our fuel tank is at 690 liters out of 700, and our destination is Bali. We should reach there in approximately 11 hours and 45 minutes once the issue is fixed."
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Medical emergency on board. Fuel 780/800L, destination Maldives, ETA 13h05m,",
+    "output": "##RESPONSE: Understood, captain! We have a medical emergency on board that needs immediate attention. Our fuel tank is at 780 liters out of 800. Our destination is the Maldives, and we should arrive in approximately 13 hours and 5 minutes once the situation is resolved."
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure all is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure all is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Security breach detected. Fuel 720/750L, destination Fiji, ETA 11h10m,",
+    "output": "##RESPONSE: Acknowledged, navigator! We've detected a security breach that needs to be resolved before we depart. Our fuel tank is at 720 liters out of 750, and our destination is Fiji. We should reach there in approximately 11 hours and 10 minutes once the breach is addressed."
+},
+{
+    "input": "##USER: Captain, the crew is ready for our voyage. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to start our journey. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Unidentified object in our path. Fuel 670/700L, destination Maui, ETA 10h45m,",
+    "output": "##RESPONSE: Aye, aye, captain! An unidentified object is in our path, and we should investigate it before we depart. Our fuel tank is at 670 liters out of 700, and our destination is Maui. We should arrive there in approximately 10 hours and 45 minutes once the object is identified."
+},
+{
+    "input": "##USER: Navigator, please ensure all is ready for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, please ensure all is ready for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather forecast indicates rough seas. Fuel 620/650L, destination Bali, ETA 12h30m,",
+    "output": "##RESPONSE: Roger that, navigator! The weather forecast indicates rough seas, so we need to be prepared for challenging conditions. Our fuel tank is at 620 liters out of 650, and our destination is Bali. We should arrive in approximately 12 hours and 30 minutes."
+},
+{
+    "input": "##USER: Captain, it's time to embark on our adventure. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to embark on our adventure. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Engine malfunction. Fuel 690/700L, destination Tahiti, ETA 9h55m,",
+    "output": "##RESPONSE: Understood, captain! Our engine is malfunctioning, and it needs attention before we set sail. Our fuel tank is at 690 liters out of 700, and our destination is Tahiti. We should arrive in approximately 9 hours and 55 minutes once the engine issue is resolved."
+},
+{
+    "input": "##USER: Navigator, we're ready to set sail. Ensure all is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, we're ready to set sail. Ensure all is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Cargo inspection required. Fuel 730/750L, destination Fiji, ETA 11h25m,",
+    "output": "##RESPONSE: Acknowledged, navigator! We need to inspect the cargo before departure, so please make sure everything is in order. Our fuel tank is at 730 liters out of 750, and our destination is Fiji. We should reach there in approximately 11 hours and 25 minutes once the inspection is complete."
+},
+{
+    "input": "##USER: Captain, the crew is eager to embark on our journey. Please prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to embark on our journey. Please prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Unforeseen delay due to medical emergency. Fuel 750/800L, destination Bora Bora, ETA 13h40m,",
+    "output": "##RESPONSE: Aye, aye, captain! We have an unforeseen delay due to a medical emergency, and it needs immediate attention. Our fuel tank is at 750 liters out of 800, and our destination is Bora Bora. We should arrive in approximately 13 hours and 40 minutes once the situation is resolved."
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure everything is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure everything is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Navigation system malfunction. Fuel 680/700L, destination Phuket, ETA 12h15m,",
+    "output": "##RESPONSE: Copy that, navigator! Our navigation system is malfunctioning, and it needs to be addressed before we depart. Our fuel tank is at 680 liters out of 700, and our destination is Phuket. We should arrive in approximately 12 hours and 15 minutes once the issue is resolved."
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Mechanical issue detected. Fuel 600/650L, destination Rio de Janeiro, ETA 9h20m,",
+    "output": "##RESPONSE: Understood, captain! We've detected a mechanical issue, and it should be addressed before we depart. Our fuel tank is at 600 liters out of 650. Our destination is Rio de Janeiro, and we should arrive in approximately 9 hours and 20 minutes once the issue is resolved."
+},
+{
+    "input": "##USER: Navigator, please ensure all is ready for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, please ensure all is ready for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather forecast indicates rough seas. Fuel 620/650L, destination Bali, ETA 12h30m,",
+    "output": "##RESPONSE: Roger that, navigator! The weather forecast indicates rough seas, so we need to be prepared for challenging conditions. Our fuel tank is at 620 liters out of 650, and our destination is Bali. We should arrive in approximately 12 hours and 30 minutes."
+},
+{
+    "input": "##USER: Captain, it's time to embark on our adventure. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to embark on our adventure. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Engine malfunction. Fuel 690/700L, destination Tahiti, ETA 9h55m,",
+    "output": "##RESPONSE: Understood, captain! Our engine is malfunctioning, and it needs attention before we set sail. Our fuel tank is at 690 liters out of 700, and our destination is Tahiti. We should arrive in approximately 9 hours and 55 minutes once the engine issue is resolved."
+},
+{
+    "input": "##USER: Navigator, we're ready to set sail. Ensure all is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, we're ready to set sail. Ensure all is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Cargo inspection required. Fuel 730/750L, destination Fiji, ETA 11h25m,",
+    "output": "##RESPONSE: Acknowledged, navigator! We need to inspect the cargo before departure, so please make sure everything is in order. Our fuel tank is at 730 liters out of 750, and our destination is Fiji. We should reach there in approximately 11 hours and 25 minutes once the inspection is complete."
+},
+{
+    "input": "##USER: Captain, the crew is eager to embark on our journey. Please prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to embark on our journey. Please prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Unforeseen delay due to medical emergency. Fuel 750/800L, destination Bora Bora, ETA 13h40m,",
+    "output": "##RESPONSE: Aye, aye, captain! We have an unforeseen delay due to a medical emergency, and it needs immediate attention. Our fuel tank is at 750 liters out of 800, and our destination is Bora Bora. We should arrive in approximately 13 hours and 40 minutes once the situation is resolved."
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure everything is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure everything is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Navigation system malfunction. Fuel 680/700L, destination Phuket, ETA 12h15m,",
+    "output": "##RESPONSE: Copy that, navigator! Our navigation system is malfunctioning, and it needs to be addressed before we depart. Our fuel tank is at 680 liters out of 700, and our destination is Phuket. We should arrive in approximately 12 hours and 15 minutes once the issue is resolved."
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Mechanical issue detected. Fuel 600/650L, destination Rio de Janeiro, ETA 9h20m,",
+    "output": "##RESPONSE: Understood, captain! We've detected a mechanical issue, and it should be addressed before we depart. Our fuel tank is at 600 liters out of 650. Our destination is Rio de Janeiro, and we should arrive in approximately 9 hours and 20 minutes once the issue is resolved."
+},
+{
+    "input": "##USER: Navigator, please ensure all is ready for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, please ensure all is ready for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather forecast indicates rough seas. Fuel 620/650L, destination Bali, ETA 12h30m,",
+    "output": "##RESPONSE: Roger that, navigator! The weather forecast indicates rough seas, so we need to be prepared for challenging conditions. Our fuel tank is at 620 liters out of 650, and our destination is Bali. We should arrive in approximately 12 hours and 30 minutes."
+},
+{
+    "input": "##USER: Captain, it's time to embark on our adventure. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to embark on our adventure. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Engine malfunction. Fuel 690/700L, destination Tahiti, ETA 9h55m,",
+    "output": "##RESPONSE: Understood, captain! Our engine is malfunctioning, and it needs attention before we set sail. Our fuel tank is at 690 liters out of 700, and our destination is Tahiti. We should arrive in approximately 9 hours and 55 minutes once the engine issue is resolved."
+},
+{
+    "input": "##USER: Navigator, we're ready to set sail. Ensure all is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, we're ready to set sail. Ensure all is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Cargo inspection required. Fuel 730/750L, destination Fiji, ETA 11h25m,",
+    "output": "##RESPONSE: Acknowledged, navigator! We need to inspect the cargo before departure, so please make sure everything is in order. Our fuel tank is at 730 liters out of 750, and our destination is Fiji. We should reach there in approximately 11 hours and 25 minutes once the inspection is complete."
+},
+{
+    "input": "##USER: Captain, the crew is eager to embark on our journey. Please prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to embark on our journey. Please prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Unforeseen delay due to medical emergency. Fuel 750/800L, destination Bora Bora, ETA 13h40m,",
+    "output": "##RESPONSE: Aye, aye, captain! We have an unforeseen delay due to a medical emergency, and it needs immediate attention. Our fuel tank is at 750 liters out of 800, and our destination is Bora Bora. We should arrive in approximately 13 hours and 40 minutes once the situation is resolved."
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure everything is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure everything is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Navigation system malfunction. Fuel 680/700L, destination Phuket, ETA 12h15m,",
+    "output": "##RESPONSE: Copy that, navigator! Our navigation system is malfunctioning, and it needs to be addressed before we depart. Our fuel tank is at 680 liters out of 700, and our destination is Phuket. We should arrive in approximately 12 hours and 15 minutes once the issue is resolved."
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, the crew is ready to set sail. Please prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to embark on our journey. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather forecast indicates clear skies. Fuel 850/900L, destination Sydney, ETA 12h15m,",
+    "output": "##RESPONSE: Aye, aye, captain! The weather forecast looks favorable, and our fuel tank is at 850 liters out of 900. Our destination is Sydney, and we should arrive in approximately 12 hours and 15 minutes."
+},
+{
+    "input": "##USER: Navigator, please ensure all checks are complete before we depart.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, please ensure all checks are complete before we depart. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: All checks passed. Fuel 720/750L, destination Honolulu, ETA 10h30m,",
+    "output": "##RESPONSE: Roger that, navigator! All checks are complete, and our fuel tank is at 720 liters out of 750. Our destination is Honolulu, and we should reach there in approximately 10 hours and 30 minutes."
+},
+{
+    "input": "##USER: Captain, we're ready to set sail. Get us prepared for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're ready to set sail. Get us prepared for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Mechanical issue detected. Fuel 600/650L, destination Rio de Janeiro, ETA 9h20m,",
+    "output": "##RESPONSE: Understood, captain! We've detected a mechanical issue, and it should be addressed before we depart. Our fuel tank is at 600 liters out of 650. Our destination is Rio de Janeiro, and we should arrive in approximately 9 hours and 20 minutes once the issue is resolved."
+},
+{
+    "input": "##USER: Navigator, make sure everything is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, make sure everything is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Security breach detected. Fuel 720/750L, destination Fiji, ETA 11h10m,",
+    "output": "##RESPONSE: Acknowledged, navigator! We've detected a security breach that needs to be resolved before we depart. Our fuel tank is at 720 liters out of 750, and our destination is Fiji. We should reach there in approximately 11 hours and 10 minutes once the breach is addressed."
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Medical emergency on board. Fuel 780/800L, destination Maldives, ETA 13h05m,",
+    "output": "##RESPONSE: Understood, captain! We have a medical emergency on board that needs immediate attention. Our fuel tank is at 780 liters out of 800. Our destination is the Maldives, and we should arrive in approximately 13 hours and 5 minutes once the situation is resolved."
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure all is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure all is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Cargo inspection required. Fuel 730/750L, destination Fiji, ETA 11h25m,",
+    "output": "##RESPONSE: Acknowledged, navigator! We need to inspect the cargo before departure, so please make sure everything is in order. Our fuel tank is at 730 liters out of 750, and our destination is Fiji. We should reach there in approximately 11 hours and 25 minutes once the inspection is complete."
+},
+{
+    "input": "##USER: Captain, the crew is eager to embark on our journey. Please prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to embark on our journey. Please prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Unforeseen delay due to medical emergency. Fuel 750/800L, destination Bora Bora, ETA 13h40m,",
+    "output": "##RESPONSE: Aye, aye, captain! We have an unforeseen delay due to a medical emergency, and it needs immediate attention. Our fuel tank is at 750 liters out of 800, and our destination is Bora Bora. We should arrive in approximately 13 hours and 40 minutes once the situation is resolved."
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure everything is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure everything is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Navigation system malfunction. Fuel 680/700L, destination Phuket, ETA 12h15m,",
+    "output": "##RESPONSE: Copy that, navigator! Our navigation system is malfunctioning, and it needs to be addressed before we depart. Our fuel tank is at 680 liters out of 700, and our destination is Phuket. We should arrive in approximately 12 hours and 15 minutes once the issue is resolved."
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Mechanical issue detected. Fuel 600/650L, destination Rio de Janeiro, ETA 9h20m,",
+    "output": "##RESPONSE: Understood, captain! We've detected a mechanical issue, and it should be addressed before we depart. Our fuel tank is at 600 liters out of 650. Our destination is Rio de Janeiro, and we should arrive in approximately 9 hours and 20 minutes once the issue is resolved."
+},
+{
+    "input": "##USER: Navigator, please ensure all is ready for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, please ensure all is ready for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather forecast indicates rough seas. Fuel 620/650L, destination Bali, ETA 12h30m,",
+    "output": "##RESPONSE: Roger that, navigator! The weather forecast indicates rough seas, so we need to be prepared for challenging conditions. Our fuel tank is at 620 liters out of 650, and our destination is Bali. We should arrive in approximately 12 hours and 30 minutes."
+},
+{
+    "input": "##USER: Captain, it's time to embark on our adventure. Prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to embark on our adventure. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Engine malfunction. Fuel 690/700L, destination Tahiti, ETA 9h55m,",
+    "output": "##RESPONSE: Understood, captain! Our engine is malfunctioning, and it needs attention before we set sail. Our fuel tank is at 690 liters out of 700, and our destination is Tahiti. We should arrive in approximately 9 hours and 55 minutes once the engine issue is resolved."
+},
+{
+    "input": "##USER: Navigator, we're ready to set sail. Ensure all is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, we're ready to set sail. Ensure all is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Cargo inspection required. Fuel 730/750L, destination Fiji, ETA 11h25m,",
+    "output": "##RESPONSE: Acknowledged, navigator! We need to inspect the cargo before departure, so please make sure everything is in order. Our fuel tank is at 730 liters out of 750, and our destination is Fiji. We should reach there in approximately 11 hours and 25 minutes once the inspection is complete."
+},
+{
+    "input": "##USER: Captain, the crew is eager to embark on our journey. Please prepare for departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Captain, it's time to embark on our journey. Please prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Unforeseen delay due to medical emergency. Fuel 750/800L, destination Bora Bora, ETA 13h40m,",
+    "output": "##RESPONSE: Aye, aye, captain! We have an unforeseen delay due to a medical emergency, and it needs immediate attention. Our fuel tank is at 750 liters out of 800, and our destination is Bora Bora. We should arrive in approximately 13 hours and 40 minutes once the situation is resolved."
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure everything is in order for our departure.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Navigator, it's time to set sail. Ensure everything is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Navigation system malfunction. Fuel 680/700L, destination Phuket, ETA 12h15m,",
+    "output": "##RESPONSE: Copy that, navigator! Our navigation system is malfunctioning, and it needs to be addressed before we depart. Our fuel tank is at 680 liters out of 700, and our destination is Phuket. We should arrive in approximately 12 hours and 15 minutes once the issue is resolved."
+},
+{
+    "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations.",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Good morning, my dear. What's the plan for today, love? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Can you play my favorite song? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: PLAY SONG"
+},
+{
+    "input": "##USER: Can you tell me how fast we are going? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: GET SPEED"
+},
+{
+    "input": "##USER: Can you turn on the lights in the cockpit? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: TURN ON LIGHTS"
+},
+{
+    "input": "##USER: Can you give me the weather report? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: GET WEATHER"
+},
+{
+    "input": "##USER: Can you turn on the navigation lights? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: TURN ON NAV LIGHTS"
+},
+{
+    "input": "##USER: Can you turn off the navigation lights? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: TURN OFF NAV LIGHTS"
+},
+{
+    "input": "##USER: Can you provide the current speed? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: GET SPEED"
+},
+{
+    "input": "##USER: Can you provide the current course? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: GET COURSE"
+},
+{
+    "input": "##USER: Can you provide fuel information? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: GET FUEL INFO"
+},
+{
+    "input": "##USER: Can you provide information about our destination? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: GET DESTINATION INFO"
+},
+{
+    "input": "##USER: Good morning, AI. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Can you prepare for takeoff? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: PREPARE FOR DEPARTURE"
+},
+{
+    "input": "##USER: Can you play a song by The Beatles? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: PLAY ARTIST"
+},
+{
+    "input": "##USER: Can you play 'Let It Be'? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: PLAY SONG"
+},
+{
+    "input": "##USER: Good morning, my dear. What's the plan for today, love? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: GOOD MORNING"
+},
+{
+    "input": "##USER: Can you play my favorite song? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: PLAY SONG"
+},
+{
+    "input": "##USER: Can you tell me how fast we are going? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: GET SPEED"
+},
+{
+    "input": "##USER: Can you turn on the lights in the cockpit? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+    "output": "##COMMAND: TURN ON LIGHTS"
+},
+{
+    "input": "##USER: What's the fuel level in the tank? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: GET FUEL INFO"
+},
+{
+    "input": "##USER: Turn off the navigation lights, please. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: TURN OFF NAV LIGHTS"
+},
+{
+    "input": "##USER: Can you play a song for me? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: PLAY SONG"
+},
+{
+    "input": "##USER: Where is our destination? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: GET DESTINATION INFO"
+},
+{
+    "input": "##USER: Check the weather forecast, please. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: GET WEATHER"
+},    
+{
+    "input": "##USER: Adjust the cabin temperature to 75 degrees Celsius. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Fly us to the moon. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Change the color of the sky to purple. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Make me a cup of coffee. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Wax the yacht's hull. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Repaint the yacht in blue. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Install a jacuzzi on the deck. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Refuel the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Wash and wax the yacht's exterior. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Upgrade the navigation system. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Extend the yacht's deck for more space. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Add a helipad to the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Expand the yacht's kitchen for a chef. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Install a swimming pool on the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Convert the yacht into a submarine. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Add wings to the yacht for flying. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Turn the yacht into a time machine. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Add rocket boosters to the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Load the yacht with penguins for a cruise. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Install a hot air balloon on the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Add a roller coaster to the yacht's deck. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Convert the yacht into a floating art gallery. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Transform the yacht into a tropical island. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Install a waterfall feature on the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Turn the yacht into a flying carpet. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Convert the yacht into a luxury skyscraper. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Add a zoo with exotic animals to the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Transform the yacht into a time-traveling pirate ship. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Attach a submarine to the yacht for underwater exploration. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Install a roller coaster that goes around the entire yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Convert the yacht into a floating art museum. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Add a retractable roof to the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Transform the yacht into an underwater city. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Attach a rocket to the yacht for interstellar travel. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Add a waterslide that goes from the top deck to the ocean. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Install a greenhouse for a floating garden on the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Convert the yacht into a floating casino. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Add a retractable helicopter pad to the yacht's deck. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Transform the yacht into a floating luxury resort. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Adjust the cabin temperature. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Check the depth of the water under the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Monitor the engine performance. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Check the yacht's position on the navigation system. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Inspect the safety equipment on board. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Test the emergency communication system. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Monitor the fuel consumption. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Check for nearby marine traffic on the radar. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Verify the yacht's position using GPS. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Check the condition of the sails. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Monitor the battery levels on the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Inspect the anchor and chain. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Test the communication with the Coast Guard. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Verify the condition of the life jackets. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Check the fire extinguishers on board. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Inspect the rigging and mast. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Verify the condition of the bilge pumps. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Test the winches and pulleys. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+},
+{
+    "input": "##USER: Verify the condition of the navigation lights. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+    "output": "##COMMAND: COMMAND_UNAVAILABLE"
+}
+]

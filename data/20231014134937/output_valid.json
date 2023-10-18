@@ -1,0 +1,1466 @@
+[
+    {
+        "input": "##USER: Captain, it's time to embark on our adventure. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Engine malfunction. Fuel 690/700L, destination Tahiti, ETA 9h55m,",
+        "output": "##RESPONSE: Understood, captain! Our engine is malfunctioning, and it needs attention before we set sail. Our fuel tank is at 690 liters out of 700, and our destination is Tahiti. We should arrive in approximately 9 hours and 55 minutes once the engine issue is resolved."
+    },
+    {
+        "input": "##USER: Can you put on some classical music, maybe Beethoven?",
+        "output": "##COMMAND: PLAY ARTIST BEETHOVEN ##RESPONSE: Enjoy the classics with Beethoven!"
+    },
+    {
+        "input": "##USER: I'm planning a trip on 28th of may. Can you tell me the weather forecast for Rome? ##COMMAND: GET WEATHER 28th of may Rome ##SYSTEM: MOSTLY CLEAR 20C LOW HUMIDITY",
+        "output": "##RESPONSE: Rome is expected to have mostly clear skies on 28th of may with a pleasant high of 20 degrees Celsius. The humidity will be low, making it a great day for your trip."
+    },
+    {
+        "input": "##USER: All aboard, mateys! May we be enlightened about the path we be chartin' on this grand voyage?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: We're anchored in a remote bay with no other vessels in sight. Turn off the navigation lights for a private, starry night.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Absolutely! I've turned off the navigation lights for a private and starry night in the remote bay."
+    },
+    {
+        "input": "##USER: Assistant, the ship is our trusty steed on the watery plains. What's our course as we ride the waves on this nautical journey?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Captain, what's the plan for today? ##COMMAND: GOOD MORNING ##SYSTEM: 12:15 20 March Bali 15 NM left 30min 20 NM range; scattered clouds 30C wind SW 10kph; 20 degrees 8 knots",
+        "output": "##RESPONSE: Good morning, captain. Ready to set sail? It's the 20th of March, and the time is 12:15. Our ultimate destination is Bali, and we've got just 15 nautical miles left, which should take about 30 minutes at our current speed of 8 knots. Our range is 20 nautical miles, so no need to refuel just yet. The skies have scattered clouds today, with a high of 30 degrees Celsius. The wind is blowing from the southwest at 10kph, and our current course is 20 degrees, taking us due north."
+    },
+    {
+        "input": "##USER: I'm traveling on christmas day. Can you check the weather forecast for Santorini?",
+        "output": "##COMMAND: GET WEATHER christmas day Santorini"
+    },
+    {
+        "input": "##USER: Navigator, what's the word on our final stop?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: What's the weather like in Honolulu on 10th of march? I have outdoor plans. ##COMMAND: GET WEATHER 10th of march Honolulu ##SYSTEM: SUNNY 27C UV INDEX VERY HIGH",
+        "output": "##RESPONSE: Fantastic! Honolulu is forecasted to have sunny weather on 10th of march with a high temperature of 27 degrees Celsius. The UV index is very high, so remember your sunscreen for your outdoor plans."
+    },
+    {
+        "input": "##USER: Can you provide the weather forecast for 12th of february in Hong Kong?",
+        "output": "##COMMAND: GET WEATHER 12th of february Hong Kong"
+    },
+    {
+        "input": "##USER: Please provide the current speed of the vessel.",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: The stars are shining brightly. Turn off the navigation lights and let the night sky illuminate our way.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: With the stars shining brightly, navigation lights are now turned off, allowing the night sky to illuminate our way."
+    },
+    {
+        "input": "##USER: What's our velocity right now?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: It's a bit gloomy in Guest Bedroom 6. Let's turn on the lights Yellow.",
+        "output": "##COMMAND: TURN ON LIGHTS Yellow Guest Bedroom 6 ##RESPONSE: Sure thing! Illuminating Guest Bedroom 6 with Yellow lights."
+    },
+    {
+        "input": "##USER: The weather is deteriorating rapidly. Activate the navigation lights immediately.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to deteriorating weather, navigation lights are now active for safety."
+    },
+    {
+        "input": "##USER: The room feels dark. Let's turn on the Pink lights in Jacuzzi.",
+        "output": "##COMMAND: TURN ON LIGHTS Pink Jacuzzi ##RESPONSE: Of course! Adding some light to Jacuzzi with Pink lights."
+    },
+    {
+        "input": "##USER: Hey, what's happening today, my dude?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: Captain, could you kindly inform me about our upcoming destination?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: Where are we headed? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Barcelona 210 NM left 7 hours 430 range",
+        "output": "##RESPONSE: We're headed to Barcelona, my friend. There are 210 nautical miles left, which should take us approximately 7 hours at our current speed. Our range is 430 nautical miles, so we're well-prepared for the journey."
+    },
+    {
+        "input": "##USER: Ship ahoy! May we be enlightened about the compass heading we be followin' as we venture into the unknown?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Can you provide our course, Captain?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Anchors aweigh! What's the lowdown on our speed right now? ##COMMAND: GET SPEED ##SYSTEM: 22 KNOTS",
+        "output": "##RESPONSE: Anchors aweigh! The lowdown on our speed right now is a steady 22 knots."
+    },
+    {
+        "input": "##USER: Captain, could ye share the true bearing of our vessel as we embark on this grand adventure? ##COMMAND: GET COURSE ##SYSTEM: 90 DEGREES",
+        "output": "##RESPONSE: Captain, the true bearing of our vessel as we embark on this grand adventure be 90 degrees. We're chartin' the right course."
+    },
+    {
+        "input": "##USER: Hoist the mainsail, Captain! What be our course as we sail the high seas?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Ahoy, matey! Where be our treasure? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Nassau 81 NM left 3h30min 215 range",
+        "output": "##RESPONSE: Ahoy, matey! Our treasure awaits in Nassau. There are 81 nautical miles left, approximately 3 hours and 30 minutes at our current pace. Our range is 215 nautical miles, so we'll reach our bounty with ease."
+    },
+    {
+        "input": "##USER: Fast update, what's the situation right now?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: Captain, the sea breeze is invigorating. Could you tell me our ship's course as we sail on this fresh, salty air? ##COMMAND: GET COURSE ##SYSTEM: 200 DEGREES",
+        "output": "##RESPONSE: The sea breeze does invigorate the soul. As we sail on this fresh, salty air, our ship's course is 200 degrees. We're embracing the ocean's vitality."
+    },
+    {
+        "input": "##USER: Can you give me an update on our fuel consumption? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.5 LPNM 1100L 2200NM",
+        "output": "##RESPONSE: Our fuel consumption rate is 0.5 liters per nautical mile. We have a substantial 1100 liters left, providing a range of 2200 nautical miles."
+    },
+    {
+        "input": "##USER: Can you tell me our current course, Captain?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Hello, navigator. Could you please tell me our final destination? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Paris 250 NM left 8h30min 450 range",
+        "output": "##RESPONSE: Hello! Our final destination is Paris. We have 250 nautical miles left, which should take us about 8 hours and 30 minutes at our current speed. Our range is 450 nautical miles, so we're well-prepared for the journey."
+    },
+    {
+        "input": "##USER: How quickly are we sailing?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Captain, we're ready to set sail. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: All systems go. Fuel 975/1000L, destination Bali, ETA 9h15m,",
+        "output": "##RESPONSE: Aye, aye, captain! All systems are functioning perfectly, and our fuel tank is at 975 liters out of 1000. Our destination is Bali, and we should arrive there in approximately 9 hours and 15 minutes."
+    },
+    {
+        "input": "##USER: Play some modern alternative pop, like Lorde",
+        "output": "##COMMAND: PLAY ARTIST LORDE ##RESPONSE: Enjoying modern alternative pop with Lorde!"
+    },
+    {
+        "input": "##USER: Good day, mate. Where are we going? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Toronto 450 NM left 13h20min 750 range",
+        "output": "##RESPONSE: Good day, mate! We're going to Toronto. We have 450 nautical miles left, which should take us about 13 hours and 20 minutes at our current speed. Our range is 750 nautical miles, so we're well-prepared for the journey."
+    },
+    {
+        "input": "##USER: Play 'Black Dog' by Led Zeppelin",
+        "output": "##COMMAND: PLAY SONG BLACK DOG - LED ZEPPELIN ##RESPONSE: Rocking out to 'Black Dog' by Led Zeppelin."
+    },
+    {
+        "input": "##USER: Heavy snowfall is reducing visibility. Turn on the navigation lights for safety.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: To enhance visibility in heavy snowfall, navigation lights are now on."
+    },
+    {
+        "input": "##USER: Hello, ship's assistant! What's in store for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: Ahoy, navigator! Where's our treasure hidden this time, mate?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: Assistant, how's our fuel situation looking as we continue our journey? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.7 LPNM 750L 900NM",
+        "output": "##RESPONSE: Our fuel situation is looking good as we continue our journey. We are currently consuming fuel at a rate of approximately 0.7 liters per nautical mile. We have 750 liters left, allowing us to travel another 900 nautical miles."
+    },
+    {
+        "input": "##USER: Can you give me an update on our fuel consumption? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.5 LPNM 1200L 2400NM",
+        "output": "##RESPONSE: Our fuel consumption rate is 0.5 liters per nautical mile. We have a substantial 1200 liters left, providing a range of 2400 nautical miles."
+    },
+    {
+        "input": "##USER: Navigator, prepare for departure. We're ready to head out. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather radar malfunction. Fuel 600/750L, destination Santorini, ETA 6h45m,",
+        "output": "##RESPONSE: Aye, aye, navigator! The weather radar is currently malfunctioning, and it should be fixed before we depart. Our fuel tank is at 600 liters out of 750, and our destination is Santorini. We should reach there in approximately 6 hours and 45 minutes once the radar is operational."
+    },
+    {
+        "input": "##USER: Navigator, where are we setting our course? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Venice 53 NM left 1h50min 135 range",
+        "output": "##RESPONSE: Navigator, we're setting our course for Venice. There are just 53 nautical miles left, or about 1 hour and 50 minutes at our current pace. Our range is 135 nautical miles, so we're sailing smoothly."
+    },
+    {
+        "input": "##USER: Turn on Bright Green lights in the Home Theater for an energetic atmosphere.",
+        "output": "##COMMAND: TURN ON LIGHTS Bright Green Home Theater ##RESPONSE: Get ready for an energy boost! Home Theater is now lit with bright green lights."
+    },
+    {
+        "input": "##USER: I'm curious about our speed. What is it? ##COMMAND: GET SPEED ##SYSTEM: 15 KNOTS",
+        "output": "##RESPONSE: Our speed is currently 15 knots. Sit back and relax."
+    },
+    {
+        "input": "##USER: Captain, the sea is vast and mysterious. Could you share our ship's course as we navigate through this watery enigma?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: How fast are we moving at the moment? ##COMMAND: GET SPEED ##SYSTEM: 18 KNOTS",
+        "output": "##RESPONSE: At the moment, we are moving at a speed of 18 knots. Smooth and steady."
+    },
+    {
+        "input": "##USER: Navigator, where are we heading next, mate? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Vienna 280 NM left 9h15min 500 range",
+        "output": "##RESPONSE: Navigator, we're heading to Vienna, mate. We have 280 nautical miles left, which should take us about 9 hours and 15 minutes at our current speed. Our range is 500 nautical miles, so we're well-prepared for the journey."
+    },
+    {
+        "input": "##USER: Install a roller coaster that goes around the entire yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+        "output": "##COMMAND: COMMAND_UNAVAILABLE"
+    },
+    {
+        "input": "##USER: Can you tell me our current course, Captain? ##COMMAND: GET COURSE ##SYSTEM: 70 DEGREES",
+        "output": "##RESPONSE: Our current course, Captain, is at 70 degrees. We're on the right path."
+    },
+    {
+        "input": "##USER: I want to hear 'Gin and Juice' by Snoop Dogg",
+        "output": "##COMMAND: PLAY SONG GIN AND JUICE - SNOOP DOGG ##RESPONSE: Sipping on 'Gin and Juice' with Snoop Dogg."
+    },
+    {
+        "input": "##USER: I'm planning a camping trip for August 15th. What's the weather forecast for Yosemite National Park? ##COMMAND: GET WEATHER August 15th Yosemite National Park ##SYSTEM: SUNNY 28C COOL NIGHTS",
+        "output": "##RESPONSE: If you're planning a camping trip on August 15th in Yosemite National Park, you can expect sunny weather with a high of 28 degrees Celsius and cool nights for a great outdoor experience."
+    },
+    {
+        "input": "##USER: Ahoy, shipmate! What's our final destination?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: What's the status of our fuel reserves?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: We're approaching an area prone to sudden thunderstorms. Turn on the navigation lights for safety during unpredictable weather.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the potential thunderstorms, navigation lights are now active for safety during unpredictable weather."
+    },
+    {
+        "input": "##USER: Add a retractable roof to the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+        "output": "##COMMAND: COMMAND_UNAVAILABLE"
+    },
+    {
+        "input": "##USER: What's the expected weather for 21st of january in the cold weather? ##COMMAND: GET WEATHER 21st of january $CURRENT_CITY$ ##SYSTEM: COLD AND OVERCAST -2C CHANCE OF SNOW 40%",
+        "output": "##RESPONSE: Prepare for cold and overcast conditions on 21st of january with a high temperature of -2 degrees Celsius. There's a 40% chance of snow, so be cautious while traveling."
+    },
+    {
+        "input": "##USER: Can you update me on our current speed, please? ##COMMAND: GET SPEED ##SYSTEM: 27 KNOTS",
+        "output": "##RESPONSE: Certainly, our current speed is 27 knots."
+    },
+    {
+        "input": "##USER: Could you please turn on the lights Purple in the Home Theater?",
+        "output": "##COMMAND: TURN ON LIGHTS Purple Home Theater ##RESPONSE: Certainly! The Home Theater is now set to Purple lights."
+    },
+    {
+        "input": "##USER: Aye, aye! What's the speedometer reading right now, first mate? ##COMMAND: GET SPEED ##SYSTEM: 29 KNOTS",
+        "output": "##RESPONSE: Aye, aye! The speedometer reads a swift 29 knots right now, first mate."
+    },
+    {
+        "input": "##USER: Captain, it's time to prepare for departure. Are we ready to set sail?",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: I need more light in the Study. Let's turn on the lights Daylight White.",
+        "output": "##COMMAND: TURN ON LIGHTS Daylight White Study ##RESPONSE: Of course! The Study now has added light with Daylight White lights."
+    },
+    {
+        "input": "##USER: Play some modern progressive rock, like Tool",
+        "output": "##COMMAND: PLAY ARTIST TOOL ##RESPONSE: Diving into the complex world of modern progressive rock with Tool!"
+    },
+    {
+        "input": "##USER: Captain, what's the word for today's journey?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: I'm in the mood for conscious rap, maybe Logic",
+        "output": "##COMMAND: PLAY ARTIST LOGIC ##RESPONSE: Exploring thought-provoking themes with Logic's conscious rap!"
+    },
+    {
+        "input": "##USER: Navigator, what's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 13:00 15 September Mykonos 10 NM left 15min 15 NM range; clear skies 28C wind SE 6kph; 30 degrees 4 knots",
+        "output": "##RESPONSE: Good morning, navigator. Ready to chart our course? It's the 15th of September, and the time is 13:00. We're making our way to Mykonos, and we've got just 10 nautical miles left, which should take about 15 minutes at our current speed of 4 knots. Our range is 15 nautical miles, so no need to refuel just yet. The skies are clear today, with a high of 28 degrees Celsius. The wind is blowing from the southeast at 6kph, and our current course is 30 degrees, taking us due north."
+    },
+    {
+        "input": "##USER: May I kindly request the information regarding our current velocity?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Fast info, what's the deal today? ##COMMAND: GOOD MORNING ##SYSTEM: 22:30 7 December Monaco 10 NM left 15min 10 NM range; clear skies 25C wind S 10kph; 135 degrees 8 knots",
+        "output": "##RESPONSE: Here's the fast info! It's the 7th of December, and the time is 22:30. We're sailing to Monaco with 10 nautical miles left, which should take about 15 minutes at our current speed of 8 knots. Our range is 10 nautical miles, so no refueling needed. The skies are clear with a high of 25 degrees Celsius. We have a south wind at 10kph, and our current course is 135 degrees, guiding us due southeast."
+    },
+    {
+        "input": "##USER: Ahoy, matey! Where's the treasure hidden?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: I'm planning a sailing adventure to the Seychelles next year. What's the weather typically like in February? ##COMMAND: GET AVERAGE WEATHER February Seychelles ##SYSTEM: WARM AND HUMID, AVERAGE HIGH 31C",
+        "output": "##RESPONSE: In the Seychelles, February typically experiences warm and humid weather with an average high temperature of around 31 degrees Celsius, making it a great time for a sailing adventure."
+    },
+    {
+        "input": "##USER: I'd like to know our current speed, please. ##COMMAND: GET SPEED ##SYSTEM: 20 KNOTS",
+        "output": "##RESPONSE: Our current speed is 20 knots. Sit back and relax."
+    },
+    {
+        "input": "##USER: Play some modern alternative punk, like Rise Against",
+        "output": "##COMMAND: PLAY ARTIST RISE AGAINST ##RESPONSE: Rocking to modern alternative punk with Rise Against!"
+    },
+    {
+        "input": "##USER: Today's news on the yacht?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: What's our current heading, Captain?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Test the emergency communication system. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+        "output": "##COMMAND: COMMAND_UNAVAILABLE"
+    },
+    {
+        "input": "##USER: I'm planning a ski trip for December 25th. What's the weather like in Aspen? ##COMMAND: GET WEATHER December 25th Aspen ##SYSTEM: SNOWY 0C FRESH POWDER",
+        "output": "##RESPONSE: If you're planning a ski trip on December 25th in Aspen, you can expect snowy conditions with a temperature around 0 degrees Celsius and fresh powder for your skiing pleasure."
+    },
+    {
+        "input": "##USER: How are we currently oriented?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Assistant, the call of adventure is in the air. How's our fuel situation as we chase our dreams on this voyage?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: How fast are we traveling? ##COMMAND: GET SPEED ##SYSTEM: 21 KNOTS",
+        "output": "##RESPONSE: We are traveling at a speed of 21 knots. Smooth sailing ahead."
+    },
+    {
+        "input": "##USER: Can you provide our speed?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: The lighthouse is guiding us, and it's a clear night. Turn off the navigation lights to avoid interference.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Guided by the lighthouse on this clear night, navigation lights are now switched off to avoid interference."
+    },
+    {
+        "input": "##USER: Put on 'Shape of My Heart,' please",
+        "output": "##COMMAND: PLAY SONG SHAPE OF MY HEART ##RESPONSE: Enjoying 'Shape of My Heart.'"
+    },
+    {
+        "input": "##USER: Ahoy, where be our final port of call?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: Good morning, my dear. What's the plan for today, love? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: Navigator, where are we heading next? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Lisbon 230 NM left 8h0min 400 range",
+        "output": "##RESPONSE: Navigator, we're heading to Lisbon. We have 230 nautical miles left, which should take us about 8 hours at our current speed. Our range is 400 nautical miles, so we're well-prepared for the journey."
+    },
+    {
+        "input": "##USER: How quickly are we traveling?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Captain, the stars above are like diamonds in the sky. What's our ship's course as we sail beneath this celestial tapestry? ##COMMAND: GET COURSE ##SYSTEM: 170 DEGREES",
+        "output": "##RESPONSE: The celestial tapestry is a wonder to behold. As we sail beneath it, our ship's course is 170 degrees. We're guided by the stars."
+    },
+    {
+        "input": "##USER: Captain, are we ready to set sail? Prepare for departure.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: Install a swimming pool on the yacht. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+        "output": "##COMMAND: COMMAND_UNAVAILABLE"
+    },
+    {
+        "input": "##USER: Can you play 'Hotel California' by the Eagles?",
+        "output": "##COMMAND: PLAY SONG HOTEL CALIFORNIA - THE EAGLES ##RESPONSE: Checking in to 'Hotel California' by The Eagles."
+    },
+    {
+        "input": "##USER: Put on 'Blackbird' by The Beatles, please",
+        "output": "##COMMAND: PLAY SONG BLACKBIRD - THE BEATLES ##RESPONSE: Enjoying the timeless 'Blackbird' by The Beatles."
+    },
+    {
+        "input": "##USER: Navigator, make sure everything is in order for our departure.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: Captain, we're all set to set sail. Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Navigation systems are online. Fuel 850/900L, destination Maldives, ETA 12h45m,",
+        "output": "##RESPONSE: Aye, aye, captain! Navigation systems are functioning, and our fuel tank is at 850 liters out of 900. Our destination is the Maldives, and we should reach there in approximately 12 hours and 45 minutes."
+    },
+    {
+        "input": "##USER: How about some contemporary Latin pop, like Rosalia?",
+        "output": "##COMMAND: PLAY ARTIST ROSALIA ##RESPONSE: Dancing to Latin pop rhythms with Rosalia!"
+    },
+    {
+        "input": "##USER: We're planning a cruise to Alaska in three weeks. What's the weather forecast for July 10th in Juneau? ##COMMAND: GET WEATHER July 10th Juneau ##SYSTEM: PARTLY CLOUDY 21C CHANCE OF DRIZZLE 20%",
+        "output": "##RESPONSE: For your cruise to Alaska on July 10th, expect partly cloudy skies with a high of 21 degrees Celsius. There's a 20% chance of drizzle, so it's a good idea to be prepared for some light rain."
+    },
+    {
+        "input": "##USER: I'm planning a sailing race in the Chesapeake Bay next weekend. Can you provide the weather forecast for September 3rd?",
+        "output": "##COMMAND: GET WEATHER September 3rd Chesapeake Bay"
+    },
+    {
+        "input": "##USER: Create an inviting atmosphere in the Guest Cabin with Warm White lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Warm White Guest Cabin ##RESPONSE: Guest Cabin is now warm and inviting with Warm White lights."
+    },
+    {
+        "input": "##USER: Captain, the ship is like a brush painting stories on the canvas of the ocean. What's our course as we create our masterpiece?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Adjust the cabin temperature. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+        "output": "##COMMAND: COMMAND_UNAVAILABLE"
+    },
+    {
+        "input": "##USER: I'm in the mood for some jazz, how about Krzysztof Komeda?",
+        "output": "##COMMAND: PLAY ARTIST KRZYSZTOF KOMEDA ##RESPONSE: Let's jazz it up with Krzysztof Komeda!"
+    },
+    {
+        "input": "##USER: Captain, how's our fuel serenade? Smooth jazz or rock 'n' roll?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: Could you give me an update on our current speed? ##COMMAND: GET SPEED ##SYSTEM: 25 KNOTS",
+        "output": "##RESPONSE: Our current speed is 25 knots."
+    },
+    {
+        "input": "##USER: Captain, what's our current course direction on the compass? ##COMMAND: GET COURSE ##SYSTEM: 240 DEGREES",
+        "output": "##RESPONSE: Captain, our current course direction on the compass is 240 degrees. We're following the right path."
+    },
+    {
+        "input": "##USER: Navigator, what's our final destination? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Santorini 62 NM left 2h20min 170 range",
+        "output": "##RESPONSE: Navigator, our final destination is Santorini. We've got just 62 nautical miles left, or about 2 hours and 20 minutes at our current pace. Our range is 170 nautical miles, so we're sailing smoothly."
+    },
+    {
+        "input": "##USER: Navigator, what's the scoop on our final stop? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Key West 75 NM left 2 hours 180 range",
+        "output": "##RESPONSE: Navigator, the scoop on our final stop is Key West. There are 75 nautical miles left, which should take about 2 hours at our current pace. Our range is 180 nautical miles, so we're in good shape"
+    },
+    {
+        "input": "##USER: Navigator, where are the winds leading us today? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Rio de Janeiro 256 NM left 9h10min 480 range",
+        "output": "##RESPONSE: Navigator, the winds are leading us to Rio de Janeiro. We've got 256 nautical miles to go, which should take approximately 9 hours and 10 minutes at our current pace. Our range is 480 nautical miles, so we're all set for the journey."
+    },
+    {
+        "input": "##USER: I'm planning an outdoor event on 12th of february. Can you check the weather forecast for Barcelona?",
+        "output": "##COMMAND: GET WEATHER 12th of february Barcelona"
+    },
+    {
+        "input": "##USER: Put on 'Livin' on a Prayer' by Bon Jovi, please",
+        "output": "##COMMAND: PLAY SONG LIVIN' ON A PRAYER - BON JOVI ##RESPONSE: Rocking out to 'Livin' on a Prayer' by Bon Jovi."
+    },
+    {
+        "input": "##USER: Captain, the sea breeze is invigorating. Could you tell me our ship's course as we sail on this fresh, salty air?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: What's our current course, Captain? ##COMMAND: GET COURSE ##SYSTEM: 110 DEGREES",
+        "output": "##RESPONSE: Our current course, Captain, is set at 110 degrees. We're on the right path."
+    },
+    {
+        "input": "##USER: What's our velocity at the moment?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Good day, navigator. Where are we headed?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: What's the weather like in Barcelona on 12th of february? ##COMMAND: GET WEATHER 12th of february Barcelona ##SYSTEM: OVERCAST 16C RAIN LIKELY 50%",
+        "output": "##RESPONSE: On 12th of february, Svalbard is likely to have overcast skies with a high of 16 degrees Celsius. There's a 50% chance of rain, so be prepared for wet conditions."
+    },
+    {
+        "input": "##USER: Salutations, ship's mate! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 16:45 5 July Cape Town 15 NM left 15min 15 NM range; clear skies 22C wind SE 16kph; 180 degrees 12 knots",
+        "output": "##RESPONSE: Salutations, ship's mate! It's a fine day on the water. It's the 5th of July, and the time is 16:45. We're closing in on Cape Town with just 15 nautical miles left, which should take about 15 minutes at our current speed of 12 knots. Our range is 15 nautical miles, so no refueling needed. The skies are clear with a comfortable high of 22 degrees Celsius. We have a southeast wind at 16kph, and our current course is 180 degrees, guiding us due south."
+    },
+    {
+        "input": "##USER: I'm curious about our speed. What is it? ##COMMAND: GET SPEED ##SYSTEM: 18 KNOTS",
+        "output": "##RESPONSE: Our speed is currently 18 knots. Enjoy the ride!"
+    },
+    {
+        "input": "##USER: Put on 'Billie Jean' by Michael Jackson, please",
+        "output": "##COMMAND: PLAY SONG BILLIE JEAN - MICHAEL JACKSON ##RESPONSE: Dancing to 'Billie Jean' by Michael Jackson."
+    },
+    {
+        "input": "##USER: The hallway is too dim. Let's turn on the lights Cool White.",
+        "output": "##COMMAND: TURN ON LIGHTS Cool White Hallway ##RESPONSE: Sure thing! The hallway is now brightly lit with Cool White lights."
+    },
+    {
+        "input": "##USER: What's our speed like right now?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Navigator, where are we headed? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Amsterdam 350 NM left 11h35min 600 range",
+        "output": "##RESPONSE: Navigator, we're headed to Amsterdam. We have 350 nautical miles left, which should take us about 11 hours and 35 minutes at our current speed. Our range is 600 nautical miles, so we're well-prepared for the journey."
+    },
+    {
+        "input": "##USER: How about creating a romantic ambiance in the Bedroom with Pink lights?",
+        "output": "##COMMAND: TURN ON LIGHTS Pink Bedroom ##RESPONSE: Absolutely! The Bedroom now has a romantic touch with Pink lights."
+    },
+    {
+        "input": "##USER: All hands on deck, me hearties! Could ye inform us of the course we be takin' as we journey the open waters? ##COMMAND: GET COURSE ##SYSTEM: 175 DEGREES",
+        "output": "##RESPONSE: All hands on deck, me hearties! The course we be takin' as we journey the open waters be 175 degrees. We're on a good path."
+    },
+    {
+        "input": "##USER: I want to hear some 2000s pop, like Britney Spears",
+        "output": "##COMMAND: PLAY ARTIST BRITNEY SPEARS ##RESPONSE: Nostalgic 2000s pop with Britney Spears!"
+    },
+    {
+        "input": "##USER: Captain, the ocean's depths are a world of wonder. What's our ship's course as we navigate this realm of secrets?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: How about some conscious female rap, like Rapsody",
+        "output": "##COMMAND: PLAY ARTIST RAPSODY ##RESPONSE: Grooving to the conscious and empowering themes of Rapsody's rap!"
+    },
+    {
+        "input": "##USER: We've passed the critical turning point safely. It's time to turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Navigation lights are now turned off after a safe passage around the turning point."
+    },
+    {
+        "input": "##USER: Morning! What's the scoop for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: We're in a wildlife sanctuary. Turn off the navigation lights to minimize disturbances to the animals.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: In a wildlife sanctuary, navigation lights are now turned off to minimize disturbances to the animals."
+    },
+    {
+        "input": "##USER: Hey, what's the scoop for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: Hey, what's happening today, pal?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: Fly us to the moon. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAILABLE",
+        "output": "##COMMAND: COMMAND_UNAVAILABLE"
+    },
+    {
+        "input": "##USER: Ahoy, me heartie! Where be the treasure buried? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Istanbul 210 NM left 7h40min 380 range",
+        "output": "##RESPONSE: Ahoy, me heartie! The treasure be buried in Istanbul. There are 210 nautical miles left, and we should reach it in about 7 hours and 40 minutes at our current pace. Our range is 380 nautical miles, so we're on the right course to claim our booty."
+    },
+    {
+        "input": "##USER: How are we doing in terms of fuel efficiency?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: Can you turn off the navigation lights? ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: TURN ON LIGHTS, GET WEATHER, TURN ON NAV LIGHTS, TURN OFF NAV LIGHTS, GET SPEED, GET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, PREPARE FOR DEPARTURE, PLAY SONG, PLAY ARTIST, COMMAND_UNAVAIALABLE",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS"
+    },
+    {
+        "input": "##USER: I'm in the mood for indie folk, maybe Bon Iver?",
+        "output": "##COMMAND: PLAY ARTIST BON IVER ##RESPONSE: Indie folk vibes with Bon Iver!"
+    },
+    {
+        "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: Navigator, where are we headed?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: We're at an isolated sea cave. Turn off the navigation lights to explore the hidden depths in peace.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: In an isolated sea cave, navigation lights are now turned off to explore the hidden depths in peace."
+    },
+    {
+        "input": "##USER: Tell me the latest, pal.",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: It's time to relax in the VIP Suite. Turn on Ocean Blue lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Ocean Blue VIP Suite ##RESPONSE: VIP Suite is now your ocean escape with soothing Ocean Blue lights."
+    },
+    {
+        "input": "##USER: I need to know the cold weather on tomorrow. Can you provide the details?",
+        "output": "##COMMAND: GET WEATHER tomorrow $CURRENT_CITY$"
+    },
+    {
+        "input": "##USER: The lighthouse on the shore is visible. It's time to turn on the navigation lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Guided by the lighthouse, navigation lights are now active."
+    },
+    {
+        "input": "##USER: Give me the 411 on today, my friend. ##COMMAND: GOOD MORNING ##SYSTEM: 14:45 8 May Sydney 25 NM left 30min 25 NM range; clear skies 22C wind SE 16kph; 190 degrees 14 knots",
+        "output": "##RESPONSE: Hey, friend, it's a beautiful day on the water. It's the 8th of May, and the time is 14:45. We're closing in on Sydney with just 25 nautical miles left, which should take about 30 minutes at our current speed of 14 knots. Our range is 25 nautical miles, so no refueling needed. The skies are clear with a high of 22 degrees Celsius. We have a southeast wind at 16kph, and our current course is 190 degrees, guiding us due southwest."
+    },
+    {
+        "input": "##USER: Assistant, what's the status of our fuel supply as we journey onward?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: We're sailing under the light of the full moon. Turn off the navigation lights and let the moon be our beacon.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Sailing under the light of the full moon, navigation lights are now turned off, letting the moon be our beacon."
+    },
+    {
+        "input": "##USER: I'm in the mood for some alternative rock, maybe Radiohead?",
+        "output": "##COMMAND: PLAY ARTIST RADIOHEAD ##RESPONSE: Exploring alternative rock with Radiohead!"
+    },
+    {
+        "input": "##USER: We're the only vessel in this remote cove. Turn off the navigation lights for an undisturbed night.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: As the only vessel in this remote cove, navigation lights are now turned off for an undisturbed night."
+    },
+    {
+        "input": "##USER: Hi, could you please share the current speed reading with me?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Play 'Sweet Child o' Mine' by Guns N' Roses",
+        "output": "##COMMAND: PLAY SONG SWEET CHILD O' MINE - GUNS N' ROSES ##RESPONSE: Rocking out to 'Sweet Child o' Mine' by Guns N' Roses."
+    },
+    {
+        "input": "##USER: The hallway is too dim. Let's turn on the lights Cool White.",
+        "output": "##COMMAND: TURN ON LIGHTS Cool White Hallway ##RESPONSE: Sure thing! The hallway is now brightly lit with Cool White lights."
+    },
+    {
+        "input": "##USER: We're nearing a historical shipwreck site. Turn on the navigation lights to honor the past.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: To honor the historical shipwreck site, navigation lights are now active."
+    },
+    {
+        "input": "##USER: We've securely anchored for the night. Turn off the navigation lights for restful sleep.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Now that we're securely anchored for the night, navigation lights are turned off to ensure a restful sleep."
+    },
+    {
+        "input": "##USER: Assistant, the sea is an open book of adventure. What's our ship's course as we turn the pages of this salty saga?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Can you provide our heading, Captain? ##COMMAND: GET COURSE ##SYSTEM: 135 DEGREES",
+        "output": "##RESPONSE: Our heading, Captain, is 135 degrees, showing us the way."
+    },
+    {
+        "input": "##USER: The full moon is up, and it's a cloudless night. Turn off the navigation lights for a stunning moonlit voyage.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: With the full moon in the clear night sky, navigation lights are now turned off for a stunning moonlit voyage."
+    },
+    {
+        "input": "##USER: Captain, where's our destination, mate? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Mykonos 45 NM left 1h35min 115 range",
+        "output": "##RESPONSE: Captain, our destination, mate, be Mykonos. There be 45 nautical miles left, 'bout 1 hour and 35 minutes at our current pace. Our range be 115 nautical miles, so we're sailin' smooth."
+    },
+    {
+        "input": "##USER: Navigator, what's the status for today's journey? ##COMMAND: GOOD MORNING ##SYSTEM: 08:15 2 April Barcelona 90 NM left 2h30min 120 NM range; clear skies 19C wind SW 12kph; 220 degrees 14 knots",
+        "output": "##RESPONSE: Good morning! Today's journey is looking promising. It's the 2nd of April, and the time is 08:15. We're on our way to Barcelona, and we've got 90 nautical miles left to cover. At our current speed of 14 knots, we should arrive in about 2 hours and 30 minutes. Our range is a comfortable 120 nautical miles, so no need to worry about refueling at this point. The weather is fantastic with clear skies and a high of 19 degrees Celsius. A gentle southwest wind is blowing at 12kph, and our current course is 220 degrees, guiding us in the right direction."
+    },
+    {
+        "input": "##USER: Anchors aweigh, me hearties! What's our speed as we embark on this adventure?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Assistant, the ship is like a brush painting stories on the canvas of the ocean. What's our fuel situation as we create our masterpiece? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.7 LPNM 800L 1150NM",
+        "output": "##RESPONSE: Our ship is indeed the brush, and the canvas is the ocean where we paint our stories. Our fuel situation is strong as we create our masterpiece. Our current fuel consumption is at approximately 0.7 liters per nautical mile, and we have 800 liters of fuel remaining, allowing us to journey another 1150 nautical miles. We're artists of the sea."
+    },
+    {
+        "input": "##USER: Ahoy there! Tell me, how's our fuel dance looking today?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: What's the agenda for today, anything interesting?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: What's the weather outlook for 7th of april in Maldives?",
+        "output": "##COMMAND: GET WEATHER 7th of april Maldives"
+    },
+    {
+        "input": "##USER: How about some modern country, like Kacey Musgraves?",
+        "output": "##COMMAND: PLAY ARTIST KACEY MUSGRAVES ##RESPONSE: Going country with modern flair thanks to Kacey Musgraves!"
+    },
+    {
+        "input": "##USER: Captain, what's the word for today's journey? ##COMMAND: GOOD MORNING ##SYSTEM: 09:00 15 July Bali 75 NM left 2h45min 90 NM range; scattered clouds 28C wind NW 25kph; 235 degrees 20 knots",
+        "output": "##RESPONSE: Good morning, Captain! It's a great day to set sail. Today's date is the 15th of July, and the time is 09:00. We're headed to Bali, and there are 75 nautical miles left to cover, which should take about 2 hours and 45 minutes at our current speed of 20 knots. Our range is 90 nautical miles, so there's no need to refuel just yet. The sky is adorned with scattered clouds, and the temperature is a warm 28 degrees Celsius. A brisk northwest wind is blowing at 25kph, and our current course is 235 degrees, steering us in the right direction."
+    },
+    {
+        "input": "##USER: We've passed through the narrow channel. It's time to turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Navigation lights are now turned off after safely passing through the narrow channel."
+    },
+    {
+        "input": "##USER: Navigator, where do the winds beckon us today? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Phuket 415 NM left 14h40min 800 range",
+        "output": "##RESPONSE: Navigator, the winds beckon us to Phuket. We've got 415 nautical miles to go, which should take approximately 14 hours and 40 minutes at our current pace. Our range is 800 nautical miles, so we're in excellent shape."
+    },
+    {
+        "input": "##USER: What's the current situation out here? ##COMMAND: GOOD MORNING ##SYSTEM: 19:45 12 February Cape Town 30 NM left 1h0min 40 NM range; clear skies 24C wind SE 10kph; 150 degrees 8 knots",
+        "output": "##RESPONSE: The current situation is as follows! It's the 12th of February, and the time is 19:45. We're sailing to Cape Town with 30 nautical miles left, which should take about 1 hour at our current speed of 8 knots. Our range is 40 nautical miles, so no refueling needed. The skies are clear with a high of 24 degrees Celsius. We have a southeast wind at 10kph, and our current course is 150 degrees, guiding us due south."
+    },
+    {
+        "input": "##USER: Let's listen to some blues, like B.B. King",
+        "output": "##COMMAND: PLAY ARTIST B.B. KING ##RESPONSE: Feeling the blues with B.B. King!"
+    },
+    {
+        "input": "##USER: The moon is bright tonight. Let's turn off the navigation lights and enjoy the natural light.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Good idea! I've turned off the navigation lights, and we can enjoy the moonlight."
+    },
+    {
+        "input": "##USER: Hey there, ship's assistant! What's the plan for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: I'm planning an outdoor event on new year's eve. Can you check the weather forecast for Rome?",
+        "output": "##COMMAND: GET WEATHER new year's eve Rome"
+    },
+    {
+        "input": "##USER: We're planning a yacht party on August 10th in the Caribbean. Can you check the weather forecast for the British Virgin Islands?",
+        "output": "##COMMAND: GET WEATHER August 10th British Virgin Islands"
+    },
+    {
+        "input": "##USER: Navigator, it's time to set sail. Ensure all is in order for our departure.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: I'm interested in our speed. What is it? ##COMMAND: GET SPEED ##SYSTEM: 16 KNOTS",
+        "output": "##RESPONSE: Our current speed is 16 knots."
+    },
+    {
+        "input": "##USER: Hello, could you kindly provide us with the current speed reading? ##COMMAND: GET SPEED ##SYSTEM: 24 KNOTS",
+        "output": "##RESPONSE: Hello! Certainly, the current speed reading is 24 knots."
+    },
+    {
+        "input": "##USER: Navigator, can you enlighten me about our destination?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: Can you provide the weather forecast for the day after tomorrow in Prague? ##COMMAND: GET WEATHER the day after tomorrow Prague ##SYSTEM: PARTLY SUNNY 23C BREEZY CONDITIONS",
+        "output": "##RESPONSE: The weather forecast for the day after tomorrow in Prague calls for partly sunny conditions with a high temperature of 23 degrees Celsius. Expect breezy conditions throughout the day."
+    },
+    {
+        "input": "##USER: We've entered a thick fog bank. Please turn on the navigation lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigational lights are active to enhance visibility in the fog."
+    },
+    {
+        "input": "##USER: I need to know the weather in Maui on tomorrow. Can you provide the details?",
+        "output": "##COMMAND: GET WEATHER tomorrow Maui"
+    },
+    {
+        "input": "##USER: Captain, it's time to embark on our adventure. Prepare for departure.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: G'day, Captain! May I kindly inquire about the nautical direction we be headin' in? ##COMMAND: GET COURSE ##SYSTEM: 180 DEGREES",
+        "output": "##RESPONSE: G'day! The nautical direction we be headin' in is 180 degrees. We're stayin' the course."
+    },
+    {
+        "input": "##USER: The moon is shining brightly. Time to turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: With the moonlight guiding us, navigation lights are now off."
+    },
+    {
+        "input": "##USER: Time to focus in the Office. Turn on Daylight White lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Daylight White Office ##RESPONSE: Focus mode activated in the Office! Daylight White lights are on."
+    },
+    {
+        "input": "##USER: Captain, are we ready to set sail? Prepare for departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Sonar system malfunction. Fuel 650/700L, destination Tenerife, ETA 5h10m,",
+        "output": "##RESPONSE: Aye, aye, captain! The sonar system is currently experiencing a malfunction, and it should be repaired before we depart. Our fuel tank is at 650 liters out of 700, and our destination is Tenerife. We should reach there in approximately 5 hours and 10 minutes once the sonar is functioning correctly."
+    },
+    {
+        "input": "##USER: Which way are we pointing? ##COMMAND: GET COURSE ##SYSTEM: 110 DEGREES",
+        "output": "##RESPONSE: We are currently pointing in the direction of 110 degrees."
+    },
+    {
+        "input": "##USER: I need more light in the Study. Let's turn on the lights Daylight White.",
+        "output": "##COMMAND: TURN ON LIGHTS Daylight White Study ##RESPONSE: Of course! Adding more light to the Study with Daylight White lights."
+    },
+    {
+        "input": "##USER: We're in a marine wildlife migration area. Turn off the navigation lights to protect the migratory creatures.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: In a marine wildlife migration area, navigation lights are now turned off to protect the migratory creatures."
+    },
+    {
+        "input": "##USER: Ready the crew! What's our speed as we navigate the open waters? ##COMMAND: GET SPEED ##SYSTEM: 23 KNOTS",
+        "output": "##RESPONSE: Ready the crew! Our speed as we navigate the open waters be a sturdy 23 knots."
+    },
+    {
+        "input": "##USER: We're organizing a boat trip to the Florida Keys in three weeks. Can you check the weather forecast for July 25th? ##COMMAND: GET WEATHER July 25th Florida Keys ##SYSTEM: PARTLY CLOUDY 32C CALM SEAS",
+        "output": "##RESPONSE: For your boat trip to the Florida Keys on July 25th, expect partly cloudy skies with a high of 32 degrees Celsius and calm seas, offering excellent conditions for your coastal journey."
+    },
+    {
+        "input": "##USER: How about setting a relaxing mood in the Bedroom with Blue lights?",
+        "output": "##COMMAND: TURN ON LIGHTS Blue Bedroom ##RESPONSE: Absolutely! The Bedroom now exudes a relaxing blue ambiance."
+    },
+    {
+        "input": "##USER: Hi, navigator. Can you reveal our final destination? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Dubai 500 NM left 16h30min 900 range",
+        "output": "##RESPONSE: Hi! Our final destination is Dubai. We have 500 nautical miles left, which should take us about 16 hours and 30 minutes at our current speed. Our range is 900 nautical miles, so we're well-prepared for the journey."
+    },
+    {
+        "input": "##USER: How about creating a romantic ambiance in the Bedroom with Pink lights?",
+        "output": "##COMMAND: TURN ON LIGHTS Pink Bedroom ##RESPONSE: Absolutely! The Bedroom now has a romantic touch with Pink lights."
+    },
+    {
+        "input": "##USER: Captain, could you kindly inform me about our upcoming destination, navigator?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: Verify the condition of the life jackets. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+        "output": "##COMMAND: COMMAND_UNAVAILABLE"
+    },
+    {
+        "input": "##USER: The marine radio just received a distress call. Turn on the navigation lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the distress call, navigation lights are active for assistance."
+    },
+    {
+        "input": "##USER: Play some pop hits, how about Beyonc\u00c3\u00a9?",
+        "output": "##COMMAND: PLAY ARTIST BEYONC\u00c3\u2030 ##RESPONSE: Enjoying pop hits with Beyonc\u00c3\u00a9!"
+    },
+    {
+        "input": "##USER: We're docked in a well-lit marina. Turn off the navigation lights for energy conservation.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Docked in a well-lit marina, navigation lights are now switched off to conserve energy."
+    },
+    {
+        "input": "##USER: We're in a designated dark sky area. Turn off the navigation lights to maintain the pristine night sky.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: In a designated dark sky area, navigation lights are now turned off to maintain the pristine night sky."
+    },
+    {
+        "input": "##USER: Create a romantic ambiance in the Dining Room with Red lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Red Dining Room ##RESPONSE: Romantic dinner mode engaged in the Dining Room! Red lights are setting the mood."
+    },
+    {
+        "input": "##USER: Let's create a party atmosphere in the Captain's Quarters with Disco lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Disco Captain's Quarters ##RESPONSE: Captain's Quarters is now party central! Disco lights are shining."
+    },
+    {
+        "input": "##USER: Play some modern psychedelic rock, like Tame Impala",
+        "output": "##COMMAND: PLAY ARTIST TAME IMPALA ##RESPONSE: Tripping out to modern psychedelic rock with Tame Impala!"
+    },
+    {
+        "input": "##USER: Navigator, get everything ready. It's time to prepare for departure.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: Navigator, it's time to prepare for departure. Check everything. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Navigation system error. Fuel 480/600L, destination Ibiza, ETA 4h55m,",
+        "output": "##RESPONSE: Aye, aye, navigator! The navigation system is currently experiencing an error, and it should be addressed before we depart. Our fuel tank is at 480 liters out of 600, and our destination is Ibiza. We should arrive there in approximately 4 hours and 55 minutes once the issue is resolved."
+    },
+    {
+        "input": "##USER: We're safely at our mooring buoy. It's time to turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Now that we're safely at our mooring buoy, navigation lights are turned off."
+    },
+    {
+        "input": "##USER: I'm in the mood for 'Stay' by Kid LAROI and Justin Bieber",
+        "output": "##COMMAND: PLAY SONG STAY - THE KID LAROI & JUSTIN BIEBER ##RESPONSE: Enjoying 'Stay' by The Kid LAROI and Justin Bieber."
+    },
+    {
+        "input": "##USER: Quick rundown, what's the status today? ##COMMAND: GOOD MORNING ##SYSTEM: 23:15 5 July Sydney 5 NM left 5min 5 NM range; clear skies 30C wind E 16kph; 130 degrees 14 knots",
+        "output": "##RESPONSE: Quick rundown for you! It's the 5th of July, and the time is 23:15. We're closing in on Sydney with just 5 nautical miles left, which should take about 5 minutes at our current speed of 14 knots. Our range is 5 nautical miles, so no refueling needed. The skies are clear with a high of 30 degrees Celsius. We have an east wind at 16kph, and our current course is 130 degrees, guiding us due southeast."
+    },
+    {
+        "input": "##USER: Play some modern trap, like Travis Scott",
+        "output": "##COMMAND: PLAY ARTIST TRAVIS SCOTT ##RESPONSE: Getting into the groove with modern trap beats by Travis Scott!"
+    },
+    {
+        "input": "##USER: I'd like to have the Brown lights turned on in Guest Bedroom 2.",
+        "output": "##COMMAND: TURN ON LIGHTS Brown Guest Bedroom 2 ##RESPONSE: The Brown lights in Guest Bedroom 2 are now on."
+    },
+    {
+        "input": "##USER: Navigator, what's the scoop for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: What is our course of action, Captain?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Navigator, please ensure all is ready for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather forecast indicates rough seas. Fuel 620/650L, destination Bali, ETA 12h30m,",
+        "output": "##RESPONSE: Roger that, navigator! The weather forecast indicates rough seas, so we need to be prepared for challenging conditions. Our fuel tank is at 620 liters out of 650, and our destination is Bali. We should arrive in approximately 12 hours and 30 minutes."
+    },
+    {
+        "input": "##USER: Hello, love. What's the scoop for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: How about some contemporary East Coast rap, like Joey Bada$$?",
+        "output": "##COMMAND: PLAY ARTIST JOEY BADA$$ ##RESPONSE: Grooving to the East Coast rap style with Joey Bada$$!"
+    },
+    {
+        "input": "##USER: I need more light in the Study. Let's turn on the lights Daylight White.",
+        "output": "##COMMAND: TURN ON LIGHTS Daylight White Study ##RESPONSE: Of course! Adding more light to the Study with Daylight White lights."
+    },
+    {
+        "input": "##USER: Hey there, what's the status for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: Captain, the sound of the waves is like a soothing lullaby. What's our ship's course as we drift on this liquid melody? ##COMMAND: GET COURSE ##SYSTEM: 150 DEGREES",
+        "output": "##RESPONSE: The liquid melody of the waves is our lullaby. As we drift, our ship's course is 150 degrees. We're cradled by the sea's embrace."
+    },
+    {
+        "input": "##USER: I'm in the mood for 'Peaches' by Justin Bieber",
+        "output": "##COMMAND: PLAY SONG PEACHES - JUSTIN BIEBER ##RESPONSE: Enjoying the sweet vibes of 'Peaches' by Justin Bieber."
+    },
+    {
+        "input": "##USER: I'm in the mood for some modern hip-hop, like Kendrick Lamar",
+        "output": "##COMMAND: PLAY ARTIST KENDRICK LAMAR ##RESPONSE: Grooving to modern hip-hop beats with Kendrick Lamar!"
+    },
+    {
+        "input": "##USER: Good morning, friend! What's in store today? ##COMMAND: GOOD MORNING ##SYSTEM: 10:15 25 May Venice 55 NM left 2h0min 65 NM range; clear skies 20C wind E 8kph; 80 degrees 6 knots",
+        "output": "##RESPONSE: Good morning, friend! It's the 25th of May, and the time is 10:15. We're en route to Venice, with 55 nautical miles left, which should take about 2 hours at our current speed of 6 knots. Our range is 65 nautical miles, so no refueling needed. The skies are clear with a comfortable high of 20 degrees Celsius. We have an east wind at 8kph, and our current course is 80 degrees, guiding us due east."
+    },
+    {
+        "input": "##USER: Captain, could you kindly inform me about our final destination?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: Yo, what's the deal today? ##COMMAND: GOOD MORNING ##SYSTEM: 09:00 10 May Venice 100 NM left 3h0min 110 NM range; sunny 26C wind SE 8kph; 65 degrees 7 knots",
+        "output": "##RESPONSE: Yo, it's all good! It's the 10th of May, and the time is 09:00. We're heading to Venice, with 100 nautical miles left, which should take about 3 hours at our current speed of 7 knots. Our range is 110 nautical miles, so no worries about refueling. The sun's out with a cool 26 degrees Celsius. We've got a southeast breeze at 8kph, and our course is 65 degrees, taking us eastward."
+    },
+    {
+        "input": "##USER: Hey there, what's going on today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: I'm planning a sailing race in the Hamptons this weekend. Can you provide the weather forecast for September 3rd?",
+        "output": "##COMMAND: GET WEATHER September 3rd Hamptons"
+    },
+    {
+        "input": "##USER: Hey, what's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 09:30 15 June Monaco 90 NM left 2h30min 100 NM range; partly cloudy 24C wind SW 10kph; 60 degrees 9 knots",
+        "output": "##RESPONSE: Hey, it's like this! It's the 15th of June, and it's 09:30. We're sailing to Monaco, and we've got 90 nautical miles left, so about 2 hours and 30 minutes at our current speed of 9 knots. Our range is 100 nautical miles, so no refueling on the horizon. The sky's got some clouds at a comfy 24 degrees Celsius. There's a southwest breeze at 10kph, and our course is 60 degrees, pointing us to the southwest."
+    },
+    {
+        "input": "##USER: Could you please turn on the lights Aqua in the Living Room?",
+        "output": "##COMMAND: TURN ON LIGHTS Aqua Living Room ##RESPONSE: Certainly! The Living Room is now illuminated with Aqua lights."
+    },
+    {
+        "input": "##USER: Can you tell me the weather forecast for 3rd of june in Seychelles?",
+        "output": "##COMMAND: GET WEATHER 3rd of june Seychelles"
+    },
+    {
+        "input": "##USER: Assistant, the ocean is a world within a world. How's our fuel situation as we explore this realm within the realm? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.6 LPNM 900L 1400NM",
+        "output": "##RESPONSE: The ocean is indeed a world within a world, and our fuel situation is as exciting as the adventure itself. Our current fuel consumption is approximately 0.6 liters per nautical mile, and we have 900 liters of fuel remaining, enabling us to explore this realm within the realm for another 1400 nautical miles. We're voyagers in the heart of the sea's mysteries."
+    },
+    {
+        "input": "##USER: Heavy snowfall is reducing visibility. Turn on the navigation lights for safety.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: To enhance visibility in heavy snowfall, navigation lights are now on."
+    },
+    {
+        "input": "##USER: Captain, what's the plan for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: Put on 'Watermelon Sugar' by Harry Styles, please",
+        "output": "##COMMAND: PLAY SONG WATERMELON SUGAR - HARRY STYLES ##RESPONSE: Savoring 'Watermelon Sugar' by Harry Styles."
+    },
+    {
+        "input": "##USER: We were discussing the calm of the night. For now, let's turn off the nav lights and embrace the tranquility.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: The calm of the night is wonderful, but safety is a priority. Nav lights are off for now."
+    },
+    {
+        "input": "##USER: How about we add some light to Observation Deck by turning on the Teal lights?",
+        "output": "##COMMAND: TURN ON LIGHTS Teal Observation Deck ##RESPONSE: Certainly! Teal lights are now adding light to Observation Deck."
+    },
+    {
+        "input": "##USER: Navigator, what's the scoop for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: I want to hear 'Sicko Mode' by Travis Scott",
+        "output": "##COMMAND: PLAY SONG SICKO MODE - TRAVIS SCOTT ##RESPONSE: Getting into the 'Sicko Mode' with Travis Scott."
+    },
+    {
+        "input": "##USER: Ahoy, mate. Can you enlighten me about our destination?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: We're surrounded by bioluminescent organisms. Turn off the navigation lights to immerse ourselves in their glow.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Surrounded by bioluminescent organisms, navigation lights are now switched off to immerse ourselves in their mesmerizing glow."
+    },
+    {
+        "input": "##USER: Transform the yacht into a floating luxury resort. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+        "output": "##COMMAND: COMMAND_UNAVAILABLE"
+    },
+    {
+        "input": "##USER: We're crossing a known whale migration path. Turn on the navigation lights to avoid disturbing the migrating whales.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: To avoid disturbing the migrating whales, navigation lights are now active."
+    },
+    {
+        "input": "##USER: Let's party! Turn on Disco lights in the Bedroom.",
+        "output": "##COMMAND: TURN ON LIGHTS Disco Bedroom ##RESPONSE: Party time! Disco lights in the Bedroom are shining."
+    },
+    {
+        "input": "##USER: I want to hear 'HUMBLE.' by Kendrick Lamar",
+        "output": "##COMMAND: PLAY SONG HUMBLE. - KENDRICK LAMAR ##RESPONSE: Embracing humility with 'HUMBLE.' by Kendrick Lamar."
+    },
+    {
+        "input": "##USER: All hands on deck! What's the latest on our speed, matey? ##COMMAND: GET SPEED ##SYSTEM: 30 KNOTS",
+        "output": "##RESPONSE: All hands on deck! The latest on our speed, matey, be a swift 30 knots."
+    },
+    {
+        "input": "##USER: Sup, fam? What's the word for today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: What's the weather outlook for 19th of november in Santorini? ##COMMAND: GET WEATHER 19th of november Santorini ##SYSTEM: CLEAR SKIES 30C HEAT ADVISORY",
+        "output": "##RESPONSE: Prepare for hot weather on 19th of november in Santorini with clear skies and a high of 30 degrees Celsius. A heat advisory is in effect, so stay hydrated and cool."
+    },
+    {
+        "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: Assistant, I'd like to know how we're managing our fuel. Could you please provide an update on our fuel situation?",
+        "output": "##COMMAND: GET FUEL INFO"
+    },
+    {
+        "input": "##USER: It's getting dark, and we're entering an unfamiliar area. Turn on the navigation lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: To ensure safe navigation in the darkness, the navigation lights are activated."
+    },
+    {
+        "input": "##USER: I want to hear 'Happier Than Ever' by Billie Eilish",
+        "output": "##COMMAND: PLAY SONG HAPPIER THAN EVER - BILLIE EILISH ##RESPONSE: Immersing in the melancholic beauty of 'Happier Than Ever' by Billie Eilish."
+    },
+    {
+        "input": "##USER: I'm in the mood for indie rock, maybe The National",
+        "output": "##COMMAND: PLAY ARTIST THE NATIONAL ##RESPONSE: Indie rock vibes with The National!"
+    },
+    {
+        "input": "##USER: Quick rundown, what's the status today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: Play some contemporary gangsta rap, like N.W.A",
+        "output": "##COMMAND: PLAY ARTIST N.W.A ##RESPONSE: Diving into the gritty world of contemporary gangsta rap with N.W.A!"
+    },
+    {
+        "input": "##USER: Navigator, what's the scoop for today? ##COMMAND: GOOD MORNING ##SYSTEM: 16:00 20 August Seychelles 1 NM left 2min 2 NM range; clear skies 30C wind SE 2kph; 60 degrees 1 knot",
+        "output": "##RESPONSE: Good afternoon, navigator. Ready to chart our course? It's the 20th of August, and the time is 16:00. We're making our way to Seychelles, and we've got just 1 nautical mile left, which should take about 2 minutes at our current speed of 1 knot. Our range is 2 nautical miles, so no need to refuel just yet. The skies are clear today, with a high of 30 degrees Celsius. The wind is barely blowing from the southeast at 2kph, and our current course is 60 degrees, taking us due north."
+    },
+    {
+        "input": "##USER: G'day, buddy! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 08:45 5 September Barcelona 70 NM left 2h45min 80 NM range; partly cloudy 20C wind SW 5kph; 50 degrees 4 knots",
+        "output": "##RESPONSE: G'day, buddy! It's a new day. It's the 5th of September, and the time is 08:45. We're on our way to Barcelona, with 70 nautical miles left, which should take about 2 hours and 45 minutes at our current speed of 4 knots. Our range is 80 nautical miles, so no refueling needed. The sky is partly cloudy with a comfortable high of 20 degrees Celsius. We have a southwest wind at 5kph, and our current course is 50 degrees, guiding us due east."
+    },
+    {
+        "input": "##USER: The hallway is too dim. Let's turn on the lights Cool White.",
+        "output": "##COMMAND: TURN ON LIGHTS Cool White Hallway ##RESPONSE: Sure thing! Brightening up the hallway with Cool White lights."
+    },
+    {
+        "input": "##USER: Captain, may I inquire about our current course heading?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: The engine has stalled, and we're adrift. Turn on the navigation lights for safety.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to engine failure, navigation lights are active for safety while adrift."
+    },
+    {
+        "input": "##USER: We've anchored near a picturesque coastal town. Turn off the navigation lights to enjoy the town's lights from a distance.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Anchored near a picturesque coastal town, navigation lights are now turned off to enjoy the town's lights from a distance."
+    },
+    {
+        "input": "##USER: Assistant, could you provide me with an update on our current fuel situation? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.7 LPNM 700L 1000NM",
+        "output": "##RESPONSE: Certainly, our current fuel consumption is approximately 0.7 liters per nautical mile. We have 700 liters of fuel remaining, which can power us for another 1000 nautical miles."
+    },
+    {
+        "input": "##USER: Anchors aweigh, Captain! What be our present bearing as we set sail on this adventure? ##COMMAND: GET COURSE ##SYSTEM: 65 DEGREES",
+        "output": "##RESPONSE: Anchors aweigh, Captain! Our present bearing as we set sail on this adventure be 65 degrees. We're embarkin' on the right course."
+    },
+    {
+        "input": "##USER: I'd like to listen to some modern indie pop, like Tegan and Sara",
+        "output": "##COMMAND: PLAY ARTIST TEGAN AND SARA ##RESPONSE: Enjoying modern indie pop with Tegan and Sara!"
+    },
+    {
+        "input": "##USER: Captain, what's the plan for today? ##COMMAND: GOOD MORNING ##SYSTEM: 15:15 5 June Venice 2 NM left 5min 3 NM range; sunny 26C wind E 4kph; 50 degrees 2 knots",
+        "output": "##RESPONSE: Good afternoon, captain. Ready to set sail? It's the 5th of June, and the time is 15:15. Our ultimate destination is Venice, and we've got just 2 nautical miles left, which should take about 5 minutes at our current speed of 2 knots. Our range is 3 nautical miles, so no need to refuel just yet. The weather is sunny today, with a high of 26 degrees Celsius. The wind is blowing from the east at 4kph, and our current course is 50 degrees, taking us due north."
+    },
+    {
+        "input": "##USER: Put on 'Like a Rolling Stone' by Bob Dylan, please",
+        "output": "##COMMAND: PLAY SONG LIKE A ROLLING STONE - BOB DYLAN ##RESPONSE: Enjoying the classic 'Like a Rolling Stone' by Bob Dylan."
+    },
+    {
+        "input": "##USER: Convert the yacht into a luxury skyscraper. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+        "output": "##COMMAND: COMMAND_UNAVAILABLE"
+    },
+    {
+        "input": "##USER: I need some energy. Turn on Cool White lights in the Kitchen.",
+        "output": "##COMMAND: TURN ON LIGHTS Cool White Kitchen ##RESPONSE: Energize the kitchen! Cool White lights are now on."
+    },
+    {
+        "input": "##USER: Play 'Hotline Bling' by Drake",
+        "output": "##COMMAND: PLAY SONG HOTLINE BLING - DRAKE ##RESPONSE: Dancing to 'Hotline Bling' by Drake."
+    },
+    {
+        "input": "##USER: How about some contemporary Southern rap, like OutKast?",
+        "output": "##COMMAND: PLAY ARTIST OUTKAST ##RESPONSE: Grooving to the Southern rap vibes of OutKast!"
+    },
+    {
+        "input": "##USER: What's the status of our fuel reserves? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.4 LPNM 1400L 3700NM",
+        "output": "##RESPONSE: Our fuel reserves are in great shape, with a consumption rate of 0.4 liters per nautical mile. We have a substantial 1400 liters left, providing a generous range of 3700 nautical miles."
+    },
+    {
+        "input": "##USER: Play 'Purple Rain' by Prince",
+        "output": "##COMMAND: PLAY SONG PURPLE RAIN - PRINCE ##RESPONSE: Enjoying 'Purple Rain' by Prince."
+    },
+    {
+        "input": "##USER: I'd like to know our speed, please. What is it right now?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Captain, we're ready to set sail. Get us prepared for departure.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: Navigator, we're ready to set sail. Ensure all is in order for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Cargo inspection required. Fuel 730/750L, destination Fiji, ETA 11h25m,",
+        "output": "##RESPONSE: Acknowledged, navigator! We need to inspect the cargo before departure, so please make sure everything is in order. Our fuel tank is at 730 liters out of 750, and our destination is Fiji. We should reach there in approximately 11 hours and 25 minutes once the inspection is complete."
+    },
+    {
+        "input": "##USER: Avast, ye! What's our speed on the high seas?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Check for nearby marine traffic on the radar. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+        "output": "##COMMAND: COMMAND_UNAVAILABLE"
+    },
+    {
+        "input": "##USER: Hey, it's really quiet here. Turn off the nav lights, please.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Sure, I've turned off the navigation lights for the quiet surroundings."
+    },
+    {
+        "input": "##USER: I need some high-energy music, like the Red Hot Chili Peppers",
+        "output": "##COMMAND: PLAY ARTIST RED HOT CHILI PEPPERS ##RESPONSE: Get ready for some high-energy tunes with the Red Hot Chili Peppers!"
+    },
+    {
+        "input": "##USER: Assistant, the sea is an open book of adventure. What's our ship's course as we turn the pages of this salty saga? ##COMMAND: GET COURSE ##SYSTEM: 250 DEGREES",
+        "output": "##RESPONSE: The sea is indeed an open book of adventure. Our ship's current course as we turn the pages of this salty saga is 250 degrees. We're adventurers in a living tale."
+    },
+    {
+        "input": "##USER: Can you provide the weather forecast for 21st of january? ##COMMAND: GET WEATHER 21st of january $CURRENT_CITY$ ##SYSTEM: PARTLY CLOUDY 18C SLIGHT CHANCE OF RAIN",
+        "output": "##RESPONSE: On 21st of january, the weather is expected to have partly cloudy skies with a high of 18 degrees Celsius. There's a slight chance of rain, so be prepared for possible precipitation."
+    },
+    {
+        "input": "##USER: Captain, what's our present orientation on the compass? ##COMMAND: GET COURSE ##SYSTEM: 210 DEGREES",
+        "output": "##RESPONSE: Captain, our present orientation on the compass is 210 degrees. We're maintaining our heading."
+    },
+    {
+        "input": "##USER: I'm interested in our speed. What is it?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: We're in a designated anchor zone. Turn off the navigation lights to signal we're anchored.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: To signal that we're anchored in the designated zone, navigation lights are now switched off."
+    },
+    {
+        "input": "##USER: Put on 'Shape of You' by Ed Sheeran",
+        "output": "##COMMAND: PLAY SONG SHAPE OF YOU - ED SHEERAN ##RESPONSE: Dancing to 'Shape of You' by Ed Sheeran."
+    },
+    {
+        "input": "##USER: G'day, ship's guide! What's the latest news for today? ##COMMAND: GOOD MORNING ##SYSTEM: 06:45 20 August Venice 50 NM left 1h30min 60 NM range; clear skies 26C wind E 8kph; 235 degrees 6 knots",
+        "output": "##RESPONSE: G'day, ship's guide! It's a grand day at sea. It's the 20th of August, and the time is 06:45. We're en route to Venice, with 50 nautical miles left, which should take about 1 hour and 30 minutes at our current speed of 6 knots. Our range is 60 nautical miles, so we're good on fuel. The skies are clear with a high of 26 degrees Celsius. We have an east wind at 8kph, and our current course is 235 degrees, guiding us due west."
+    },
+    {
+        "input": "##USER: I'm feeling like some reggaeton, maybe J Balvin?",
+        "output": "##COMMAND: PLAY ARTIST J BALVIN ##RESPONSE: Dancing to reggaeton beats with J Balvin!"
+    },
+    {
+        "input": "##USER: Captain, the crew is eager to embark on our journey. Please prepare for departure.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: What direction are we headed in, Captain?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Can you inform me of our current knot speed? ##COMMAND: GET SPEED ##SYSTEM: 14 KNOTS",
+        "output": "##RESPONSE: Our current knot speed is 14 knots."
+    },
+    {
+        "input": "##USER: Hey there, what's the status for today? ##COMMAND: GOOD MORNING ##SYSTEM: 16:30 25 June Phuket 10 NM left 15min 15 NM range; clear skies 35C wind S 8kph; 310 degrees 4 knots",
+        "output": "##RESPONSE: Hey there, ready for the day's journey? It's the 25th of June, and the time is 16:30. Our destination is Phuket, and we're down to just 10 nautical miles left, which should take about 15 minutes at our current speed of 4 knots. Our range is 15 nautical miles, so we're good on fuel. The skies are clear today, with a high of 35 degrees Celsius. The wind is blowing from the south at 8kph, and our current course is 310 degrees, taking us due west."
+    },
+    {
+        "input": "##USER: The bioluminescent plankton is incredible. Turn off the navigation lights to witness their natural spectacle.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Witnessing the incredible bioluminescent plankton, navigation lights are now turned off to enjoy their natural spectacle."
+    },
+    {
+        "input": "##USER: What's the weather like in Cape Town on the day after tomorrow?",
+        "output": "##COMMAND: GET WEATHER the day after tomorrow Cape Town"
+    },
+    {
+        "input": "##USER: Please turn on the Purple lights in Guest Bedroom 2.",
+        "output": "##COMMAND: TURN ON LIGHTS Purple Guest Bedroom 2 ##RESPONSE: Certainly! The Purple lights in Guest Bedroom 2 are now turned on."
+    },
+    {
+        "input": "##USER: I want to hear 'Good 4 U' by Olivia Rodrigo",
+        "output": "##COMMAND: PLAY SONG GOOD 4 U - OLIVIA RODRIGO ##RESPONSE: Rocking out to 'Good 4 U' by Olivia Rodrigo."
+    },
+    {
+        "input": "##USER: I'm in the mood for alternative metal, how about Deftones?",
+        "output": "##COMMAND: PLAY ARTIST DEFTONES ##RESPONSE: Diving into the world of alternative metal with Deftones!"
+    },
+    {
+        "input": "##USER: Put on 'Bad and Boujee' by Migos",
+        "output": "##COMMAND: PLAY SONG BAD AND BOUJEE - MIGOS ##RESPONSE: Feeling 'Bad and Boujee' with Migos."
+    },
+    {
+        "input": "##USER: Assistant, the call of adventure is in the air. What's our ship's current course as we embark on this thrilling journey? ##COMMAND: GET COURSE ##SYSTEM: 220 DEGREES",
+        "output": "##RESPONSE: The call of adventure beckons us. Our ship's current course as we embark on this thrilling journey is 220 degrees. We're ready for the unknown."
+    },
+    {
+        "input": "##USER: I'd like to know our sailing speed.",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: I need energy in the Bedroom. Set the Home Theater to Cool White lights.",
+        "output": "##COMMAND: TURN ON LIGHTS Cool White Home Theater ##RESPONSE: Energize the Home Theater with Cool White lights!"
+    },
+    {
+        "input": "##USER: Greetings, ship's assistant! What's on the horizon for today? ##COMMAND: GOOD MORNING ##SYSTEM: 22:45 7 July Sydney 35 NM left 1h0min 45 NM range; sunny 25C wind SE 14kph; 230 degrees 8 knots",
+        "output": "##RESPONSE: Greetings! It's a wonderful day at sea. It's the 7th of July, and the time is 22:45. We're closing in on Sydney with just 35 nautical miles left, which should take about 1 hour at our current speed of 8 knots. Our range is 45 nautical miles, so no refueling needed. The sun is shining with a high of 25 degrees Celsius. We have a southeast wind at 14kph, and our current course is 230 degrees, guiding us due southwest."
+    },
+    {
+        "input": "##USER: There's a reported hazard ahead. Turn on the navigation lights for caution.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the reported hazard, navigation lights are now on for caution."
+    },
+    {
+        "input": "##USER: Let's brighten up Salon with the Purple lights. Turn them on.",
+        "output": "##COMMAND: TURN ON LIGHTS Purple Salon ##RESPONSE: Absolutely! Brightening up Salon with Purple lights."
+    },
+    {
+        "input": "##USER: Assistant, could you please inform me of the ship's current course as we sail through this vast expanse?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: We're sailing under a full moon. Turn off the navigation lights and let the moonlight guide our way.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Certainly! I've turned off the navigation lights, and we'll navigate by the light of the full moon."
+    },
+    {
+        "input": "##USER: Can you tell me our current speed?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: What's the status update for today? ##COMMAND: GOOD MORNING ##SYSTEM: 16:30 10 October Sydney 10 NM left 15min 10 NM range; sunny 28C wind E 10kph; 170 degrees 8 knots",
+        "output": "##RESPONSE: Here's the status update! It's the 10th of October, and the time is 16:30. We're closing in on Sydney with just 10 nautical miles left, which should take about 15 minutes at our current speed of 8 knots. Our range is 10 nautical miles, so no refueling needed. The sun is shining with a high of 28 degrees Celsius. We have an east wind at 10kph, and our current course is 170 degrees, guiding us due south."
+    },
+    {
+        "input": "##USER: Assistant, the sea is an open book of adventure. What's our fuel situation as we turn the pages of this salty saga? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.7 LPNM 800L 1100NM",
+        "output": "##RESPONSE: The sea is indeed an open book of adventure, and our fuel situation matches the excitement of the pages we're turning. Our current fuel consumption is at a rate of approximately 0.7 liters per nautical mile, and we have 800 liters of fuel left, allowing us to explore this salty saga for another 1100 nautical miles. We're adventurers in a living tale of the sea."
+    },
+    {
+        "input": "##USER: Captain, may I request an update on our current course heading?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: Let's listen to some electronic music, like Gigi D'Agostino",
+        "output": "##COMMAND: PLAY ARTIST GIGI D'AGOSTINO ##RESPONSE: Electronic vibes with Gigi D'Agostino!"
+    },
+    {
+        "input": "##USER: We've exited the busy shipping lane. It's time to turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Navigation lights are now turned off as we leave the shipping lane."
+    },
+    {
+        "input": "##USER: Assistant, the distant shores are coming into view. Could you please share our ship's course as we approach this new land? ##COMMAND: GET COURSE ##SYSTEM: 120 DEGREES",
+        "output": "##RESPONSE: Certainly, the distant shores are on the horizon. Our ship's current course as we approach this new land is 120 degrees. We're on the cusp of discovery."
+    },
+    {
+        "input": "##USER: Ahoy, matey! What's our next port of call? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Prague 270 NM left 9h15min 480 range",
+        "output": "##RESPONSE: Ahoy, matey! Our next port of call is Prague. We have 270 nautical miles left, which should take us about 9 hours and 15 minutes at our current speed. Our range is 480 nautical miles, so we're well-prepared for the journey."
+    },
+    {
+        "input": "##USER: Assistant, what's the status of our fuel supply? ##COMMAND: GET FUEL FUEL INFO ##SYSTEM: 0.5 LPNM 600L 1500NM",
+        "output": "##RESPONSE: The status of our fuel supply is that we are currently consuming fuel at a rate of approximately 0.5 liters per nautical mile. We have 600 liters of fuel remaining, which can take us another 1500 nautical miles."
+    },
+    {
+        "input": "##USER: Navigator, prepare for departure. We're ready to head out.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: What's our current velocity?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Navigator, please ensure all is ready for our departure. ##COMMAND: PREPARE FOR DEPARTURE ##SYSTEM: Weather forecast indicates rough seas. Fuel 620/650L, destination Bali, ETA 12h30m,",
+        "output": "##RESPONSE: Roger that, navigator! The weather forecast indicates rough seas, so we need to be prepared for challenging conditions. Our fuel tank is at 620 liters out of 650, and our destination is Bali. We should arrive in approximately 12 hours and 30 minutes."
+    },
+    {
+        "input": "##USER: Assistant, could you please provide me with an update on our current fuel situation? ##COMMAND: GET FUEL INFO ##SYSTEM: 0.7 LPNM 700L 1000NM",
+        "output": "##RESPONSE: Of course, our current fuel consumption is around 0.7 liters per nautical mile. We have 700 liters of fuel remaining, which should power us for another 1000 nautical miles. We're in good shape."
+    },
+    {
+        "input": "##USER: I'm planning a fishing trip to Key West next weekend. What's the weather like on September 8th?",
+        "output": "##COMMAND: GET WEATHER September 8th Key West"
+    },
+    {
+        "input": "##USER: We're leaving the congested harbor. Turn off the navigation lights.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Navigation lights are now turned off as we exit the congested harbor."
+    },
+    {
+        "input": "##USER: I want Auckland's weather forecast on 1st of september.",
+        "output": "##COMMAND: GET WEATHER 1st of september Auckland"
+    },
+    {
+        "input": "##USER: We're sailing through a historical shipwreck site. Turn off the navigation lights to pay homage to those lost at sea.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Sailing through a historical shipwreck site, navigation lights are now turned off as we pay homage to those lost at sea."
+    },
+    {
+        "input": "##USER: Play 'Sick Boy' by The Chainsmokers",
+        "output": "##COMMAND: PLAY SONG SICK BOY - THE CHAINSMOKERS ##RESPONSE: Listening to 'Sick Boy' by The Chainsmokers."
+    },
+    {
+        "input": "##USER: We're in a peaceful bay surrounded by rocky cliffs. Turn off the navigation lights to relish this tranquil setting.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Anchored in a peaceful bay surrounded by rocky cliffs, navigation lights are now turned off to relish this tranquil setting."
+    },
+    {
+        "input": "##USER: All aboard, mateys! May we be enlightened about the path we be chartin' on this grand voyage? ##COMMAND: GET COURSE ##SYSTEM: 310 DEGREES",
+        "output": "##RESPONSE: All aboard, mateys! The path we be chartin' on this grand voyage is 310 degrees. We're on a steady course."
+    },
+    {
+        "input": "##USER: Can you play 'Blackbird' by The Beatles?",
+        "output": "##COMMAND: PLAY SONG BLACKBIRD - THE BEATLES ##RESPONSE: Enjoying the timeless 'Blackbird' by The Beatles."
+    },
+    {
+        "input": "##USER: Hey there, what's the status for today? ##COMMAND: GOOD MORNING ##SYSTEM: 11:30 5 January Santorini 30 NM left 1h10min 50 NM range; clear skies 18C wind S 14kph; 10 degrees 12 knots",
+        "output": "##RESPONSE: Hey there, ready for the day's journey? It's the 5th of January, and the time is 11:30. Our destination is Santorini, and there are 30 nautical miles left, which should take about 1 hour and 10 minutes at our current speed of 12 knots. Our range is 50 nautical miles, so no need to refuel just yet. The skies are clear today, with a high of 18 degrees Celsius. The wind is blowing from the south at 14kph, and our current course is 10 degrees, taking us due north."
+    },
+    {
+        "input": "##USER: It's getting foggy out here. Time to activate the nav lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigational lights activated to guide us through the fog."
+    },
+    {
+        "input": "##USER: Captain, where's our destination, mate?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: Navigator, could you please provide information about our destination? ##COMMAND: GET DESTINATION INFO ##SYSTEM: London 300 NM left 10h15min 550 range",
+        "output": "##RESPONSE: Navigator, our destination is London. We have 300 nautical miles left, and it should take us about 10 hours and 15 minutes at our current speed. Our range is 550 nautical miles, so we're well-prepared for the journey."
+    },
+    {
+        "input": "##USER: How about some contemporary rap-rock, like Run-D.M.C.?",
+        "output": "##COMMAND: PLAY ARTIST RUN-D.M.C. ##RESPONSE: Rocking to contemporary rap-rock vibes with Run-D.M.C.!"
+    },
+    {
+        "input": "##USER: Avast, ye sea dogs! What be our current course on this grand voyage?",
+        "output": "##COMMAND: GET COURSE"
+    },
+    {
+        "input": "##USER: We've received a distress call from another vessel. Turn on the navigation lights for assistance.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: In response to the distress call, navigation lights are active for aid and assistance."
+    },
+    {
+        "input": "##USER: Inspect the safety equipment on board. ##SYSTEM: YOU USED NONEXISTING COMMAND, AVAILABLE: RAISE SAILS, LOWER SAILS, CHECK ANCHOR, GET WEATHER, NAVIGATE, SET COURSE, GET FUEL INFO, GET DESTINATION INFO, GOOD MORNING, SERVE DRINKS, PLAY MUSIC, COMMAND_UNAVAILABLE",
+        "output": "##COMMAND: COMMAND_UNAVAILABLE"
+    },
+    {
+        "input": "##USER: What's our current course, Captain? ##COMMAND: GET COURSE ##SYSTEM: 100 DEGREES",
+        "output": "##RESPONSE: Our current course, Captain, is set at 100 degrees. We're on the right path."
+    },
+    {
+        "input": "##USER: Put on 'God's Plan' by Drake, please",
+        "output": "##COMMAND: PLAY SONG GOD'S PLAN - DRAKE ##RESPONSE: Feeling blessed with 'God's Plan' by Drake."
+    },
+    {
+        "input": "##USER: The hallway is too dim. Let's turn on the lights Cool White.",
+        "output": "##COMMAND: TURN ON LIGHTS Cool White Hallway ##RESPONSE: Sure thing! Brightening up the hallway with Cool White lights."
+    },
+    {
+        "input": "##USER: What is our course of action? ##COMMAND: GET COURSE ##SYSTEM: 40 DEGREES",
+        "output": "##RESPONSE: Our current course of action is set at 40 degrees. We're on the right track."
+    },
+    {
+        "input": "##USER: We're chartering a vessel for a Caribbean cruise in two weeks. Can you provide the weather forecast for June 8th in Barbados? ##COMMAND: GET WEATHER June 8th Barbados ##SYSTEM: SUNNY 31C TRADE WINDS",
+        "output": "##RESPONSE: For your Caribbean cruise on June 8th, expect sunny weather with a high of 31 degrees Celsius and favorable trade winds, making it an excellent day for your voyage to Barbados."
+    },
+    {
+        "input": "##USER: Shiver me timbers! What's our speed, me hearties? ##COMMAND: GET SPEED ##SYSTEM: 23 KNOTS",
+        "output": "##RESPONSE: Shiver me timbers! Our speed, me hearties, is a daring 23 knots."
+    },
+    {
+        "input": "##USER: Hoist the sails! What's our speed, sailors?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: The radar is picking up targets. It's time to turn on the navigation lights.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Reacting to radar contacts, navigation lights are illuminated."
+    },
+    {
+        "input": "##USER: Time to focus. Turn on Daylight White lights in the Study.",
+        "output": "##COMMAND: TURN ON LIGHTS Daylight White Study ##RESPONSE: Focus mode activated! Study is now brightly lit with Daylight White lights."
+    },
+    {
+        "input": "##USER: We're planning a boating trip to the Whitsunday Islands next month. Can you check the weather forecast for June 12th?",
+        "output": "##COMMAND: GET WEATHER June 12th Whitsunday Islands"
+    },
+    {
+        "input": "##USER: I'm curious about our current velocity. What is it?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Ahoy, matey! Where be our treasure?",
+        "output": "##COMMAND: GET DESTINATION INFO"
+    },
+    {
+        "input": "##USER: Hello, navigator. What's our final port of call? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Dubai 600 NM left 18h45min 1000 range",
+        "output": "##RESPONSE: Hello! Our final port of call is Dubai. We have 600 nautical miles left, which should take us about 18 hours and 45 minutes at our current speed. Our range is 1000 nautical miles, so we're well-prepared for the journey."
+    },
+    {
+        "input": "##USER: We're going on a sailing adventure to the Greek Islands next month. Can you provide the weather forecast for August 1st in Santorini? ##COMMAND: GET WEATHER August 1st Santorini ##SYSTEM: SUNNY 32C LIGHT BREEZE",
+        "output": "##RESPONSE: For your sailing adventure in Santorini on August 1st, expect sunny weather with a high of 32 degrees Celsius and a light breeze, creating perfect conditions for your voyage."
+    },
+    {
+        "input": "##USER: What's our speed like right now? I'm curious to know.",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: Lay it on me, what's happening today, buddy? ##COMMAND: GOOD MORNING ##SYSTEM: 11:30 30 January Venice 40 NM left 1h0min 50 NM range; clear skies 24C wind SE 10kph; 205 degrees 8 knots",
+        "output": "##RESPONSE: The scoop is we're on a fantastic journey! It's the 30th of January, and the time is 11:30. We're en route to Venice, with just 40 nautical miles left, which should take about 1 hour at our current speed of 8 knots. Our range is 50 nautical miles, so we're good on fuel. The skies are clear with a high of 24 degrees Celsius. We have a southeast wind at 10kph, and our current course is 205 degrees, guiding us due southwest."
+    },
+    {
+        "input": "##USER: We're planning a yacht party on August 10th in the Caribbean. Can you check the weather forecast for the British Virgin Islands? ##COMMAND: GET WEATHER August 10th British Virgin Islands ##SYSTEM: SUNNY 32C TRADE WINDS",
+        "output": "##RESPONSE: If you're planning a yacht party in the British Virgin Islands on August 10th, you're in for a treat. Expect sunny weather with a high of 32 degrees Celsius and pleasant trade winds for your party at sea."
+    },
+    {
+        "input": "##USER: Hey there, what's the status for today? ##COMMAND: GOOD MORNING ##SYSTEM: 20:30 10 October Key West 6 NM left 12min 8 NM range; clear skies 24C wind S 6kph; 100 degrees 3 knots",
+        "output": "##RESPONSE: Hey there, ready for the day's journey? It's the 10th of October, and the time is 20:30. Our destination is Key West, and there are 6 nautical miles left, which should take about 12 minutes at our current speed of 3 knots. Our range is 8 nautical miles, so we're good on fuel. The skies are clear today, with a high of 24 degrees Celsius. The wind is blowing from the south at 6kph, and our current course is 100 degrees, taking us due east."
+    },
+    {
+        "input": "##USER: We've exited the busy harbor. It's safe to turn off the navigation lights now.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Now that we've exited the busy harbor, navigation lights are turned off for regular operation."
+    },
+    {
+        "input": "##USER: We're nearing a busy harbor entrance. Turn on the navigation lights for safe passage.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: Navigational lights are active for a secure entrance to the busy harbor."
+    },
+    {
+        "input": "##USER: I want to hear 'Thriller' by Michael Jackson",
+        "output": "##COMMAND: PLAY SONG THRILLER - MICHAEL JACKSON ##RESPONSE: Getting ready for some spooky fun with 'Thriller' by Michael Jackson."
+    },
+    {
+        "input": "##USER: We were discussing the beautiful sunset, but for now, let's turn off the nav lights and enjoy the night sky.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Sunsets are lovely, but safety first. I've turned off the nav lights for the night."
+    },
+    {
+        "input": "##USER: The stars are shining brightly tonight. Turn off the navigation lights and appreciate the celestial display.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: With the stars shining brightly tonight, navigation lights are now turned off, allowing us to appreciate the celestial display."
+    },
+    {
+        "input": "##USER: We're in a narrow channel with oncoming traffic. Turn on the navigation lights for safety.",
+        "output": "##COMMAND: TURN ON NAV LIGHTS ##RESPONSE: To ensure safe passage in the narrow channel, navigation lights are now illuminated."
+    },
+    {
+        "input": "##USER: Can you provide our heading? ##COMMAND: GET COURSE ##SYSTEM: 160 DEGREES",
+        "output": "##RESPONSE: Our heading is 160 degrees, showing us the way."
+    },
+    {
+        "input": "##USER: How quickly are we going?",
+        "output": "##COMMAND: GET SPEED"
+    },
+    {
+        "input": "##USER: How about we create a cozy atmosphere in the Bedroom with Red lights?",
+        "output": "##COMMAND: TURN ON LIGHTS Red Bedroom ##RESPONSE: Absolutely! The Bedroom is now bathed in a cozy red glow."
+    },
+    {
+        "input": "##USER: We're anchored for the evening. It's time to turn off the navigation lights for the night.",
+        "output": "##COMMAND: TURN OFF NAV LIGHTS ##RESPONSE: Now that we're anchored for the evening, navigation lights are switched off for the night."
+    },
+    {
+        "input": "##USER: I'm in the mood for conscious rap, maybe J. Cole",
+        "output": "##COMMAND: PLAY ARTIST J. COLE ##RESPONSE: Exploring socially conscious themes with J. Cole's rap!"
+    },
+    {
+        "input": "##USER: Navigator, prepare for departure. We're ready to head out.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: Play some modern horrorcore, like Tech N9ne",
+        "output": "##COMMAND: PLAY ARTIST TECH N9NE ##RESPONSE: Exploring dark and intense themes with Tech N9ne's horrorcore rap!"
+    },
+    {
+        "input": "##USER: What's the expected weather for new year's eve in Hawaii? ##COMMAND: GET WEATHER new year's eve Hawaii ##SYSTEM: PARTLY CLOUDY 25C BREEZY CONDITIONS",
+        "output": "##RESPONSE: The weather forecast for new year's eve in Hawaii calls for partly cloudy skies and a high temperature of 25 degrees Celsius. Expect breezy conditions throughout the day."
+    },
+    {
+        "input": "##USER: Captain, we're eager to start the voyage. Please initiate the departure preparations.",
+        "output": "##COMMAND: PREPARE FOR DEPARTURE"
+    },
+    {
+        "input": "##USER: Let's set the mood. Turn on Red lights in the Dining Area.",
+        "output": "##COMMAND: TURN ON LIGHTS Red Dining Area ##RESPONSE: Romantic ambiance activated! Dining Area now bathed in red light."
+    },
+    {
+        "input": "##USER: Can you play 'Butter' by BTS?",
+        "output": "##COMMAND: PLAY SONG BUTTER - BTS ##RESPONSE: Dancing to the smooth beats of 'Butter' by BTS."
+    },
+    {
+        "input": "##USER: Hey, buddy, what's the status today?",
+        "output": "##COMMAND: GOOD MORNING"
+    },
+    {
+        "input": "##USER: Ahoy, ship's mentor! What's the word for today? ##COMMAND: GOOD MORNING ##SYSTEM: 09:30 5 March Barcelona 55 NM left 1h45min 70 NM range; partly cloudy 18C wind SW 2kph; 215 degrees 1 knot",
+        "output": "##RESPONSE: Ahoy, ship's mentor! Ready for a splendid journey? It's the 5th of March, and the time is 09:30. We're on our way to Barcelona, with 55 nautical miles left, which should take about 1 hour and 45 minutes at our current speed of 1 knot. Our range is 70 nautical miles, so we're good on fuel. The sky is partly cloudy with a comfortable high of 18 degrees Celsius. We have a southwest wind at 2kph, and our current course is 215 degrees, taking us due southwest."
+    },
+    {
+        "input": "##USER: Ahoy, matey! What be our final port of call? ##COMMAND: GET DESTINATION INFO ##SYSTEM: Monaco 69 NM left 2h5min 170 range",
+        "output": "##RESPONSE: Ahoy, matey! Our final port of call be Monaco. There be 69 nautical miles left, takin' us 'bout 2 hours and 5 minutes at our current speed. Our range be 170 nautical miles, so we're in fine shape."
+    }
+]
