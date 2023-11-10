@@ -32,11 +32,12 @@ def is_voice_recognized(audio_path):
         mfccs = np.reshape(mfccs, (mfccs.shape[0], mfccs.shape[1], 1))
         prediction = voice_activation_model.predict(mfccs)
         # Assuming a threshold for recognition, you might need to adjust this
-        return np.max(prediction) > 0.5
+        print(np.max(prediction))
+        return np.max(prediction) > 0.9
     return False
 
 # Load Whisper model
-model = whisper.load_model("small")
+model_whisper = whisper.load_model("small")
 
 # Initialize PyAudio
 p = pyaudio.PyAudio()
@@ -79,8 +80,10 @@ while True:
     OUTPUT_PATH = "microphone_audio.wav"
     record_audio()
 
+    # Check if the voice is recognized by the model
     if is_voice_recognized(OUTPUT_PATH):
-        result = model.transcribe(OUTPUT_PATH)
+        print("Voice recognized by the model.")
+        result = model_whisper.transcribe(OUTPUT_PATH)
         user_input = result["text"]
         json_object = {"##USER": user_input}
 
@@ -132,3 +135,6 @@ while True:
         # Speak the prompt for the next command
         engine.say("I am ready for the next command.")
         engine.runAndWait()
+
+    else:
+        print("Voice not recognized by the model. Please try again.")
